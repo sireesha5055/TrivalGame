@@ -1,0 +1,204 @@
+Listening for engine communications on 49674
+Traceback (most recent call last):
+  File "Cura\util\sliceEngine.py", line 169, in submitInfoOnline
+    f = urllib2.urlopen("https://stats.youmagine.com/curastats/slice", data = urllib.urlencode(data), timeout = 1)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 126, in urlopen
+    return _opener.open(url, data, timeout)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 412, in _open
+    '_open', req)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 1207, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+Running: C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\CuraEngine.exe -v -p -s initialSpeedupLayers=4 -s minimalFeedrate=10 -s preSwitchExtruderCode=;Switch between the current extruder and the next extruder, when printing with multiple extruders.
+;This code is added before the T(n)
+ -s supportXYDistance=700 -s insetXSpeed=35 -s retractionZHop=0 -s extruderOffset[3].X=0 -s extruderOffset[3].Y=0 -s postSwitchExtruderCode=;Switch between the current extruder and the next extruder, when printing with multiple extruders.
+;This code is added after the T(n)
+ -s retractionSpeed=80 -s raftAirGapLayer0=220 -s raftLineSpacing=3000 -s filamentFlow=100 -s max_acceleration[1]=9000000 -s raftBaseLinewidth=1000 -s infillOverlap=15 -s skinSpeed=80 -s inset0Speed=35 -s coolHeadLift=0 -s extrusionWidth=400 -s upSkinCount=6 -s initialLayerSpeed=20 -s raftSurfaceLayers=2 -s max_xy_jerk=20000 -s raftSurfaceLinewidth=400 -s raftInterfaceLinewidth=400 -s raftInterfaceThickness=270 -s minimalLayerTime=3 -s infillSpeed=80 -s supportExtruder=-1 -s raftAirGap=0 -s fanSpeedMax=100 -s supportType=1 -s enableCombing=1 -s fanSpeedMin=50 -s supportZDistance=150 -s max_acceleration[3]=10000000 -s raftMargin=5000 -s supportEverywhere=0 -s filamentDiameter=1750 -s initialLayerThickness=300 -s supportAngle=-1 -s fanFullOnLayerNr=0 -s raftBaseThickness=300 -s acceleration=3000000 -s extruderOffset[1].X=0 -s extruderOffset[1].Y=0 -s layerThickness=200 -s endCode=;End GCode
+M104 S0                     ;extruder heater off
+M140 S0                     ;heated bed heater off (if you have it)
+
+G91                                    ;relative positioning
+G1 E-1 F300                            ;retract the filament a bit before lifting the nozzle, to release some of the pressure
+G1 Z+0.5 E-5 X-20 Y-20 F4800 ;move Z up a bit and retract filament even more
+G28 X0 Y0                              ;move X/Y to min endstops, so the head is out of the way
+
+M84                         ;steppers off
+G90                         ;absolute positioning
+M81
+;CURA_PROFILE_STRING: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
+ -s minimalExtrusionBeforeRetraction=0 -s raftSurfaceLineSpacing=400 -s retractionMinimalDistance=1500 -s objectSink=0 -s retractionAmount=6000 -s nozzleSize=0 -s skirtLineCount=0 -s startCode=M190 S60.000000
+M109 S200.000000
+;Sliced at: Sun 19-11-2023 15:32:20
+;Basic settings: Layer height: 0.2 Walls: 0.8 Fill: 10
+;Print time: #P_TIME#
+;Filament used: #F_AMNT#m #F_WGHT#g
+;Filament cost: #F_COST#
+;M190 S60 ;Uncomment to add your own bed temperature line
+;M109 S200 ;Uncomment to add your own temperature line
+G21        ;metric values
+G90        ;absolute positioning
+M82        ;set extruder to absolute mode
+M107       ;start with the fan off
+
+G28 X0 Y0  ;move X/Y to min endstops
+G28 Z0     ;move Z to min endstops
+
+G1 Z15.0 F4800 ;move the platform down 15mm
+
+G92 E0                  ;zero the extruded length
+G1 F200 E3              ;extrude 3mm of feed stock
+G92 E0                  ;zero the extruded length again
+G1 F4800
+;Put printing message on LCD screen
+M117 Printing...
+ -s max_acceleration[0]=9000000 -s raftInterfaceLineSpacing=800 -s skirtDistance=0 -s max_acceleration[2]=100000 -s extruderOffset[2].Y=0 -s extruderOffset[2].X=0 -s perimeterBeforeInfill=1 -s printSpeed=80 -s fixHorrible=1 -s layer0extrusionWidth=400 -s moveSpeed=80 -s raftBaseSpeed=20 -s max_z_jerk=400 -s supportLineDistance=2666 -s retractionAmountExtruderSwitch=16500 -s max_e_jerk=5000 -s raftSurfaceSpeed=20 -s sparseInfillLineDistance=4000 -s insetCount=2 -s downSkinCount=6 -s raftFanSpeed=0 -s multiVolumeOverlap=150 -s raftSurfaceThickness=270 -g 49674 -s posx=50000 -s posy=63002 $
+Cura_SteamEngine version 15.04.6
+Copyright (C) 2014 David Braam
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+Default config 'default.cfg' not used
+Reading mesh from socket with 21978 vertexes
+Loaded from disk in 0.000s
+Analyzing and optimizing model...
+Face counts: 7326 -> 7326 100.0%
+Vertex counts: 21978 -> 3658 16.6%
+Size: 136.000000 109.994000 26.000000
+vMin: -18.000000 8.005000 0.000000
+vMax: 118.000000 117.999000 26.000000
+vMin: -68.000000 -41.994000 0.000000
+vMax: 68.000000 68.000000 26.000000
+Matrix: 1.000000 0.000000 0.000000
+Matrix: 0.000000 1.000000 0.000000
+Matrix: 0.000000 0.000000 1.000000
+Optimize model 0.016s
+Slicing model...
+Layer count: 130
+Sliced model in 0.156s
+Generating support map...
+Generating layer parts...
+Generated layer parts in 0.047s
+Generated inset in 0.390s
+Generated up/down skin in 0.657s
+Traceback (most recent call last):
+  File "Cura\util\sliceEngine.py", line 169, in submitInfoOnline
+    f = urllib2.urlopen("https://stats.youmagine.com/curastats/slice", data = urllib.urlencode(data), timeout = 1)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 126, in urlopen
+    return _opener.open(url, data, timeout)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 412, in _open
+    '_open', req)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 1207, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+Exception in thread Thread-35:
+Traceback (most recent call last):
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\python\lib\threading.py", line 505, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cura\util\sliceEngine.py", line 241, in _socketConnectionThread
+    cnt = struct.unpack('@i', sock.recv(4))[0]
+error: [Errno 10054] An existing connection was forcibly closed by the remote host
+
+Running: C:\Users\kotha\AppData\Roaming\Creality Slicer\Creality Slicer\CuraEngine.exe -v -p -s initialSpeedupLayers=4 -s minimalFeedrate=10 -s preSwitchExtruderCode=;Switch between the current extruder and the next extruder, when printing with multiple extruders.
+;This code is added before the T(n)
+ -s supportXYDistance=700 -s insetXSpeed=35 -s retractionZHop=0 -s extruderOffset[3].X=0 -s extruderOffset[3].Y=0 -s postSwitchExtruderCode=;Switch between the current extruder and the next extruder, when printing with multiple extruders.
+;This code is added after the T(n)
+ -s retractionSpeed=80 -s raftAirGapLayer0=220 -s raftLineSpacing=3000 -s filamentFlow=100 -s max_acceleration[1]=9000000 -s raftBaseLinewidth=1000 -s infillOverlap=15 -s skinSpeed=80 -s inset0Speed=35 -s coolHeadLift=0 -s extrusionWidth=400 -s upSkinCount=6 -s initialLayerSpeed=20 -s raftSurfaceLayers=2 -s max_xy_jerk=20000 -s raftSurfaceLinewidth=400 -s raftInterfaceLinewidth=400 -s raftInterfaceThickness=270 -s minimalLayerTime=3 -s infillSpeed=80 -s supportExtruder=-1 -s raftAirGap=0 -s fanSpeedMax=100 -s supportType=1 -s enableCombing=1 -s fanSpeedMin=50 -s supportZDistance=150 -s max_acceleration[3]=10000000 -s raftMargin=5000 -s supportEverywhere=0 -s filamentDiameter=1750 -s initialLayerThickness=300 -s supportAngle=-1 -s fanFullOnLayerNr=0 -s raftBaseThickness=300 -s acceleration=3000000 -s extruderOffset[1].X=0 -s extruderOffset[1].Y=0 -s layerThickness=200 -s endCode=;End GCode
+M104 S0                     ;extruder heater off
+M140 S0                     ;heated bed heater off (if you have it)
+
+G91                                    ;relative positioning
+G1 E-1 F300                            ;retract the filament a bit before lifting the nozzle, to release some of the pressure
+G1 Z+0.5 E-5 X-20 Y-20 F4800 ;move Z up a bit and retract filament even more
+G28 X0 Y0                              ;move X/Y to min endstops, so the head is out of the way
+
+M84                         ;steppers off
+G90                         ;absolute positioning
+M81
+;CURA_PROFILE_STRING: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
+ -s minimalExtrusionBeforeRetraction=0 -s raftSurfaceLineSpacing=400 -s retractionMinimalDistance=1500 -s objectSink=0 -s retractionAmount=6000 -s nozzleSize=0 -s skirtLineCount=0 -s startCode=M190 S60.000000
+M109 S200.000000
+;Sliced at: Sun 19-11-2023 16:11:07
+;Basic settings: Layer height: 0.2 Walls: 0.8 Fill: 10
+;Print time: #P_TIME#
+;Filament used: #F_AMNT#m #F_WGHT#g
+;Filament cost: #F_COST#
+;M190 S60 ;Uncomment to add your own bed temperature line
+;M109 S200 ;Uncomment to add your own temperature line
+G21        ;metric values
+G90        ;absolute positioning
+M82        ;set extruder to absolute mode
+M107       ;start with the fan off
+
+G28 X0 Y0  ;move X/Y to min endstops
+G28 Z0     ;move Z to min endstops
+
+G1 Z15.0 F4800 ;move the platform down 15mm
+
+G92 E0                  ;zero the extruded length
+G1 F200 E3              ;extrude 3mm of feed stock
+G92 E0                  ;zero the extruded length again
+G1 F4800
+;Put printing message on LCD screen
+M117 Printing...
+ -s max_acceleration[0]=9000000 -s raftInterfaceLineSpacing=800 -s skirtDistance=0 -s max_acceleration[2]=100000 -s extruderOffset[2].Y=0 -s extruderOffset[2].X=0 -s perimeterBeforeInfill=1 -s printSpeed=80 -s fixHorrible=1 -s layer0extrusionWidth=400 -s moveSpeed=80 -s raftBaseSpeed=20 -s max_z_jerk=400 -s supportLineDistance=2666 -s retractionAmountExtruderSwitch=16500 -s max_e_jerk=5000 -s raftSurfaceSpeed=20 -s sparseInfillLineDistance=4000 -s insetCount=2 -s downSkinCount=6 -s raftFanSpeed=0 -s multiVolumeOverlap=150 -s raftSurfaceThickness=270 -g 49674 -s posx=31239 -s posy=59303 $
+Cura_SteamEngine version 15.04.6
+Copyright (C) 2014 David Braam
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+Default config 'default.cfg' not used
+Reading mesh from socket with 101532 vertexes
+Loaded from disk in 0.110s
+Analyzing and optimizing model...
+Face counts: 33844 -> 32204 95.2%
+Vertex counts: 101532 -> 16022 15.8%
+Size: 203.999000 32.999000 59.137000
+vMin: -70.761000 42.804000 0.000000
+vMax: 133.238000 75.803000 59.137000
+vMin: -120.760000 -7.196000 0.000000
+vMax: 83.239000 25.803000 59.137000
+Matrix: 1.000000 0.000000 0.000000
+Matrix: 0.000000 1.000000 0.000000
+Matrix: 0.000000 0.000000 1.000000
+Optimize model 0.078s
+Slicing model...
+Layer count: 295
+Sliced model in 0.718s
+Generating support map...
+Generating layer parts...
+Generated layer parts in 0.235s
+Closing down

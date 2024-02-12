@@ -1,0 +1,24 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+   * mustache.js - Logic-less {{mustache}} templates with JavaScript
+   * http://github.com/janl/mustache.js
+   */
+
+/*!
+ * is-natural-number.js | MIT (c) Shinnosuke Watanabe
+ * https://github.com/shinnn/is-natural-number.js
+*/
+
+/*!
+ * strip-dirs | MIT (c) Shinnosuke Watanabe
+ * https://github.com/shinnn/node-strip-dirs
+*/
+
+/*! http://mths.be/fromcodepoint v0.1.0 by @mathias */
+
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
