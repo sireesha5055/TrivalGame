@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "233.13763.11",
+    "buildDate" : "2024-01-25T19:33:00Z[UTC]",
+    "productCode" : "PC",
+    "generated" : "2024-02-16T08:53:51.1810678Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 17.0.9 17.0.9+7-b1087.11"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 4,
+    "maxNumberOfIndexingThreads" : 3,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "leap year.py",
+    "times" : {
+      "scanningReason" : "changes in: \"Python SDK Python 3.12 (kotha) C:\\Users\\kotha\\.venv\\Scripts\\python.exe\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 563566500,
+      "concurrentHandlingWallTimeWithPauses" : 563566500,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 562684800,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 17796600,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 544324700,
+      "delayedPushPropertiesStageTime" : 1999600,
+      "indexExtensionsTime" : 6836100,
+      "dumbModeStart" : "2024-02-16T08:53:50.5744642Z",
+      "dumbWallTimeWithPauses" : 567566800,
+      "dumbWallTimeWithoutPauses" : 567566800,
+      "updatingStart" : "2024-02-16T08:53:50.569462Z",
+      "updatingEnd" : "2024-02-16T08:53:51.142031Z",
+      "totalWallTimeWithPauses" : 573076700,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 573076700
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 5317,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 672
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Python SDK Python 3.12 (kotha) C:\\Users\\kotha\\.venv\\Scripts\\python.exe",
+      "numberOfScannedFiles" : 5317,
+      "numberOfSkippedFiles" : 1,
+      "numberOfFilesForIndexing" : 672,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 453647400,
+      "totalOneThreadTimeWithPauses" : 562684800,
+      "iterationAndScannersApplicationTime" : 17796600,
+      "filesCheckTime" : 544324700,
+      "timeProcessingUpToDateFiles" : 125407700,
+      "timeUpdatingContentLessIndexes" : 964900,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 6836100,
+      "roots" : [ ]
+    } ]
+  }
+}

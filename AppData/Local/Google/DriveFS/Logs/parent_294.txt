@@ -1,0 +1,23 @@
+-------------------------------------
+parent log started
+version: 86.0.9.0
+changelist 604518481 with baseline 597941690 in a mint client based on //depot/branches/drive_fs_release_branch/597941690.1/google3
+-------------------------------------
+2024-02-12T11:31:52.328ZI [1764:log_writer_thread] instrumentation.cc:105:OpenLogFileInDirectory Logging to C:\Users\kotha\AppData\Local\Google\DriveFS\Logs\parent.txt
+2024-02-12T11:31:52.357ZE [1288:NonCelloThread] crash.cc:84:HandleCrashpadLog [12428:1288:20240212,170152.355:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\b1eabdd8-9079-4d8f-b6c8-fdf301623007: The system cannot find the file specified. (2)
+
+2024-02-12T11:31:52.357ZE [1288:NonCelloThread] crash.cc:84:HandleCrashpadLog [12428:1288:20240212,170152.355:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\dffb29e2-bbeb-47aa-8594-0061e13c03b5: The system cannot find the file specified. (2)
+
+2024-02-12T11:31:52.357ZE [1288:NonCelloThread] crash.cc:84:HandleCrashpadLog [12428:1288:20240212,170152.355:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\ebe83fbd-bda9-4289-a2f7-6dd7c9b60ede: The system cannot find the file specified. (2)
+
+2024-02-12T11:31:52.357ZE [1288:NonCelloThread] crash.cc:84:HandleCrashpadLog [12428:1288:20240212,170152.355:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\b1eabdd8-9079-4d8f-b6c8-fdf301623007: The system cannot find the file specified. (2)
+
+2024-02-12T11:31:52.357ZE [1288:NonCelloThread] crash.cc:84:HandleCrashpadLog [12428:1288:20240212,170152.355:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\dffb29e2-bbeb-47aa-8594-0061e13c03b5: The system cannot find the file specified. (2)
+
+2024-02-12T11:31:52.357ZE [1288:NonCelloThread] crash.cc:84:HandleCrashpadLog [12428:1288:20240212,170152.355:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\ebe83fbd-bda9-4289-a2f7-6dd7c9b60ede: The system cannot find the file specified. (2)
+
+2024-02-12T11:31:52.358ZE [1288:NonCelloThread] drive_fs_main.cc:180:LogExistingCrashReports Crash reports from previous runs exist. Please capture the Crashpad folder. List of reports:
+2024-02-12T11:31:52.358ZI [1288:NonCelloThread] drive_fs_main.cc:183:LogExistingCrashReports 2023-11-21T08:47:17.000Z uuid=b1eabdd8-9079-4d8f-b6c8-fdf301623007 server_id=1515153ec9c3c624 uploaded=1
+2024-02-12T11:31:52.358ZI [1288:NonCelloThread] drive_fs_main.cc:183:LogExistingCrashReports 2023-11-21T08:49:08.000Z uuid=dffb29e2-bbeb-47aa-8594-0061e13c03b5 server_id= uploaded=0
+2024-02-12T11:31:52.358ZI [1288:NonCelloThread] drive_fs_main.cc:183:LogExistingCrashReports 2024-02-07T03:54:54.000Z uuid=ebe83fbd-bda9-4289-a2f7-6dd7c9b60ede server_id=d9f375ffd1568241 uploaded=1
+2024-02-12T11:31:52.358ZI [1288:NonCelloThread] drive_fs_main.cc:517:PrintCommandLine C:\Program Files\Google\Drive File Stream\86.0.9.0\GoogleDriveFS.exe --startup_mode 

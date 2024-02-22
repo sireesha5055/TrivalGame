@@ -1,0 +1,30 @@
+2024-02-19 18:18:18.395 [error] Extension 'ms-python.python' wants API proposal 'envShellEvent' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-19 18:18:18.410 [error] Extension 'ms-python.python' wants API proposal 'envCollectionWorkspace' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-19 18:18:18.411 [error] Extension 'ms-python.python' wants API proposal 'saveEditor' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-19 18:18:18.411 [error] Extension 'ms-python.python' wants API proposal 'envCollectionOptions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-19 18:18:18.429 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-02-19 18:18:18.574 [info] Started local extension host with pid 20844.
+2024-02-19 18:18:21.398 [info] [perf] Render performance baseline is 170ms
+2024-02-19 18:18:21.516 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.516 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.516 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.516 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.516 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.516 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.517 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.517 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.518 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.518 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.518 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:18:21.518 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-19 18:32:57.838 [error] Error: The editor could not be opened because the file was not found.
+    at P.ic (vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2188:23899)
+    at async P.setInput (vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2188:22943)
+    at async f.S (vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2186:24503)
+    at async f.L (vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2186:23112)
+    at async f.openEditor (vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2186:22101)
+    at async vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2309:23514
+    at async w.M (vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1215:82351)
+    at async w.openCodeEditor (vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:732:4538)
+    at async a.open (vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:44562)
+    at async h.open (vscode-file://vscode-app/c:/Users/kotha/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:45692)

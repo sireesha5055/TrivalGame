@@ -1,0 +1,594 @@
+{
+  "appInfo" : {
+    "build" : "233.13763.11",
+    "buildDate" : "2024-01-25T19:33:00Z[UTC]",
+    "productCode" : "PC",
+    "generated" : "2024-02-16T08:54:59.4585328Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 17.0.9 17.0.9+7-b1087.11"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 4,
+    "maxNumberOfIndexingThreads" : 3,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "leap year.py",
+    "times" : {
+      "scanningIds" : [ 1, 2 ],
+      "contentLoadingVisibleTime" : 798164952,
+      "retrievingChangedDuringIndexingFilesTime" : 848500,
+      "separateApplyingIndexesVisibleTime" : 198342474,
+      "updatingStart" : "2024-02-16T08:54:58.0073733Z",
+      "updatingEnd" : "2024-02-16T08:54:59.4585328Z",
+      "totalWallTimeWithPauses" : 1451135200,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "dumbModeStart" : "2024-02-16T08:54:58.0073733Z",
+      "dumbWallTimeWithPauses" : 1451135200,
+      "dumbWallTimeWithoutPauses" : 1451135200,
+      "totalWallTimeWithoutPauses" : 1451135200
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 624,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 495,
+      "numberOfFilesIndexedWithLoadingContent" : 3193,
+      "numberOfNothingToWriteFiles" : 2523
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "Python",
+      "partOfTotalProcessingTime" : {
+        "part" : 3069332000,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2215399200,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 3057,
+      "totalFilesSize" : 48072310,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 48072310,
+        "totalCpuTime" : 3069332000
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Module 'kotha' (Python312)",
+        "numberOfFiles" : 1924,
+        "totalFilesSize" : 34723120,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1796350600,
+          "total" : 3069332000
+        }
+      }, {
+        "providerName" : "Python SDK Python 3.12 (kotha) C:\\Users\\kotha\\.venv\\Scripts\\python.exe",
+        "numberOfFiles" : 637,
+        "totalFilesSize" : 7323818,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 727981700,
+          "total" : 3069332000
+        }
+      }, {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 496,
+        "totalFilesSize" : 6025372,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 544999700,
+          "total" : 3069332000
+        }
+      } ]
+    }, {
+      "fileType" : "textmate",
+      "partOfTotalProcessingTime" : {
+        "part" : 626763200,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 53001100,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 23,
+      "totalFilesSize" : 8725099,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 8725099,
+        "totalCpuTime" : 626763200
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 17,
+        "totalFilesSize" : 8718378,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 624573600,
+          "total" : 626763200
+        }
+      }, {
+        "providerName" : "Python SDK Python 3.12 (kotha) C:\\Users\\kotha\\.venv\\Scripts\\python.exe",
+        "numberOfFiles" : 6,
+        "totalFilesSize" : 6721,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 2189600,
+          "total" : 626763200
+        }
+      } ]
+    }, {
+      "fileType" : "PLAIN_TEXT",
+      "partOfTotalProcessingTime" : {
+        "part" : 326739800,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 36921900,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 58,
+      "totalFilesSize" : 1558141,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 1558141,
+        "totalCpuTime" : 326739800
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 43,
+        "totalFilesSize" : 1181512,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 319495700,
+          "total" : 326739800
+        }
+      }, {
+        "providerName" : "Python SDK Python 3.12 (kotha) C:\\Users\\kotha\\.venv\\Scripts\\python.exe",
+        "numberOfFiles" : 15,
+        "totalFilesSize" : 376629,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 7244100,
+          "total" : 326739800
+        }
+      } ]
+    }, {
+      "fileType" : "HTML",
+      "partOfTotalProcessingTime" : {
+        "part" : 94008000,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 5416400,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 6,
+      "totalFilesSize" : 96220,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 96220,
+        "totalCpuTime" : 94008000
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 6,
+        "totalFilesSize" : 96220,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 94008000,
+          "total" : 94008000
+        }
+      } ]
+    }, {
+      "fileType" : "JSON",
+      "partOfTotalProcessingTime" : {
+        "part" : 38866400,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 3488000,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 7,
+      "totalFilesSize" : 127344,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 127344,
+        "totalCpuTime" : 38866400
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 7,
+        "totalFilesSize" : 127344,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 38866400,
+          "total" : 38866400
+        }
+      } ]
+    }, {
+      "fileType" : "AUTO_DETECTED",
+      "partOfTotalProcessingTime" : {
+        "part" : 7123300,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 920600,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 33,
+      "totalFilesSize" : 0,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 0,
+        "totalCpuTime" : 7123300
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 20,
+        "totalFilesSize" : 0,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 5130800,
+          "total" : 7123300
+        }
+      }, {
+        "providerName" : "Python SDK Python 3.12 (kotha) C:\\Users\\kotha\\.venv\\Scripts\\python.exe",
+        "numberOfFiles" : 13,
+        "totalFilesSize" : 0,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1992500,
+          "total" : 7123300
+        }
+      } ]
+    }, {
+      "fileType" : "XML",
+      "partOfTotalProcessingTime" : {
+        "part" : 6397200,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 1352500,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : 20578,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 20578,
+        "totalCpuTime" : 6397200
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : 20578,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 6397200,
+          "total" : 6397200
+        }
+      } ]
+    }, {
+      "fileType" : "UNKNOWN",
+      "partOfTotalProcessingTime" : {
+        "part" : 1290900,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 279700,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 6,
+      "totalFilesSize" : 0,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 0,
+        "totalCpuTime" : 1290900
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Refreshed files",
+        "numberOfFiles" : 6,
+        "totalFilesSize" : 0,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1290900,
+          "total" : 1290900
+        }
+      } ]
+    }, {
+      "fileType" : "GitIgnore file",
+      "partOfTotalProcessingTime" : {
+        "part" : 338900,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 186600,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 42,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 42,
+        "totalCpuTime" : 338900
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Python SDK Python 3.12 (kotha) C:\\Users\\kotha\\.venv\\Scripts\\python.exe",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 42,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 338900,
+          "total" : 338900
+        }
+      } ]
+    } ],
+    "totalStatsPerBaseLanguage" : [ {
+      "language" : "Python",
+      "partOfTotalProcessingTime" : {
+        "part" : 3069332000,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 4532365200,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 3057,
+      "totalFilesSize" : 48072310,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 48072310,
+        "totalCpuTime" : 3069332000
+      }
+    }, {
+      "language" : "textmate",
+      "partOfTotalProcessingTime" : {
+        "part" : 626763200,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2369967100,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 23,
+      "totalFilesSize" : 8725099,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 8725099,
+        "totalCpuTime" : 626763200
+      }
+    }, {
+      "language" : "TEXT",
+      "partOfTotalProcessingTime" : {
+        "part" : 326739800,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2353887900,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 58,
+      "totalFilesSize" : 1558141,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 1558141,
+        "totalCpuTime" : 326739800
+      }
+    }, {
+      "language" : "XML",
+      "partOfTotalProcessingTime" : {
+        "part" : 100405200,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2322382400,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 8,
+      "totalFilesSize" : 116798,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 116798,
+        "totalCpuTime" : 100405200
+      }
+    }, {
+      "language" : "HTML",
+      "partOfTotalProcessingTime" : {
+        "part" : 94008000,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2322382400,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 6,
+      "totalFilesSize" : 96220,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 96220,
+        "totalCpuTime" : 94008000
+      }
+    }, {
+      "language" : "JSON",
+      "partOfTotalProcessingTime" : {
+        "part" : 38866400,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2320454000,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 7,
+      "totalFilesSize" : 127344,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 127344,
+        "totalCpuTime" : 38866400
+      }
+    }, {
+      "language" : "GitIgnore",
+      "partOfTotalProcessingTime" : {
+        "part" : 338900,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2317152600,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 42,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 42,
+        "totalCpuTime" : 338900
+      }
+    }, {
+      "language" : "IgnoreLang",
+      "partOfTotalProcessingTime" : {
+        "part" : 338900,
+        "total" : 4170859700
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2317152600,
+        "total" : 2316966000
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 42,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 42,
+        "totalCpuTime" : 338900
+      }
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 445456000,
+        "total" : 853501000
+      },
+      "totalNumberOfFiles" : 643,
+      "totalNumberOfFilesIndexedByExtensions" : 495,
+      "totalFilesSize" : 14049768,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 14049768,
+        "totalCpuTime" : 445456000
+      }
+    }, {
+      "indexId" : "Stubs",
+      "partOfTotalIndexingTime" : {
+        "part" : 237798600,
+        "total" : 853501000
+      },
+      "totalNumberOfFiles" : 577,
+      "totalNumberOfFilesIndexedByExtensions" : 492,
+      "totalFilesSize" : 6473848,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 6473848,
+        "totalCpuTime" : 237798600
+      }
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : {
+        "part" : 159388800,
+        "total" : 853501000
+      },
+      "totalNumberOfFiles" : 662,
+      "totalNumberOfFilesIndexedByExtensions" : 495,
+      "totalFilesSize" : 14049768,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 14049768,
+        "totalCpuTime" : 159388800
+      }
+    }, {
+      "indexId" : "html5.custom.attributes.index",
+      "partOfTotalIndexingTime" : {
+        "part" : 6942800,
+        "total" : 853501000
+      },
+      "totalNumberOfFiles" : 6,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 96220,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 96220,
+        "totalCpuTime" : 6942800
+      }
+    }, {
+      "indexId" : "json.file.root.values",
+      "partOfTotalIndexingTime" : {
+        "part" : 2739300,
+        "total" : 853501000
+      },
+      "totalNumberOfFiles" : 7,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 127344,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 127344,
+        "totalCpuTime" : 2739300
+      }
+    }, {
+      "indexId" : "fileIncludes",
+      "partOfTotalIndexingTime" : {
+        "part" : 532000,
+        "total" : 853501000
+      },
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 20578,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 20578,
+        "totalCpuTime" : 532000
+      }
+    }, {
+      "indexId" : "DomFileIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 393700,
+        "total" : 853501000
+      },
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 20578,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 20578,
+        "totalCpuTime" : 393700
+      }
+    }, {
+      "indexId" : "xmlProperties",
+      "partOfTotalIndexingTime" : {
+        "part" : 128000,
+        "total" : 853501000
+      },
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 20578,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 20578,
+        "totalCpuTime" : 128000
+      }
+    }, {
+      "indexId" : "RelaxSymbolIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 121800,
+        "total" : 853501000
+      },
+      "totalNumberOfFiles" : 2,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 20578,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 20578,
+        "totalCpuTime" : 121800
+      }
+    } ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 624,
+      "retrievingTime" : 848500
+    },
+    "fileProviderStatistics" : [ {
+      "providerName" : "Module 'kotha' (Python312)",
+      "totalNumberOfIndexedFiles" : 1924,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 1924,
+      "totalIndexingVisibleTime" : 614349205,
+      "contentLoadingVisibleTime" : 517639178,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 467648
+    }, {
+      "providerName" : "Refreshed files",
+      "totalNumberOfIndexedFiles" : 597,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 495,
+      "totalNumberOfNothingToWriteFiles" : 0,
+      "totalIndexingVisibleTime" : 581293900,
+      "contentLoadingVisibleTime" : 150928967,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 174306958
+    }, {
+      "providerName" : "Python SDK Python 3.12 (kotha) C:\\Users\\kotha\\.venv\\Scripts\\python.exe",
+      "totalNumberOfIndexedFiles" : 672,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 599,
+      "totalIndexingVisibleTime" : 252992294,
+      "contentLoadingVisibleTime" : 129596807,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 23567868
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 0.35558313278939696
+  }
+}

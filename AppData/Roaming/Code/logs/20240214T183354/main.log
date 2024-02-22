@@ -1,0 +1,10 @@
+2024-02-14 18:33:54.860 [info] update#setState idle
+2024-02-14 18:33:57.573 [info] WSL is not installed, so could not detect WSL profiles
+2024-02-14 18:34:24.873 [info] update#setState checking for updates
+2024-02-14 18:34:24.995 [info] update#setState idle
+2024-02-14 19:36:15.764 [info] update#setState checking for updates
+2024-02-14 19:36:16.058 [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:110219)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-02-14 19:36:16.058 [info] update#setState idle
+2024-02-14 20:03:11.253 [info] Extension host with pid 4364 exited with code: 0, signal: unknown.

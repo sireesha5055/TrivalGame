@@ -1,0 +1,15 @@
+System.Exception: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E)
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32, Void*, Void*) + 0xcf
+   at __Interop.ForwardComStubs.Stub_40[TThis, TArg0](__ComObject, TArg0, Int32) + 0x5c
+   at Windows.UI.Xaml.IDependencyObject__Impl.Stubs.GetValue(__ComObject, DependencyProperty) + 0x1e
+   at WhatsApp.ImageExtensions.BaseAdapter`1.get_CurrentImageData() + 0x16
+   at WhatsApp.ImageExtensions.<ApplyCurrentImageData>d__22`1.MoveNext() + 0x35c
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e
+   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x71
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xc5
+   at __Interop.ForwardComStubs.Stub_12[TThis](__ComObject, Int32) + 0x1b
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d

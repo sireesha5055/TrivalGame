@@ -1,0 +1,2273 @@
+-------------------------------------
+drive_fs log started
+version: 86.0.9.0
+changelist 604518481 with baseline 597941690 in a mint client based on //depot/branches/drive_fs_release_branch/597941690.1/google3
+-------------------------------------
+2024-02-14T12:57:38.965ZI [12892:log_writer_thread] instrumentation.cc:105:OpenLogFileInDirectory Logging to C:\Users\kotha\AppData\Local\Google\DriveFS\Logs\drive_fs.txt
+2024-02-14T12:57:38.966ZE [1784:NonCelloThread] crash.cc:84:HandleCrashpadLog [1780:1784:20240214,182738.963:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\b1eabdd8-9079-4d8f-b6c8-fdf301623007: The system cannot find the file specified. (2)
+
+2024-02-14T12:57:38.966ZE [1784:NonCelloThread] crash.cc:84:HandleCrashpadLog [1780:1784:20240214,182738.963:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\dffb29e2-bbeb-47aa-8594-0061e13c03b5: The system cannot find the file specified. (2)
+
+2024-02-14T12:57:38.966ZE [1784:NonCelloThread] crash.cc:84:HandleCrashpadLog [1780:1784:20240214,182738.963:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\ebe83fbd-bda9-4289-a2f7-6dd7c9b60ede: The system cannot find the file specified. (2)
+
+2024-02-14T12:57:38.967ZE [1784:NonCelloThread] crash.cc:84:HandleCrashpadLog [1780:1784:20240214,182738.963:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\b1eabdd8-9079-4d8f-b6c8-fdf301623007: The system cannot find the file specified. (2)
+
+2024-02-14T12:57:38.967ZE [1784:NonCelloThread] crash.cc:84:HandleCrashpadLog [1780:1784:20240214,182738.963:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\dffb29e2-bbeb-47aa-8594-0061e13c03b5: The system cannot find the file specified. (2)
+
+2024-02-14T12:57:38.967ZE [1784:NonCelloThread] crash.cc:84:HandleCrashpadLog [1780:1784:20240214,182738.963:ERROR filesystem_win.cc:128] GetFileAttributes C:\Users\kotha\AppData\Local\Google\DriveFS\Crashpad\attachments\ebe83fbd-bda9-4289-a2f7-6dd7c9b60ede: The system cannot find the file specified. (2)
+
+2024-02-14T12:57:38.967ZE [1784:NonCelloThread] drive_fs_main.cc:180:LogExistingCrashReports Crash reports from previous runs exist. Please capture the Crashpad folder. List of reports:
+2024-02-14T12:57:38.967ZI [1784:NonCelloThread] drive_fs_main.cc:183:LogExistingCrashReports 2023-11-21T08:47:17.000Z uuid=b1eabdd8-9079-4d8f-b6c8-fdf301623007 server_id=1515153ec9c3c624 uploaded=1
+2024-02-14T12:57:38.967ZI [1784:NonCelloThread] drive_fs_main.cc:183:LogExistingCrashReports 2023-11-21T08:49:08.000Z uuid=dffb29e2-bbeb-47aa-8594-0061e13c03b5 server_id= uploaded=0
+2024-02-14T12:57:38.967ZI [1784:NonCelloThread] drive_fs_main.cc:183:LogExistingCrashReports 2024-02-07T03:54:54.000Z uuid=ebe83fbd-bda9-4289-a2f7-6dd7c9b60ede server_id=d9f375ffd1568241 uploaded=1
+2024-02-14T12:57:38.967ZI [1784:NonCelloThread] drive_fs_main.cc:517:PrintCommandLine C:\Program Files\Google\Drive File Stream\86.0.9.0\GoogleDriveFS.exe --crash_handler_token=\\.\pipe\crashpad_12796_HTTVHVYEJFPFHZBV --parent_version=86.0.9.0 --startup_mode 
+2024-02-14T12:57:38.975ZI [1784:NonCelloThread] drive_fs_main.cc:161:InitializeLanguage Initializing with detected language: en-US
+2024-02-14T12:57:38.978ZI [1784:NonCelloThread] i18n.cc:338:InitializeI18n I18n initialized with en
+2024-02-14T12:57:39.203ZI [1784:NonCelloThread] drive_fs.cc:591:RunDriveFS Options: argv_0: "C:\\Program Files\\Google\\Drive File Stream\\86.0.9.0\\GoogleDriveFS.exe"
+base_path: "C:\\Users\\kotha\\AppData\\Local\\Google\\DriveFS"
+ipc_pipe_path: "\\\\.\\Pipe\\GoogleDriveFSPipe_kotha"
+shell_ipc_pipe_path: "\\\\.\\Pipe\\GoogleDriveFSPipe_kotha_shell"
+crash_handler_token: "\\\\.\\pipe\\crashpad_12796_HTTVHVYEJFPFHZBV"
+enable_tracing: false
+enable_ui: true
+enable_file_dances: true
+enable_poll_for_changes: true
+drive_create_options {
+  use_fake_cloud_store: false
+  authorize_new_user: false
+  refresh_token: ""
+  user_email: ""
+  token_uri: ""
+  auth_uri: ""
+  metadata_server_auth_uri: ""
+  user_id: ""
+  app_properties {
+    canary: false
+    os_info {
+      type: WINDOWS
+      architecture: "x86_64"
+      major_version: 10
+      minor_version: 0
+      build_version: 22631
+    }
+  }
+  signup_uri: ""
+}
+enable_field_event_recording: true
+open_gdoc_path: ""
+started_by_installer: false
+locale: ""
+force_onboarding: false
+log_connection_details: false
+use_intranet_connectivity_to_check_online: false
+crash_handler_init_status: SUCCESS
+cello_options {
+  drive_api_options {
+    apiary_trace_token: ""
+    apiary_trace_regex: ""
+    dapper_trace_regex: ""
+    functional_tests_dir_path: ""
+  }
+}
+open_gdocs_root: false
+open_gsheets_root: false
+open_gslides_root: false
+crash_on_core_start: false
+use_curl_logging_scribe: false
+force_case_sensitivity: false
+new_gsuite_file: ""
+account_settings_from_file_path: ""
+parent_version: "86.0.9.0"
+open_all_dialogs: false
+startup_mode: true
+fake_multiaccount_ui: false
+feature_config_override {
+  account {
+  }
+}
+global_feature_config {
+  drive_dot: true
+  share_dialog: true
+  browser_auth_wait_for_client_timeout_ms: 300000
+  pause_syncing_option: true
+  bandwidth_throttling: true
+  structured_logging: true
+  disable_unified_buffer_cache: false
+  context_menu_force_refresh_folder: true
+  status_window_click_show_file_in_file_manager: true
+  max_core_restarts_after_db_corruption: 10
+  thread_stuck_threshold_sec: 0
+  outlook_addin: false
+  gui_autostart_option: true
+  show_live_stream_frame_in_outlook_onboarding: false
+  max_connection_idle_time_msec: 600000
+  mojave_overlays_fix: false
+  gui_reset_preferences_menu_option: true
+  force_refresh_folder_normal_menu: false
+  structured_log_max_file_size_kbytes: 2048
+  structured_log_max_file_count: 5
+  ask_to_copy_files_for_pending_uploads: true
+  read_only_mode: false
+  inform_users_of_pending_uploads: true
+  same_content_dedupe_interval_ms: 600000
+  dedupe_interval_ms: 2000
+  support_status_notification: true
+  deprecation_date: "2025-02-10"
+  deprecation_warning_threshold: 30
+  min_supported_os_version: "10.0.0"
+  crash_oom_threshold_mb: 1048576
+  allow_search: true
+  finish_syncing_files_option: true
+  osxfuse_process_blacklist: "esets_daemon;scep_daemon"
+  osxfuse_lock_abort_test: false
+  osxfuse_sched_flags_offset_override: 4294967295
+  add_shortcut_menu: true
+  meet_outlook_addin: false
+  meet_uri: "https://meetings.clients6.google.com/v1/spaces"
+  spotlight_timestamp_fsctl_support: true
+  meet_live_stream_info_uri: ""
+  current_drive_fs_version: "86.0.2.0"
+  crash_throttle_percentage: 0
+  file_revisions_virtual_folder: true
+  unlocked_mac_getxattr_v2: false
+  unlocked_mac_buf_unmap: true
+  switchblade_dss: false
+  reconnected_nas_polling_interval_seconds: 60
+  use_mac_fileprovider: false
+  trim_parents_during_cloud_merge: true
+  trim_parents_during_commit: true
+  create_gsuite_file: true
+  file_provider_quick_access_polling_interval_sec: 43200
+  show_quick_access_in_search_dialog: true
+  multi_account_max_accounts: 4
+  include_user_email_in_feedback: true
+  slurp_poll_path_frequency_min: 240
+  mac_smb_port: -1
+  fileprovider_signal_debounce_ms: 250
+  osxfuse_sched_flags_offset_override_arm: 4294967295
+  current_os_version: "Windows/10.0.22631"
+  cancel_com_calls: true
+  enable_file_provider_migration: true
+  file_provider_quit_grace_period_ms: 0
+  file_provider_add_items_to_ws_on_listing: true
+  smb_allowed: true
+  logging_on_cello_thread_startup: false
+  mac_smb_dialect_mode: 0
+  local_file_reading_buffer_size: 8388608
+  force_file_provider_materialization: true
+  dokan_set_internal_file_index: true
+  context_menu_create_editor_files: false
+  file_provider_remove_domain_flush_timeout_ms: 300000
+  file_revisions_file_provider: true
+  aggregation_interval_ms: 0
+  max_file_provider_ipc_connections: 100
+  mac_smb_nobrowse: true
+  special_folder_change_notification: true
+  soon_to_be_min_supported_os_version: "10.0.0"
+  soon_to_be_unsupported_os_learn_more: "https://support.google.com/drive/answer/2375082"
+  instrument_http_client: true
+  show_offline_files_menu_option: true
+  enable_mirror_roots_context: true
+  use_cros_http_client: false
+  com_api_thread_stuck_threshold_sec: 0
+  num_metrics_batches_per_request: 70
+  seconds_per_metrics_batch: 20
+  enable_metrics: true
+  metrics_store_reset_counter: 0
+  max_metrics_per_event_code_per_batch: 200
+  encrypt_and_upload: false
+  mac_smb_mount_by_ip: true
+  enable_mount_in_sidebar_setting: true
+  allow_multiple_smb_connections: false
+  persistent_smb_port_auto_selection: true
+  file_provider_disabled_notification_interval_mins: 0
+  enable_search_hot_key: true
+  file_provider_failover_for_home_dir_fs_type: true
+  exception_enabled_apps: ".*"
+  file_provider_mirror_switch_unpinned_item_batch_size: 2000
+  file_provider_enable_ipc_root_symlink: true
+  file_provider_pause_syncing_option: true
+  file_provider_create_existing_dir_id_succeeds: false
+  file_provider_create_existing_file_id_succeeds: false
+  file_provider_notify_mount_point_changed: true
+  file_provider_notify_mount_point_changed_with_mirror: false
+  file_provider_disable_moveout_user_interaction: false
+  file_provider_upload_completion_on_activity_notification: false
+  file_provider_show_migration_notification_based_on_volume: true
+  confirm_quit_during_system_logout: false
+  file_provider_handle_exact_existing_create_as_reimport: true
+  file_provider_min_partial_read_size: 4294967296
+  file_provider_enable_read_ahead: false
+  file_provider_disable_movein_user_interaction: false
+  switchblade_on_websockets: true
+  mac_smb_nodatacache: true
+  allow_url_parameter_when_opening_gdoc: false
+  context_menu_show_create_new_shared_drive_dialog: true
+  file_provider_retry_network_interrupted_fetch: true
+  file_provider_resume_network_interrupted_push: true
+  disable_non_static_file_provider_event_metrics: false
+  nondownloadable_files_as_gdrive_files: true
+  file_provider_exclude_from_sync_direct_create_trash: false
+  file_provider_enable_deny_copy_activation_rule: true
+  file_provider_enable_deny_shared_drive_root_manipulation: true
+  encrypt_and_upload_folder: true
+  file_provider_failover_for_invalid_euid: true
+  show_bulk_actions_in_file_stats_dialog: false
+  enable_curl_request_body_seek: true
+  max_status_source_locations_count_per_metric_event: 3
+  anonymous_feedback_submit_url: "https://feedback-pa.googleapis.com/v1/feedback/products/1633926/web:anonymous_submit"
+  anonymous_feedback_submit_api_key: "AIzaSyCejQEszExWuVHsgk8YElDTlbbrhzeRISc"
+  use_new_onboarding: true
+  directory_log_max_byte_size: 104857600
+  nondownloadable_files_as_gdrive_files_migration: true
+  survey_configurations: ""
+  min_duration_hours_between_any_surveys: 24
+  min_duration_hours_between_same_surveys: 720
+  min_duration_seconds_wait_after_close_for_survey: 30
+  survey_url: "https://www.gstatic.com/drive-fs/survey.html"
+  survey_api_key: "AIzaSyAWGrfCCr7albM3lmCc937gx4uIphbpeKQ"
+  survey_listnr_product_id: "1633926"
+  use_moonshine: true
+  windows_32_bit_unsupported_now: true
+  windows_32_bit_unsupported_soon: true
+  upload_folder: false
+  file_provider_max_retry_backoff_per_api_call_ms: 30000
+  photos_check_apl_icloud_import: true
+  throttling_algorithm: TOKEN_BUCKET_THROTTLING
+  browser_auth_with_signup_wait_for_client_timeout_ms: 1200000
+  create_encrypted_editor_file: false
+  file_provider_opt_out_allowed: false
+  enable_internal_cello_metrics: false
+  file_provider_opt_out_learn_more_url: "https://support.google.com/drive/answer/12178485?hl=en#zippy=%2Chow-does-this-functionality-differ-from-what-i-had-before"
+  account_backup_recovery_at_startup: false
+  account_backup_recovery_learn_more_url: "https://support.google.com/drive?p=DFDSyncIssue"
+  account_backup_recovery_lookup_at_start: true
+  auto_launch_account_backup_recovery_at_startup: false
+  disable_auto_launch_account_backup_recovery_at_startup_if_already_done: false
+  max_feedback_payload_size: 209715200
+  recovery_report_no_data_as_failure: false
+  disable_auto_launch_recovery_at_startup_if_mirrored: false
+  max_concurrent_items_recovered_into_corpus: 0
+  auto_recovery_max_item_size_percent_of_free_space: 0
+}
+photos_scope: ""
+show_sign_in_dialog_if_no_user: true
+crash_in_execution_context: false
+enable_physical_http_logging: false
+trigger_lost_and_found_event: false
+override_support_status: -1
+disable_change_replayer_for_testing: false
+
+2024-02-14T12:57:39.203ZI [1784:NonCelloThread] drive_fs.cc:167:LogSystemConfig OS: Windows/10.0.22631
+2024-02-14T12:57:39.203ZI [1784:NonCelloThread] drive_fs.cc:174:LogSystemConfig Architecture: x86_64
+2024-02-14T12:57:39.203ZI [1784:NonCelloThread] drive_fs.cc:180:LogSystemConfig Up time: 1m12.203s
+2024-02-14T12:57:39.203ZI [1784:NonCelloThread] drive_fs.cc:188:LogSystemConfig Total RAM: 7.79 GiB
+2024-02-14T12:57:39.203ZI [1784:NonCelloThread] drive_fs.cc:203:LogSystemConfig Disk space: 394.16 GB free / 509.72 GB total
+2024-02-14T12:57:39.212ZI [1784:NonCelloThread] drive_fs.cc:210:LogSystemConfig Timezone: UTC+0000 (UTC)
+2024-02-14T12:57:39.267ZI [12892:log_writer_thread] instrumentation.cc:333:GetStderrFileDescriptor Allocating console to enable stderr.
+2024-02-14T12:57:39.269ZI [1784:NonCelloThread] preferences_manager.cc:114:GetUserPreferences user_preferences for no_user: {
+global {
+  content_cache_base_path: "C:\\Users\\kotha\\AppData\\Local\\Google\\DriveFS"
+  disable_ssl_validation: false
+  disable_crl_check: false
+  direct_connection: false
+  do_not_show_dialogs {
+    mount_point_changed: false
+    confirm_shared_folder_move_in: false
+    confirm_shared_folder_move_out: false
+    confirm_td_file_move_out: false
+    confirm_move_to_untrusted_td: false
+    warning_move_to_untrusted_td: false
+    warning_td_file_move_out: false
+    warning_shared_folder_move_in: false
+    warning_shared_folder_move_out: false
+  }
+  autostart_on_login: true
+  outlook_attachment_size_threshold_mbytes: 10
+  disable_outlook_plugin: false
+  disable_meet_outlook_plugin: false
+  disable_add_account: false
+  allowed_accounts_pattern: ".*"
+  stalled_progress_seconds: 5
+  open_office_files_in_docs: true
+  enable_smb: false
+  prompt_to_backup_devices: true
+  trust_system_root_certs: false
+  disable_gpu: false
+  search_hot_key: 3378005202305025
+  do_not_show_notifications {
+    entry {
+      notification_type: SPORK_TOUR_NOTIFICATION
+    }
+  }
+  use_localhost_as_redirect_uri: false
+  pause_syncing_on_metered_connection: false
+  strict_crl_check: false
+  file_provider_opt_out: false
+}
+account {
+  mount_point_path: "G"
+  disable_realtime_presence: false
+  machine_root_doc_id: ""
+  photos_upload_quality: ORIGINAL_QUALITY
+  photos_upload_screenshots: true
+  photos_upload_raw_files: true
+  old_mirrored_my_drive_path: ""
+  mirrored_my_drive_watch_path: ""
+  show_mount_point_in_sidebar: true
+  mac_smb_port: 0
+  enable_smb_spotlight: false
+  stream_stale_redownload_policy: REDOWNLOAD_NEVER
+}
+}
+2024-02-14T12:57:39.272ZI [1784:NonCelloThread] preferences_manager.cc:318:GetEffectivePreferences effective_preferences for no_user: {
+global {
+  content_cache_base_path: "C:\\Users\\kotha\\AppData\\Local\\Google\\DriveFS"
+  disable_ssl_validation: false
+  disable_crl_check: false
+  direct_connection: false
+  do_not_show_dialogs {
+    mount_point_changed: false
+    confirm_shared_folder_move_in: false
+    confirm_shared_folder_move_out: false
+    confirm_td_file_move_out: false
+    confirm_move_to_untrusted_td: false
+    warning_move_to_untrusted_td: false
+    warning_td_file_move_out: false
+    warning_shared_folder_move_in: false
+    warning_shared_folder_move_out: false
+  }
+  autostart_on_login: true
+  outlook_attachment_size_threshold_mbytes: 10
+  disable_outlook_plugin: false
+  disable_meet_outlook_plugin: false
+  disable_add_account: false
+  allowed_accounts_pattern: ".*"
+  stalled_progress_seconds: 5
+  open_office_files_in_docs: true
+  enable_smb: false
+  prompt_to_backup_devices: true
+  trust_system_root_certs: false
+  disable_gpu: false
+  search_hot_key: 3378005202305025
+  do_not_show_notifications {
+    entry {
+      notification_type: SPORK_TOUR_NOTIFICATION
+    }
+  }
+  use_localhost_as_redirect_uri: false
+  pause_syncing_on_metered_connection: false
+  strict_crl_check: false
+  file_provider_opt_out: false
+}
+account {
+  mount_point_path: "G"
+  disable_realtime_presence: false
+  machine_root_doc_id: ""
+  photos_upload_quality: ORIGINAL_QUALITY
+  photos_upload_screenshots: true
+  photos_upload_raw_files: true
+  old_mirrored_my_drive_path: ""
+  mirrored_my_drive_watch_path: ""
+  show_mount_point_in_sidebar: true
+  mac_smb_port: 0
+  enable_smb_spotlight: false
+  stream_stale_redownload_policy: REDOWNLOAD_NEVER
+}
+}
+2024-02-14T12:57:39.272ZI [13416:ipc_thread] ipc_socket_win.cc:274:GetNextConnection Accepting next connection
+2024-02-14T12:57:39.274ZI [1784:NonCelloThread] app.cc:464:RegisterHotKeys Started listening for hot key ...
+2024-02-14T12:57:39.275ZI [1784:NonCelloThread] app.cc:666:RegisterOutlookAddInHelper Google Drive Outlook Add-in: Outlook add-in already unregistered.
+2024-02-14T12:57:39.275ZI [1784:NonCelloThread] app.cc:666:RegisterOutlookAddInHelper Google Meet Outlook Add-in: Outlook add-in already unregistered.
+2024-02-14T12:57:39.380ZI [1784:NonCelloThread] dialog.cc:80:ResetViewViaDifferencer Resetting UpdateViewDifferencer.
+2024-02-14T12:57:39.402ZI [13660:VolumeListenerThread] volume_listener_win.cc:448:GetVolumeFromGuidPath \\?\Volume{237ff64c-6966-40c3-b88d-60d95943fe85}\ description. name: Windows-SSD, uuid: 237ff64c-6966-40c3-b88d-60d95943fe85, device_number: 2759988056, mount_point: C:\, fs_type: NTFS, device_type: Internal
+2024-02-14T12:57:39.403ZI [13640:MediaManagerThread] device_status_service.cc:323:AddMediaInternal Media was added [Media: media_id="237ff64c-6966-40c3-b88d-60d95943fe85" name="Windows-SSD" file_system="NTFS" mount_point(raw)="C:\" device_type="Internal" device_number=2759988056 writable="true"]
+2024-02-14T12:57:39.405ZI [13660:VolumeListenerThread] volume_listener_win.cc:448:GetVolumeFromGuidPath \\?\Volume{13b5cd52-04d2-41e0-881a-854d17cd13c6}\ description. name: WINRE_DRV, uuid: 13b5cd52-04d2-41e0-881a-854d17cd13c6, device_number: 310559811, mount_point: , fs_type: NTFS, device_type: Internal
+2024-02-14T12:57:39.405ZE [13660:VolumeListenerThread] volume_listener_win.cc:455:GetVolumeFromGuidPath \\?\Volume{13b5cd52-04d2-41e0-881a-854d17cd13c6}\ has no mount point.
+2024-02-14T12:57:39.406ZI [13660:VolumeListenerThread] volume_listener_win.cc:448:GetVolumeFromGuidPath \\?\Volume{6a1d9c9e-3b07-42e9-a1a1-100618f0326a}\ description. name: SYSTEM_DRV, uuid: 6a1d9c9e-3b07-42e9-a1a1-100618f0326a, device_number: 2223097300, mount_point: , fs_type: FAT, device_type: Internal
+2024-02-14T12:57:39.406ZE [13660:VolumeListenerThread] volume_listener_win.cc:455:GetVolumeFromGuidPath \\?\Volume{6a1d9c9e-3b07-42e9-a1a1-100618f0326a}\ has no mount point.
+2024-02-14T12:57:39.411ZI [13728:SwitchbladeDelegateImpl] switchblade_installer.cc:78:InstallSwitchblade Switchblade Chrome extension is already installed.
+2024-02-14T12:57:39.411ZI [13728:SwitchbladeDelegateImpl] switchblade_installer_win.cc:52:InstallSwitchbladeNativeHostManifest Installing Switchblade native host manifest...
+2024-02-14T12:57:39.412ZI [13728:SwitchbladeDelegateImpl] switchblade_installer_win.cc:67:InstallSwitchbladeNativeHostManifest Switchblade native host manifest written to C:\Users\kotha\AppData\Local\Google\DriveFS\com.google.drive.nativeproxy.json
+2024-02-14T12:57:39.412ZI [13728:SwitchbladeDelegateImpl] switchblade_installer_win.cc:86:InstallSwitchbladeNativeHostManifest Switchblade native host manifest written to C:\Users\kotha\AppData\Local\Google\DriveFS\com.google.drive.nativeproxy.json and configured in registry
+2024-02-14T12:57:39.413ZI [1784:NonCelloThread] switchblade_server.cc:188:Start Starting Switchblade WebSocket server on port: 7679
+2024-02-14T12:57:39.413ZI [13416:ipc_thread] ipc_socket_win.cc:274:GetNextConnection Accepting next connection
+2024-02-14T12:57:39.421ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T12:57:39.422ZI [1784:NonCelloThread] curl_api.cc:1343:Create SSL verification with built in certificates
+2024-02-14T12:57:39.422ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T12:57:39.422ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T12:57:39.422ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:234:UpdateState Notifying of change to state Online
+2024-02-14T12:57:39.423ZI [1784:NonCelloThread] curl_api.cc:1343:Create SSL verification with built in certificates
+2024-02-14T12:57:39.427ZI [1784:NonCelloThread] curl_api.cc:1343:Create SSL verification with built in certificates
+2024-02-14T12:57:39.428ZI [1784:NonCelloThread] portable_phenotype_client_impl.cc:88:UNKNOWN Registering configuration package drive_fs_ph with version 604518481
+2024-02-14T12:57:39.429ZI [1784:NonCelloThread] portable_phenotype_client_impl.cc:114:UNKNOWN Successfully registered configuration package: drive_fs_ph (1 ms)
+2024-02-14T12:57:39.446ZI [1784:NonCelloThread] client.cc:722:LogWindowsFilterDrivers Nonstandard filter drivers present: aswmonflt.sys (3188c405245b897) bfs.sys (531f597e3da74d0d) bindflt.sys (556d9232df19b942) iastorafs.sys (6e2e912e8f9bad00) ucpd.sys (15e83bede192fe73)
+2024-02-14T12:57:39.446ZI [1784:NonCelloThread] client.cc:727:LogWindowsFilterDrivers Nonstandard filter driver combo hash: 3f81bdba24152a24
+2024-02-14T12:57:39.449ZI [1784:NonCelloThread] uiext.cc:73:SaveFlagsToRegistry Set Explorer extension keys.
+2024-02-14T12:57:39.481ZI [1784:NonCelloThread] global_features_manager.cc:430:CompositeAll Compositing global features based on 1 accounts
+2024-02-14T12:57:39.481ZI [1784:NonCelloThread] global_features_manager.cc:446:CompositeAll Composited global features *WITHOUT* overrides: drive_dot: true
+share_dialog: true
+browser_auth_wait_for_client_timeout_ms: 300000
+pause_syncing_option: true
+bandwidth_throttling: true
+structured_logging: true
+disable_unified_buffer_cache: false
+context_menu_force_refresh_folder: true
+status_window_click_show_file_in_file_manager: true
+max_core_restarts_after_db_corruption: 10
+thread_stuck_threshold_sec: 0
+outlook_addin: false
+gui_autostart_option: true
+show_live_stream_frame_in_outlook_onboarding: false
+max_connection_idle_time_msec: 600000
+mojave_overlays_fix: false
+gui_reset_preferences_menu_option: true
+force_refresh_folder_normal_menu: false
+structured_log_max_file_size_kbytes: 2048
+structured_log_max_file_count: 5
+ask_to_copy_files_for_pending_uploads: true
+read_only_mode: false
+inform_users_of_pending_uploads: true
+same_content_dedupe_interval_ms: 600000
+dedupe_interval_ms: 2000
+support_status_notification: true
+deprecation_date: "2025-02-10"
+deprecation_warning_threshold: 30
+min_supported_os_version: "10.0.0"
+crash_oom_threshold_mb: 1048576
+allow_search: true
+finish_syncing_files_option: true
+osxfuse_process_blacklist: "esets_daemon;scep_daemon"
+osxfuse_lock_abort_test: false
+osxfuse_sched_flags_offset_override: 4294967295
+add_shortcut_menu: true
+meet_outlook_addin: false
+meet_uri: "https://meetings.clients6.google.com/v1/spaces"
+spotlight_timestamp_fsctl_support: true
+meet_live_stream_info_uri: ""
+current_drive_fs_version: "86.0.9.0"
+crash_throttle_percentage: 0
+file_revisions_virtual_folder: true
+unlocked_mac_getxattr_v2: false
+unlocked_mac_buf_unmap: true
+switchblade_dss: false
+reconnected_nas_polling_interval_seconds: 60
+use_mac_fileprovider: false
+trim_parents_during_cloud_merge: true
+trim_parents_during_commit: true
+create_gsuite_file: true
+file_provider_quick_access_polling_interval_sec: 43200
+show_quick_access_in_search_dialog: true
+multi_account_max_accounts: 4
+include_user_email_in_feedback: true
+slurp_poll_path_frequency_min: 240
+mac_smb_port: -1
+fileprovider_signal_debounce_ms: 250
+osxfuse_sched_flags_offset_override_arm: 4294967295
+current_os_version: "Windows/10.0.22631"
+cancel_com_calls: true
+enable_file_provider_migration: true
+file_provider_quit_grace_period_ms: 0
+file_provider_add_items_to_ws_on_listing: true
+smb_allowed: true
+logging_on_cello_thread_startup: false
+mac_smb_dialect_mode: 0
+local_file_reading_buffer_size: 8388608
+force_file_provider_materialization: true
+dokan_set_internal_file_index: true
+context_menu_create_editor_files: false
+file_provider_remove_domain_flush_timeout_ms: 300000
+file_revisions_file_provider: true
+aggregation_interval_ms: 0
+max_file_provider_ipc_connections: 100
+mac_smb_nobrowse: true
+special_folder_change_notification: true
+soon_to_be_min_supported_os_version: "10.0.0"
+soon_to_be_unsupported_os_learn_more: "https://support.google.com/drive/answer/2375082"
+instrument_http_client: true
+show_offline_files_menu_option: true
+enable_mirror_roots_context: true
+use_cros_http_client: false
+com_api_thread_stuck_threshold_sec: 0
+num_metrics_batches_per_request: 70
+seconds_per_metrics_batch: 20
+enable_metrics: true
+metrics_store_reset_counter: 0
+max_metrics_per_event_code_per_batch: 200
+encrypt_and_upload: false
+mac_smb_mount_by_ip: true
+enable_mount_in_sidebar_setting: true
+allow_multiple_smb_connections: false
+persistent_smb_port_auto_selection: true
+file_provider_disabled_notification_interval_mins: 0
+enable_search_hot_key: true
+file_provider_failover_for_home_dir_fs_type: true
+exception_enabled_apps: ".*"
+file_provider_mirror_switch_unpinned_item_batch_size: 2000
+file_provider_enable_ipc_root_symlink: true
+file_provider_pause_syncing_option: true
+file_provider_create_existing_dir_id_succeeds: false
+file_provider_create_existing_file_id_succeeds: false
+file_provider_notify_mount_point_changed: true
+file_provider_notify_mount_point_changed_with_mirror: false
+file_provider_disable_moveout_user_interaction: false
+file_provider_upload_completion_on_activity_notification: false
+file_provider_show_migration_notification_based_on_volume: true
+confirm_quit_during_system_logout: false
+file_provider_handle_exact_existing_create_as_reimport: true
+file_provider_min_partial_read_size: 4294967296
+file_provider_enable_read_ahead: false
+file_provider_disable_movein_user_interaction: false
+switchblade_on_websockets: true
+mac_smb_nodatacache: true
+allow_url_parameter_when_opening_gdoc: false
+context_menu_show_create_new_shared_drive_dialog: true
+file_provider_retry_network_interrupted_fetch: true
+file_provider_resume_network_interrupted_push: true
+disable_non_static_file_provider_event_metrics: false
+nondownloadable_files_as_gdrive_files: true
+file_provider_exclude_from_sync_direct_create_trash: false
+file_provider_enable_deny_copy_activation_rule: true
+file_provider_enable_deny_shared_drive_root_manipulation: true
+encrypt_and_upload_folder: true
+file_provider_failover_for_invalid_euid: true
+show_bulk_actions_in_file_stats_dialog: false
+enable_curl_request_body_seek: true
+max_status_source_locations_count_per_metric_event: 3
+anonymous_feedback_submit_url: "https://feedback-pa.googleapis.com/v1/feedback/products/1633926/web:anonymous_submit"
+anonymous_feedback_submit_api_key: "AIzaSyCejQEszExWuVHsgk8YElDTlbbrhzeRISc"
+use_new_onboarding: true
+directory_log_max_byte_size: 104857600
+nondownloadable_files_as_gdrive_files_migration: true
+survey_configurations: ""
+min_duration_hours_between_any_surveys: 24
+min_duration_hours_between_same_surveys: 720
+min_duration_seconds_wait_after_close_for_survey: 30
+survey_url: "https://www.gstatic.com/drive-fs/survey.html"
+survey_api_key: "AIzaSyAWGrfCCr7albM3lmCc937gx4uIphbpeKQ"
+survey_listnr_product_id: "1633926"
+use_moonshine: true
+windows_32_bit_unsupported_now: true
+windows_32_bit_unsupported_soon: true
+upload_folder: false
+file_provider_max_retry_backoff_per_api_call_ms: 30000
+photos_check_apl_icloud_import: true
+throttling_algorithm: TOKEN_BUCKET_THROTTLING
+browser_auth_with_signup_wait_for_client_timeout_ms: 1200000
+create_encrypted_editor_file: false
+file_provider_opt_out_allowed: false
+enable_internal_cello_metrics: false
+file_provider_opt_out_learn_more_url: "https://support.google.com/drive/answer/12178485?hl=en#zippy=%2Chow-does-this-functionality-differ-from-what-i-had-before"
+account_backup_recovery_at_startup: false
+account_backup_recovery_learn_more_url: "https://support.google.com/drive?p=DFDSyncIssue"
+account_backup_recovery_lookup_at_start: true
+auto_launch_account_backup_recovery_at_startup: false
+disable_auto_launch_account_backup_recovery_at_startup_if_already_done: false
+max_feedback_payload_size: 209715200
+recovery_report_no_data_as_failure: false
+disable_auto_launch_recovery_at_startup_if_mirrored: false
+max_concurrent_items_recovered_into_corpus: 0
+auto_recovery_max_item_size_percent_of_free_space: 0
+backup_recovery_create_file_in_content_writer: false
+
+2024-02-14T12:57:39.482ZI [1784:NonCelloThread] client.cc:5129:Start Starting 1 core(s).
+2024-02-14T12:57:39.483ZI [1784:NonCelloThread] preferences.cc:89:UpgradeLegacyAccountPreferences UpgradeLegacyAccountPreferences declining
+2024-02-14T12:57:39.484ZI [1784:NonCelloThread] preferences_manager.cc:114:GetUserPreferences user_preferences for 110388022571870302680: {
+global {
+  content_cache_base_path: "C:\\Users\\kotha\\AppData\\Local\\Google\\DriveFS"
+  disable_ssl_validation: false
+  disable_crl_check: false
+  direct_connection: false
+  do_not_show_dialogs {
+    mount_point_changed: false
+    confirm_shared_folder_move_in: false
+    confirm_shared_folder_move_out: false
+    confirm_td_file_move_out: false
+    confirm_move_to_untrusted_td: false
+    warning_move_to_untrusted_td: false
+    warning_td_file_move_out: false
+    warning_shared_folder_move_in: false
+    warning_shared_folder_move_out: false
+  }
+  autostart_on_login: true
+  outlook_attachment_size_threshold_mbytes: 10
+  disable_outlook_plugin: false
+  disable_meet_outlook_plugin: false
+  disable_add_account: false
+  allowed_accounts_pattern: ".*"
+  stalled_progress_seconds: 5
+  open_office_files_in_docs: true
+  enable_smb: false
+  prompt_to_backup_devices: true
+  trust_system_root_certs: false
+  disable_gpu: false
+  search_hot_key: 3378005202305025
+  do_not_show_notifications {
+    entry {
+      notification_type: SPORK_TOUR_NOTIFICATION
+    }
+  }
+  use_localhost_as_redirect_uri: false
+  pause_syncing_on_metered_connection: false
+  strict_crl_check: false
+  file_provider_opt_out: false
+}
+account {
+  mount_point_path: "G"
+  disable_realtime_presence: false
+  machine_root_doc_id: ""
+  photos_upload_quality: ORIGINAL_QUALITY
+  photos_upload_screenshots: true
+  photos_upload_raw_files: true
+  old_mirrored_my_drive_path: ""
+  mirrored_my_drive_watch_path: ""
+  show_mount_point_in_sidebar: true
+  mac_smb_port: 0
+  enable_smb_spotlight: false
+  stream_stale_redownload_policy: REDOWNLOAD_NEVER
+}
+}
+2024-02-14T12:57:39.484ZI [1784:NonCelloThread] preferences_manager.cc:318:GetEffectivePreferences effective_preferences for 110388022571870302680: {
+global {
+  content_cache_base_path: "C:\\Users\\kotha\\AppData\\Local\\Google\\DriveFS"
+  disable_ssl_validation: false
+  disable_crl_check: false
+  direct_connection: false
+  do_not_show_dialogs {
+    mount_point_changed: false
+    confirm_shared_folder_move_in: false
+    confirm_shared_folder_move_out: false
+    confirm_td_file_move_out: false
+    confirm_move_to_untrusted_td: false
+    warning_move_to_untrusted_td: false
+    warning_td_file_move_out: false
+    warning_shared_folder_move_in: false
+    warning_shared_folder_move_out: false
+  }
+  autostart_on_login: true
+  outlook_attachment_size_threshold_mbytes: 10
+  disable_outlook_plugin: false
+  disable_meet_outlook_plugin: false
+  disable_add_account: false
+  allowed_accounts_pattern: ".*"
+  stalled_progress_seconds: 5
+  open_office_files_in_docs: true
+  enable_smb: false
+  prompt_to_backup_devices: true
+  trust_system_root_certs: false
+  disable_gpu: false
+  search_hot_key: 3378005202305025
+  do_not_show_notifications {
+    entry {
+      notification_type: SPORK_TOUR_NOTIFICATION
+    }
+  }
+  use_localhost_as_redirect_uri: false
+  pause_syncing_on_metered_connection: false
+  strict_crl_check: false
+  file_provider_opt_out: false
+}
+account {
+  mount_point_path: "G"
+  disable_realtime_presence: false
+  machine_root_doc_id: ""
+  photos_upload_quality: ORIGINAL_QUALITY
+  photos_upload_screenshots: true
+  photos_upload_raw_files: true
+  old_mirrored_my_drive_path: ""
+  mirrored_my_drive_watch_path: ""
+  show_mount_point_in_sidebar: true
+  mac_smb_port: 0
+  enable_smb_spotlight: false
+  stream_stale_redownload_policy: REDOWNLOAD_NEVER
+}
+}
+2024-02-14T12:57:39.485ZI [1784:NonCelloThread] client.cc:5401:MaybeStartupOptionsForSavedAccount Returning options set for token: persistable_token: "110388022571870302680"
+
+2024-02-14T12:57:39.485ZI [1784:NonCelloThread] client.cc:5414:MaybeStartupOptionsForSavedAccount AccountFeatureConfig for 110388022571870302680 loaded from disk: thumbnails: true
+deprecated: false
+starred_virtual_folder: false
+recent_virtual_folder: false
+gcm_web_api_key: "AIzaSyDuIQNPdd-Sd_a5PvQzY_-63DCVK0n0jFc"
+changelog_polling_interval_ms: 10000
+metadata_cache_reset_counter: 5
+push_notifications: true
+spotlight: true
+max_operation_batch_size: 15
+resumable_upload_minimum_size_bytes: 104857600
+max_changelog_result_size: 1000
+lost_and_found: true
+fetch_task_throttle_time_ms: 20000
+temporary_items_virtual_folder: true
+fetch_task_backoff_start_ms: 2000
+fetch_task_backoff_limit_ms: 600000
+fetch_task_backoff_multiplier: 2
+local_disk_aware_get_free_space: true
+push_delay_ms: 0
+max_parallel_background_cloud_queries: 3
+max_query_page_size: 1000
+structured_log_level: 3
+relocatable_content_cache: true
+max_indexer_parallel_cloud_queries: 1
+content_cache_max_kbytes: 1000000000
+min_local_free_space_for_writes: 512000
+initial_content_cache_scan_delay_msec: 120000
+fcm_token_ttl_secs: 604800
+fcm_token_generation: 1
+content_download_http_416_workaround: true
+crash_on_failed_thread_checker_assert: true
+allow_windows_system_user_access: false
+dokan_oplocks: true
+max_parallel_downloads_per_file: 5
+run_cloud_query_on_change_notification: false
+stale_fetch_threshold_msec: 2500
+two_level_folder_prefetch: false
+max_parallel_push_task_instances: 15
+emm_support: false
+emm_max_start_up_delay_ms: 3000
+emm_check_interval_ms: 10800000
+min_duration_msec_between_evictions: 10000
+min_parallel_second_level_cloud_queries: 1
+emm_uri: "https://gem-pa.googleapis.com/v1/"
+fetch_content_bytes_before_cancel_percent_multiplier: 500
+min_bytes_saved_to_split_request: 9223372036854775807
+reset_account_after_fatal_local_store_failure: false
+detect_stable_id_reuse: true
+opendir_timeout_ms: 0
+supply_json_gdoc_content: false
+content_cache_capacity_percentage: 20
+async_dokan_reply_thread_count: 20
+changelog_backup_poll_interval_ms: 11111000
+dokan_dispatch_monitor_check_ms: 10000
+dokan_dispatch_monitor_warn_ms: 60000
+sqlite_normal_transaction_sync: true
+sqlite_autocheckpoint_page_count: 1000
+finder_process_names: "DesktopServicesHelper"
+reset_account_for_unsupported_schema_downgrade: false
+reset_account_after_local_largest_change_id_corrupt: false
+emm_secondary_identifier: false
+crash_on_cello_assert: false
+slow_operation_threshold_sec: 20
+shortcuts_permission_denied_retry_interval_ms: 3600000
+allow_subscription_task: true
+resubscribe_retry_interval_msec: 14400000
+account_backup_manager: true
+account_backup_preservation_days: 180
+content_cache_reset_evictable_files_counter: 0
+dokan_slow_operations_per_minidump: 0
+allowed_new_gdoc_file_name_pattern: ".*Google Docs.*\\.gdoc|.*Google Sheets.*\\.gsheet|.*Google Slides.*\\.gslides"
+reset_zeroes_largest_change_id: false
+reset_file_content_on_revert_flow: true
+finder_create_file_handler_timeout_ms: 600000
+content_cache_reset_pinned_counter: 0
+dokan_assume_paging_io_is_locked: false
+fuse_symlink_create_support: true
+fuse_symlink_read_support: true
+account_update_sec: 86400
+test_value_0: 0
+test_value_1: 0
+test_value_2: 0
+test_value_3: 0
+test_value_4: 0
+test_value_5: 0
+test_value_6: 0
+test_value_7: 0
+test_value_8: 0
+dokan_allow_optimistic_release: true
+max_parallel_resumable_uploads: 1
+fcm_stream_max_idle_secs: 60
+fcm_connection_max_idle_secs: 60
+dokan_driver_request_batching: true
+handle_unauthorized_resumable_uploads: true
+dokan_driver_full_batching: false
+backoff_start_ms: 200
+backoff_limit_ms: 120000
+backoff_multiplier: 2
+content_cache_capacity_heuristic: EXCLUDE_NONEVICTABLE
+dokan_fcb_garbage_collection_interval_ms: 2000
+photos_extensions: "jpg,jpeg,jpe,png,gif,heif,heic,tif,tiff,webp,bmp,dib,ico,jp2,j2c,jpf,j2k,jpx,dng,raw,arw,crw,cr2,cr3,dcr,dc2,erf,kc2,kdc,k25,mdc,mef,mos,mrw,nef,nrw,orf,pef,qtk,raf,rdc,rw2,srf,srw,sr2,x3f,3fr"
+videos_extensions: "3g2,3gp,asf,avi,divx,flv,m2t,m2ts,m4v,mkv,mmv,mng,mod,mov,mp4,mpe,mpg,mpeg,mts,ogv,qt,tod,webm,wmv"
+photos_api_uri: "https://photosdata-pa.googleapis.com/$rpc/social.frontend.photos.spork.v1.PhotosSporkDataService"
+max_photo_size_bytes: 209715200
+max_video_size_bytes: 10737418240
+max_photo_size_pixels: 150000000
+photos_upload_uri: "https://photos.googleapis.com/data/upload/uploadmedia/drivefs"
+default_photos_upload_quality: ORIGINAL_QUALITY
+max_photo_cacheable_size_bytes: 524288000
+max_photo_total_cache_size_bytes: 1073741824
+max_photo_cache_proportion_percentage: 20
+photos_can_cache_files: true
+photos_local_file_deleted_after_days: 30
+restart_immediately_counter: 0
+photos_max_upload_retries_offline: 3
+prefetched_id_cache_reset_counter: 0
+disable_spotlight_permission_preheat: true
+photos_debounce_edit_time_ms: 1800000
+empty_file_with_open_handle_upload_delay_ms: 600000
+photos_delete_warning_learn_more: ""
+photos_too_large_learn_more: ""
+photos_mac_known_package_extensions: ""
+photos_catalog_sync_time_interval_ms: 900000
+min_photo_size_pixels: 256
+enable_photo_min_size_filtering: true
+support_local_create_shared_drives: false
+subscription_task_throttle_time_ms: 300000
+subscription_task_max_operations: 50
+virtual_folders_omit_spaces: false
+emm_get_serial_via_wmi_on_windows: true
+switchblade_dss_poll_interval_ms: 60000
+switchblade_dss_pin_limit: -1
+max_bytes_per_fetch_content_request: 268435456
+max_read_qps: 30
+max_write_qps: 30
+fuse_max_background: 0
+is_dasher_user: false
+lookup_spam_detection_time_unit_ms: 1000
+lookup_spam_detection_min_number_of_events: 100
+lookup_spam_detection_duration_ms: 600000
+open_spam_detection_time_unit_ms: 1000
+open_spam_detection_min_number_of_events: 100
+open_spam_detection_duration_ms: 600000
+spam_cpu_observation_time_ms: 5000
+raw_photos_extensions: ""
+photos_sync_media_catalog_items_per_page: 500
+photos_throttled_initial_backoff_ms: 1000
+photos_throttled_backoff_limit_ms: 300000
+photos_throttled_backoff_multiplier: 2
+photos_throttled_max_retries: 20
+photos_max_simultaneous_uploads: 3
+photos_hq_charged_expectation: true
+photos_mac_known_apl_extensions: ""
+enable_cse: false
+disable_sending_resource_keys: false
+disable_security_update_enabled_cloud_change: true
+g1_host_name: "one.google.com"
+photos_error_list_retry_interval_ms: 86400000
+folder_revisions_virtual_folder: false
+folder_revisions_folder_days: 30
+dokan_use_fsctl_events: true
+photos_extensions_to_ignore: "crdownload"
+metadata_cache_update_counter: 1
+mdcu_min_days_per_batch: 10
+mdcu_max_item_count_per_request: 1000
+mdcu_data_base_error_delay_ms: 86400000
+mdcu_network_error_delay_ms: 3600000
+content_cache_initial_disk_scan_retry_limit: 10
+photos_free_storage_retry_trigger_bytes: 104857600
+emm_send_device_encryption_status: false
+emm_send_device_screen_lock_status: false
+dokan_disable_file_network_physical_name_info: true
+force_finish_mdcu_counter: 1
+file_provider_cache_reset_counter: 0
+content_cache_entry_cache_implementation: ARC
+crashing_assertion_ids: ""
+enable_dynamic_list_changes_page_sizing: false
+dynamic_page_sizing_min_page_size: 1
+dynamic_page_sizing_min_capacity_reached_count: 5
+dynamic_page_sizing_increase_frequency_threshold_ms: 600000
+dynamic_page_sizing_decrease_frequency_threshold_ms: 300000
+min_operation_batch_size: 2
+enable_smb_spotlight_rpc: true
+send_mtime_updates_to_drive: false
+send_atime_updates_to_drive: false
+smb_spotlight_rpc_finder_only: false
+file_provider_auto_split_delta_size: 10
+file_provider_list_batch_size_multiplier: 10
+file_provider_update_batch_size_multiplier: 10
+smb_unmount_with_diskutil: false
+smb_retry_unmount_after_server_stop: true
+dokan_pull_event_ahead: true
+dokan_fcb_avl_table: true
+file_provider_disabled_notification: true
+fcm_max_start_retries: -1
+fcm_max_purge_retries: 5
+fcm_poll_on_fatal_error: false
+fcm_connect_retry_interval_ms: -1
+show_lost_and_found_at_start: false
+fcm_credentials_generation: 0
+test_bool: false
+test_int: 3
+test_double: 3.4
+test_string: "default test string value"
+use_modern_feature_flags: LAUNCH_ON
+file_provider_disabled_learn_more_url: "https://support.google.com/drive/answer/12178485"
+file_provider_migration_learn_more_url: "https://support.google.com/drive/answer/12178485"
+file_provider_evict_on_content_change: false
+smb_ignore_patterns: "\\.sb-[0-9a-zA-Z]+-[0-9a-zA-Z]+"
+file_provider_cache_reset_non_owned_counter: 0
+file_provider_activation_max_retry_backoff_duration_ms: 180000
+file_provider_retry_on_wait_for_domain_init_failure: true
+detailed_metric_for_subscription_request: false
+smb_spotlight_page_size: 25
+smb_spotlight_max_results: 0
+smb_spotlight_name_criteria_enabled: true
+smb_spotlight_content_criteria_enabled: true
+smb_spotlight_content_type_criteria_enabled: true
+new_drive_fs_download_url: "https://www.google.com/drive/download"
+disable_file_provider_on_activation_timeout: false
+file_provider_content_cache_reset_gdoc_counter: 1
+allow_multiple_merges_per_fetch_task: true
+set_fcm_token_server_ttl: false
+ignore_download_modify_during_initial_content_upload_if_cloud_and_local_content_match: true
+ignore_item_in_delete_changelog: false
+file_provider_vfs_based_fetch: true
+send_modern_feature_diff: true
+file_provider_delete_directory_hierarchy_batch_size: 2000
+file_provider_missing_symlink_target_resolver_max_batch_size: 100
+file_provider_delete_hidden_items_in_temp_counter: 0
+file_provider_cleanup_empty_temp_descendants: false
+copying_to_lost_and_found_backoff_start_ms: 0
+copying_to_lost_and_found_backoff_limit_ms: 0
+copying_to_lost_and_found_backoff_multiplier: 0
+file_provider_admin_enabled_check: true
+file_provider_working_set_compact_check_debounce_sec: 60
+file_provider_working_set_wal_sql_reset_ratio_size: 4
+file_provider_create_ignore_pattern: ".*\\.crdownload"
+file_provider_use_content_policy: false
+file_provider_delegate_pinned_download: false
+file_provider_cache_reset_pinned_counter: 0
+file_provider_migration_batch_size: 100
+open_operation_sampling_rate: 100
+use_retry_manager_in_push_task: true
+file_provider_on_reconnect_kill_fp_daemon: false
+file_provider_on_remove_domain_remove_fav_lost_and_found: true
+max_unmount_time_sec: 120
+file_provider_remove_unknown_mount_conflict_domains: true
+copy_lost_and_found_files_with_clone: false
+photos_enable_hash_integrity_check: true
+file_provider_delete_unknown_trashed_items_counter: 1
+file_provider_lazily_keep_suggestions_content_updated: true
+use_lost_and_found_manager: false
+use_quota_status_field: true
+stream_stale_redownload_policy_override: 1
+stale_redownload_cautious_cache_usage_percentage: 0
+stale_redownload_aggressive_cache_usage_percentage: 0
+stale_redownload_cautious_last_viewed_by_me_hours: 0
+stale_redownload_aggressive_last_viewed_by_me_hours: 0
+stale_redownload_cautious_local_atime_hours: 0
+stale_redownload_aggressive_local_atime_hours: 0
+use_retry_manager_in_push_task_with_new_configuration: true
+file_provider_restart_on_domain_unexpectedly_removed: true
+use_permanent_lost_and_found_folder: false
+file_provider_get_metadata_remove_no_longer_existing_items: true
+file_provider_working_set_wal_sql_max_size: 209715200
+max_shared_drives_to_sync: 25
+enable_precache_account_preference: false
+enable_cache_size_limit_account_preference: false
+have_defaulted_flags: false
+file_provider_delete_placeholder_reimport_counter: 1
+omit_range_on_full_download: true
+stale_redownload_cautious_max_churn_count: 1000
+stale_redownload_aggressive_max_churn_count: 1000
+items_get_launch: LAUNCH_DARK
+file_provider_get_metadata_retrieve_cloud_items_from_ws: false
+enable_precache_manager: false
+file_provider_materialized_folders_counter: 0
+vfs_support_json_web_files_fetch: false
+file_provider_fail_reimport_redirect_my_drive: false
+file_provider_fail_non_reimport_redirect_my_drive: false
+file_provider_delete_multi_parenting_counter: 1
+file_provider_save_largest_change_ids: false
+enable_precache_manager_downloads: false
+precache_manager_max_items: 1000
+file_provider_vfs_based_change: false
+file_provider_check_change_replays_eligibility: true
+apply_moves_to_delete_tree: false
+generate_conflicting_deletes_before_parent_creates: false
+abort_and_restart_for_conflicting_deletes: false
+file_provider_cache_reset_shared_drives_counter: 0
+file_provider_fix_missing_change_replays: false
+in_wide_net: false
+signout_backup_behavior: SIGNOUT_DISABLE_PURGE
+query_launch: LAUNCH_NONE
+auto_recovery_failed_low_disk_space_notification: true
+retry_auto_recovery_version: 0
+drives_get_launch: LAUNCH_NONE
+refresh_cloud_shared_drives_on_startup: false
+
+2024-02-14T12:57:39.488ZI [1784:NonCelloThread] client.cc:5422:MaybeStartupOptionsForSavedAccount Experiment token for 110388022571870302680 loaded from disk.
+2024-02-14T12:57:39.488ZI [1784:NonCelloThread] client.cc:5430:MaybeStartupOptionsForSavedAccount Identifier for 110388022571870302680 loaded from disk.
+2024-02-14T12:57:39.488ZI [1784:NonCelloThread] client.cc:5257:operator() Started 0 of 1 core(s).
+2024-02-14T12:57:39.488ZI [1784:NonCelloThread] client.cc:5401:MaybeStartupOptionsForSavedAccount Returning options set for token: persistable_token: "110388022571870302680"
+
+2024-02-14T12:57:39.488ZI [1784:NonCelloThread] client.cc:5414:MaybeStartupOptionsForSavedAccount AccountFeatureConfig for 110388022571870302680 loaded from disk: thumbnails: true
+deprecated: false
+starred_virtual_folder: false
+recent_virtual_folder: false
+gcm_web_api_key: "AIzaSyDuIQNPdd-Sd_a5PvQzY_-63DCVK0n0jFc"
+changelog_polling_interval_ms: 10000
+metadata_cache_reset_counter: 5
+push_notifications: true
+spotlight: true
+max_operation_batch_size: 15
+resumable_upload_minimum_size_bytes: 104857600
+max_changelog_result_size: 1000
+lost_and_found: true
+fetch_task_throttle_time_ms: 20000
+temporary_items_virtual_folder: true
+fetch_task_backoff_start_ms: 2000
+fetch_task_backoff_limit_ms: 600000
+fetch_task_backoff_multiplier: 2
+local_disk_aware_get_free_space: true
+push_delay_ms: 0
+max_parallel_background_cloud_queries: 3
+max_query_page_size: 1000
+structured_log_level: 3
+relocatable_content_cache: true
+max_indexer_parallel_cloud_queries: 1
+content_cache_max_kbytes: 1000000000
+min_local_free_space_for_writes: 512000
+initial_content_cache_scan_delay_msec: 120000
+fcm_token_ttl_secs: 604800
+fcm_token_generation: 1
+content_download_http_416_workaround: true
+crash_on_failed_thread_checker_assert: true
+allow_windows_system_user_access: false
+dokan_oplocks: true
+max_parallel_downloads_per_file: 5
+run_cloud_query_on_change_notification: false
+stale_fetch_threshold_msec: 2500
+two_level_folder_prefetch: false
+max_parallel_push_task_instances: 15
+emm_support: false
+emm_max_start_up_delay_ms: 3000
+emm_check_interval_ms: 10800000
+min_duration_msec_between_evictions: 10000
+min_parallel_second_level_cloud_queries: 1
+emm_uri: "https://gem-pa.googleapis.com/v1/"
+fetch_content_bytes_before_cancel_percent_multiplier: 500
+min_bytes_saved_to_split_request: 9223372036854775807
+reset_account_after_fatal_local_store_failure: false
+detect_stable_id_reuse: true
+opendir_timeout_ms: 0
+supply_json_gdoc_content: false
+content_cache_capacity_percentage: 20
+async_dokan_reply_thread_count: 20
+changelog_backup_poll_interval_ms: 11111000
+dokan_dispatch_monitor_check_ms: 10000
+dokan_dispatch_monitor_warn_ms: 60000
+sqlite_normal_transaction_sync: true
+sqlite_autocheckpoint_page_count: 1000
+finder_process_names: "DesktopServicesHelper"
+reset_account_for_unsupported_schema_downgrade: false
+reset_account_after_local_largest_change_id_corrupt: false
+emm_secondary_identifier: false
+crash_on_cello_assert: false
+slow_operation_threshold_sec: 20
+shortcuts_permission_denied_retry_interval_ms: 3600000
+allow_subscription_task: true
+resubscribe_retry_interval_msec: 14400000
+account_backup_manager: true
+account_backup_preservation_days: 180
+content_cache_reset_evictable_files_counter: 0
+dokan_slow_operations_per_minidump: 0
+allowed_new_gdoc_file_name_pattern: ".*Google Docs.*\\.gdoc|.*Google Sheets.*\\.gsheet|.*Google Slides.*\\.gslides"
+reset_zeroes_largest_change_id: false
+reset_file_content_on_revert_flow: true
+finder_create_file_handler_timeout_ms: 600000
+content_cache_reset_pinned_counter: 0
+dokan_assume_paging_io_is_locked: false
+fuse_symlink_create_support: true
+fuse_symlink_read_support: true
+account_update_sec: 86400
+test_value_0: 0
+test_value_1: 0
+test_value_2: 0
+test_value_3: 0
+test_value_4: 0
+test_value_5: 0
+test_value_6: 0
+test_value_7: 0
+test_value_8: 0
+dokan_allow_optimistic_release: true
+max_parallel_resumable_uploads: 1
+fcm_stream_max_idle_secs: 60
+fcm_connection_max_idle_secs: 60
+dokan_driver_request_batching: true
+handle_unauthorized_resumable_uploads: true
+dokan_driver_full_batching: false
+backoff_start_ms: 200
+backoff_limit_ms: 120000
+backoff_multiplier: 2
+content_cache_capacity_heuristic: EXCLUDE_NONEVICTABLE
+dokan_fcb_garbage_collection_interval_ms: 2000
+photos_extensions: "jpg,jpeg,jpe,png,gif,heif,heic,tif,tiff,webp,bmp,dib,ico,jp2,j2c,jpf,j2k,jpx,dng,raw,arw,crw,cr2,cr3,dcr,dc2,erf,kc2,kdc,k25,mdc,mef,mos,mrw,nef,nrw,orf,pef,qtk,raf,rdc,rw2,srf,srw,sr2,x3f,3fr"
+videos_extensions: "3g2,3gp,asf,avi,divx,flv,m2t,m2ts,m4v,mkv,mmv,mng,mod,mov,mp4,mpe,mpg,mpeg,mts,ogv,qt,tod,webm,wmv"
+photos_api_uri: "https://photosdata-pa.googleapis.com/$rpc/social.frontend.photos.spork.v1.PhotosSporkDataService"
+max_photo_size_bytes: 209715200
+max_video_size_bytes: 10737418240
+max_photo_size_pixels: 150000000
+photos_upload_uri: "https://photos.googleapis.com/data/upload/uploadmedia/drivefs"
+default_photos_upload_quality: ORIGINAL_QUALITY
+max_photo_cacheable_size_bytes: 524288000
+max_photo_total_cache_size_bytes: 1073741824
+max_photo_cache_proportion_percentage: 20
+photos_can_cache_files: true
+photos_local_file_deleted_after_days: 30
+restart_immediately_counter: 0
+photos_max_upload_retries_offline: 3
+prefetched_id_cache_reset_counter: 0
+disable_spotlight_permission_preheat: true
+photos_debounce_edit_time_ms: 1800000
+empty_file_with_open_handle_upload_delay_ms: 600000
+photos_delete_warning_learn_more: ""
+photos_too_large_learn_more: ""
+photos_mac_known_package_extensions: ""
+photos_catalog_sync_time_interval_ms: 900000
+min_photo_size_pixels: 256
+enable_photo_min_size_filtering: true
+support_local_create_shared_drives: false
+subscription_task_throttle_time_ms: 300000
+subscription_task_max_operations: 50
+virtual_folders_omit_spaces: false
+emm_get_serial_via_wmi_on_windows: true
+switchblade_dss_poll_interval_ms: 60000
+switchblade_dss_pin_limit: -1
+max_bytes_per_fetch_content_request: 268435456
+max_read_qps: 30
+max_write_qps: 30
+fuse_max_background: 0
+is_dasher_user: false
+lookup_spam_detection_time_unit_ms: 1000
+lookup_spam_detection_min_number_of_events: 100
+lookup_spam_detection_duration_ms: 600000
+open_spam_detection_time_unit_ms: 1000
+open_spam_detection_min_number_of_events: 100
+open_spam_detection_duration_ms: 600000
+spam_cpu_observation_time_ms: 5000
+raw_photos_extensions: ""
+photos_sync_media_catalog_items_per_page: 500
+photos_throttled_initial_backoff_ms: 1000
+photos_throttled_backoff_limit_ms: 300000
+photos_throttled_backoff_multiplier: 2
+photos_throttled_max_retries: 20
+photos_max_simultaneous_uploads: 3
+photos_hq_charged_expectation: true
+photos_mac_known_apl_extensions: ""
+enable_cse: false
+disable_sending_resource_keys: false
+disable_security_update_enabled_cloud_change: true
+g1_host_name: "one.google.com"
+photos_error_list_retry_interval_ms: 86400000
+folder_revisions_virtual_folder: false
+folder_revisions_folder_days: 30
+dokan_use_fsctl_events: true
+photos_extensions_to_ignore: "crdownload"
+metadata_cache_update_counter: 1
+mdcu_min_days_per_batch: 10
+mdcu_max_item_count_per_request: 1000
+mdcu_data_base_error_delay_ms: 86400000
+mdcu_network_error_delay_ms: 3600000
+content_cache_initial_disk_scan_retry_limit: 10
+photos_free_storage_retry_trigger_bytes: 104857600
+emm_send_device_encryption_status: false
+emm_send_device_screen_lock_status: false
+dokan_disable_file_network_physical_name_info: true
+force_finish_mdcu_counter: 1
+file_provider_cache_reset_counter: 0
+content_cache_entry_cache_implementation: ARC
+crashing_assertion_ids: ""
+enable_dynamic_list_changes_page_sizing: false
+dynamic_page_sizing_min_page_size: 1
+dynamic_page_sizing_min_capacity_reached_count: 5
+dynamic_page_sizing_increase_frequency_threshold_ms: 600000
+dynamic_page_sizing_decrease_frequency_threshold_ms: 300000
+min_operation_batch_size: 2
+enable_smb_spotlight_rpc: true
+send_mtime_updates_to_drive: false
+send_atime_updates_to_drive: false
+smb_spotlight_rpc_finder_only: false
+file_provider_auto_split_delta_size: 10
+file_provider_list_batch_size_multiplier: 10
+file_provider_update_batch_size_multiplier: 10
+smb_unmount_with_diskutil: false
+smb_retry_unmount_after_server_stop: true
+dokan_pull_event_ahead: true
+dokan_fcb_avl_table: true
+file_provider_disabled_notification: true
+fcm_max_start_retries: -1
+fcm_max_purge_retries: 5
+fcm_poll_on_fatal_error: false
+fcm_connect_retry_interval_ms: -1
+show_lost_and_found_at_start: false
+fcm_credentials_generation: 0
+test_bool: false
+test_int: 3
+test_double: 3.4
+test_string: "default test string value"
+use_modern_feature_flags: LAUNCH_ON
+file_provider_disabled_learn_more_url: "https://support.google.com/drive/answer/12178485"
+file_provider_migration_learn_more_url: "https://support.google.com/drive/answer/12178485"
+file_provider_evict_on_content_change: false
+smb_ignore_patterns: "\\.sb-[0-9a-zA-Z]+-[0-9a-zA-Z]+"
+file_provider_cache_reset_non_owned_counter: 0
+file_provider_activation_max_retry_backoff_duration_ms: 180000
+file_provider_retry_on_wait_for_domain_init_failure: true
+detailed_metric_for_subscription_request: false
+smb_spotlight_page_size: 25
+smb_spotlight_max_results: 0
+smb_spotlight_name_criteria_enabled: true
+smb_spotlight_content_criteria_enabled: true
+smb_spotlight_content_type_criteria_enabled: true
+new_drive_fs_download_url: "https://www.google.com/drive/download"
+disable_file_provider_on_activation_timeout: false
+file_provider_content_cache_reset_gdoc_counter: 1
+allow_multiple_merges_per_fetch_task: true
+set_fcm_token_server_ttl: false
+ignore_download_modify_during_initial_content_upload_if_cloud_and_local_content_match: true
+ignore_item_in_delete_changelog: false
+file_provider_vfs_based_fetch: true
+send_modern_feature_diff: true
+file_provider_delete_directory_hierarchy_batch_size: 2000
+file_provider_missing_symlink_target_resolver_max_batch_size: 100
+file_provider_delete_hidden_items_in_temp_counter: 0
+file_provider_cleanup_empty_temp_descendants: false
+copying_to_lost_and_found_backoff_start_ms: 0
+copying_to_lost_and_found_backoff_limit_ms: 0
+copying_to_lost_and_found_backoff_multiplier: 0
+file_provider_admin_enabled_check: true
+file_provider_working_set_compact_check_debounce_sec: 60
+file_provider_working_set_wal_sql_reset_ratio_size: 4
+file_provider_create_ignore_pattern: ".*\\.crdownload"
+file_provider_use_content_policy: false
+file_provider_delegate_pinned_download: false
+file_provider_cache_reset_pinned_counter: 0
+file_provider_migration_batch_size: 100
+open_operation_sampling_rate: 100
+use_retry_manager_in_push_task: true
+file_provider_on_reconnect_kill_fp_daemon: false
+file_provider_on_remove_domain_remove_fav_lost_and_found: true
+max_unmount_time_sec: 120
+file_provider_remove_unknown_mount_conflict_domains: true
+copy_lost_and_found_files_with_clone: false
+photos_enable_hash_integrity_check: true
+file_provider_delete_unknown_trashed_items_counter: 1
+file_provider_lazily_keep_suggestions_content_updated: true
+use_lost_and_found_manager: false
+use_quota_status_field: true
+stream_stale_redownload_policy_override: 1
+stale_redownload_cautious_cache_usage_percentage: 0
+stale_redownload_aggressive_cache_usage_percentage: 0
+stale_redownload_cautious_last_viewed_by_me_hours: 0
+stale_redownload_aggressive_last_viewed_by_me_hours: 0
+stale_redownload_cautious_local_atime_hours: 0
+stale_redownload_aggressive_local_atime_hours: 0
+use_retry_manager_in_push_task_with_new_configuration: true
+file_provider_restart_on_domain_unexpectedly_removed: true
+use_permanent_lost_and_found_folder: false
+file_provider_get_metadata_remove_no_longer_existing_items: true
+file_provider_working_set_wal_sql_max_size: 209715200
+max_shared_drives_to_sync: 25
+enable_precache_account_preference: false
+enable_cache_size_limit_account_preference: false
+have_defaulted_flags: false
+file_provider_delete_placeholder_reimport_counter: 1
+omit_range_on_full_download: true
+stale_redownload_cautious_max_churn_count: 1000
+stale_redownload_aggressive_max_churn_count: 1000
+items_get_launch: LAUNCH_DARK
+file_provider_get_metadata_retrieve_cloud_items_from_ws: false
+enable_precache_manager: false
+file_provider_materialized_folders_counter: 0
+vfs_support_json_web_files_fetch: false
+file_provider_fail_reimport_redirect_my_drive: false
+file_provider_fail_non_reimport_redirect_my_drive: false
+file_provider_delete_multi_parenting_counter: 1
+file_provider_save_largest_change_ids: false
+enable_precache_manager_downloads: false
+precache_manager_max_items: 1000
+file_provider_vfs_based_change: false
+file_provider_check_change_replays_eligibility: true
+apply_moves_to_delete_tree: false
+generate_conflicting_deletes_before_parent_creates: false
+abort_and_restart_for_conflicting_deletes: false
+file_provider_cache_reset_shared_drives_counter: 0
+file_provider_fix_missing_change_replays: false
+in_wide_net: false
+signout_backup_behavior: SIGNOUT_DISABLE_PURGE
+query_launch: LAUNCH_NONE
+auto_recovery_failed_low_disk_space_notification: true
+retry_auto_recovery_version: 0
+drives_get_launch: LAUNCH_NONE
+refresh_cloud_shared_drives_on_startup: false
+
+2024-02-14T12:57:39.491ZI [1784:NonCelloThread] client.cc:5422:MaybeStartupOptionsForSavedAccount Experiment token for 110388022571870302680 loaded from disk.
+2024-02-14T12:57:39.492ZI [1784:NonCelloThread] client.cc:5430:MaybeStartupOptionsForSavedAccount Identifier for 110388022571870302680 loaded from disk.
+2024-02-14T12:57:39.494ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T12:57:39.494ZI [13780:core_110388022571870302680] curl_api.cc:1343:Create SSL verification with built in certificates
+2024-02-14T12:57:39.495ZI [13780:core_110388022571870302680] account_context.cc:335:CreateCredential Restored credential with user ID: 110388022571870302680
+2024-02-14T12:57:39.495ZI [13780:core_110388022571870302680] drive_cloud_store_provider.cc:39:CreateDriveCloudStore Using Drive API v2
+2024-02-14T12:57:39.496ZI [13780:core_110388022571870302680] curl_api.cc:1343:Create SSL verification with built in certificates
+2024-02-14T12:57:39.496ZI [13780:core_110388022571870302680] account_context.cc:517:operator() Missing scopes mask: 0x0
+2024-02-14T12:57:39.496ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T12:57:39.496ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T12:57:39.496ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:234:UpdateState Notifying of change to state Online
+2024-02-14T12:57:39.497ZI [1784:NonCelloThread] uiext.cc:73:SaveFlagsToRegistry Set Explorer extension keys.
+2024-02-14T12:57:39.497ZI [1784:NonCelloThread] client.cc:4764:StartAccountAuthComplete Authorized as kothasiri555@gmail.com (110388022571870302680)
+2024-02-14T12:57:39.497ZI [1784:NonCelloThread] client.cc:5401:MaybeStartupOptionsForSavedAccount Returning options set for token: persistable_token: "110388022571870302680"
+
+2024-02-14T12:57:39.497ZI [1784:NonCelloThread] client.cc:5414:MaybeStartupOptionsForSavedAccount AccountFeatureConfig for 110388022571870302680 loaded from disk: thumbnails: true
+deprecated: false
+starred_virtual_folder: false
+recent_virtual_folder: false
+gcm_web_api_key: "AIzaSyDuIQNPdd-Sd_a5PvQzY_-63DCVK0n0jFc"
+changelog_polling_interval_ms: 10000
+metadata_cache_reset_counter: 5
+push_notifications: true
+spotlight: true
+max_operation_batch_size: 15
+resumable_upload_minimum_size_bytes: 104857600
+max_changelog_result_size: 1000
+lost_and_found: true
+fetch_task_throttle_time_ms: 20000
+temporary_items_virtual_folder: true
+fetch_task_backoff_start_ms: 2000
+fetch_task_backoff_limit_ms: 600000
+fetch_task_backoff_multiplier: 2
+local_disk_aware_get_free_space: true
+push_delay_ms: 0
+max_parallel_background_cloud_queries: 3
+max_query_page_size: 1000
+structured_log_level: 3
+relocatable_content_cache: true
+max_indexer_parallel_cloud_queries: 1
+content_cache_max_kbytes: 1000000000
+min_local_free_space_for_writes: 512000
+initial_content_cache_scan_delay_msec: 120000
+fcm_token_ttl_secs: 604800
+fcm_token_generation: 1
+content_download_http_416_workaround: true
+crash_on_failed_thread_checker_assert: true
+allow_windows_system_user_access: false
+dokan_oplocks: true
+max_parallel_downloads_per_file: 5
+run_cloud_query_on_change_notification: false
+stale_fetch_threshold_msec: 2500
+two_level_folder_prefetch: false
+max_parallel_push_task_instances: 15
+emm_support: false
+emm_max_start_up_delay_ms: 3000
+emm_check_interval_ms: 10800000
+min_duration_msec_between_evictions: 10000
+min_parallel_second_level_cloud_queries: 1
+emm_uri: "https://gem-pa.googleapis.com/v1/"
+fetch_content_bytes_before_cancel_percent_multiplier: 500
+min_bytes_saved_to_split_request: 9223372036854775807
+reset_account_after_fatal_local_store_failure: false
+detect_stable_id_reuse: true
+opendir_timeout_ms: 0
+supply_json_gdoc_content: false
+content_cache_capacity_percentage: 20
+async_dokan_reply_thread_count: 20
+changelog_backup_poll_interval_ms: 11111000
+dokan_dispatch_monitor_check_ms: 10000
+dokan_dispatch_monitor_warn_ms: 60000
+sqlite_normal_transaction_sync: true
+sqlite_autocheckpoint_page_count: 1000
+finder_process_names: "DesktopServicesHelper"
+reset_account_for_unsupported_schema_downgrade: false
+reset_account_after_local_largest_change_id_corrupt: false
+emm_secondary_identifier: false
+crash_on_cello_assert: false
+slow_operation_threshold_sec: 20
+shortcuts_permission_denied_retry_interval_ms: 3600000
+allow_subscription_task: true
+resubscribe_retry_interval_msec: 14400000
+account_backup_manager: true
+account_backup_preservation_days: 180
+content_cache_reset_evictable_files_counter: 0
+dokan_slow_operations_per_minidump: 0
+allowed_new_gdoc_file_name_pattern: ".*Google Docs.*\\.gdoc|.*Google Sheets.*\\.gsheet|.*Google Slides.*\\.gslides"
+reset_zeroes_largest_change_id: false
+reset_file_content_on_revert_flow: true
+finder_create_file_handler_timeout_ms: 600000
+content_cache_reset_pinned_counter: 0
+dokan_assume_paging_io_is_locked: false
+fuse_symlink_create_support: true
+fuse_symlink_read_support: true
+account_update_sec: 86400
+test_value_0: 0
+test_value_1: 0
+test_value_2: 0
+test_value_3: 0
+test_value_4: 0
+test_value_5: 0
+test_value_6: 0
+test_value_7: 0
+test_value_8: 0
+dokan_allow_optimistic_release: true
+max_parallel_resumable_uploads: 1
+fcm_stream_max_idle_secs: 60
+fcm_connection_max_idle_secs: 60
+dokan_driver_request_batching: true
+handle_unauthorized_resumable_uploads: true
+dokan_driver_full_batching: false
+backoff_start_ms: 200
+backoff_limit_ms: 120000
+backoff_multiplier: 2
+content_cache_capacity_heuristic: EXCLUDE_NONEVICTABLE
+dokan_fcb_garbage_collection_interval_ms: 2000
+photos_extensions: "jpg,jpeg,jpe,png,gif,heif,heic,tif,tiff,webp,bmp,dib,ico,jp2,j2c,jpf,j2k,jpx,dng,raw,arw,crw,cr2,cr3,dcr,dc2,erf,kc2,kdc,k25,mdc,mef,mos,mrw,nef,nrw,orf,pef,qtk,raf,rdc,rw2,srf,srw,sr2,x3f,3fr"
+videos_extensions: "3g2,3gp,asf,avi,divx,flv,m2t,m2ts,m4v,mkv,mmv,mng,mod,mov,mp4,mpe,mpg,mpeg,mts,ogv,qt,tod,webm,wmv"
+photos_api_uri: "https://photosdata-pa.googleapis.com/$rpc/social.frontend.photos.spork.v1.PhotosSporkDataService"
+max_photo_size_bytes: 209715200
+max_video_size_bytes: 10737418240
+max_photo_size_pixels: 150000000
+photos_upload_uri: "https://photos.googleapis.com/data/upload/uploadmedia/drivefs"
+default_photos_upload_quality: ORIGINAL_QUALITY
+max_photo_cacheable_size_bytes: 524288000
+max_photo_total_cache_size_bytes: 1073741824
+max_photo_cache_proportion_percentage: 20
+photos_can_cache_files: true
+photos_local_file_deleted_after_days: 30
+restart_immediately_counter: 0
+photos_max_upload_retries_offline: 3
+prefetched_id_cache_reset_counter: 0
+disable_spotlight_permission_preheat: true
+photos_debounce_edit_time_ms: 1800000
+empty_file_with_open_handle_upload_delay_ms: 600000
+photos_delete_warning_learn_more: ""
+photos_too_large_learn_more: ""
+photos_mac_known_package_extensions: ""
+photos_catalog_sync_time_interval_ms: 900000
+min_photo_size_pixels: 256
+enable_photo_min_size_filtering: true
+support_local_create_shared_drives: false
+subscription_task_throttle_time_ms: 300000
+subscription_task_max_operations: 50
+virtual_folders_omit_spaces: false
+emm_get_serial_via_wmi_on_windows: true
+switchblade_dss_poll_interval_ms: 60000
+switchblade_dss_pin_limit: -1
+max_bytes_per_fetch_content_request: 268435456
+max_read_qps: 30
+max_write_qps: 30
+fuse_max_background: 0
+is_dasher_user: false
+lookup_spam_detection_time_unit_ms: 1000
+lookup_spam_detection_min_number_of_events: 100
+lookup_spam_detection_duration_ms: 600000
+open_spam_detection_time_unit_ms: 1000
+open_spam_detection_min_number_of_events: 100
+open_spam_detection_duration_ms: 600000
+spam_cpu_observation_time_ms: 5000
+raw_photos_extensions: ""
+photos_sync_media_catalog_items_per_page: 500
+photos_throttled_initial_backoff_ms: 1000
+photos_throttled_backoff_limit_ms: 300000
+photos_throttled_backoff_multiplier: 2
+photos_throttled_max_retries: 20
+photos_max_simultaneous_uploads: 3
+photos_hq_charged_expectation: true
+photos_mac_known_apl_extensions: ""
+enable_cse: false
+disable_sending_resource_keys: false
+disable_security_update_enabled_cloud_change: true
+g1_host_name: "one.google.com"
+photos_error_list_retry_interval_ms: 86400000
+folder_revisions_virtual_folder: false
+folder_revisions_folder_days: 30
+dokan_use_fsctl_events: true
+photos_extensions_to_ignore: "crdownload"
+metadata_cache_update_counter: 1
+mdcu_min_days_per_batch: 10
+mdcu_max_item_count_per_request: 1000
+mdcu_data_base_error_delay_ms: 86400000
+mdcu_network_error_delay_ms: 3600000
+content_cache_initial_disk_scan_retry_limit: 10
+photos_free_storage_retry_trigger_bytes: 104857600
+emm_send_device_encryption_status: false
+emm_send_device_screen_lock_status: false
+dokan_disable_file_network_physical_name_info: true
+force_finish_mdcu_counter: 1
+file_provider_cache_reset_counter: 0
+content_cache_entry_cache_implementation: ARC
+crashing_assertion_ids: ""
+enable_dynamic_list_changes_page_sizing: false
+dynamic_page_sizing_min_page_size: 1
+dynamic_page_sizing_min_capacity_reached_count: 5
+dynamic_page_sizing_increase_frequency_threshold_ms: 600000
+dynamic_page_sizing_decrease_frequency_threshold_ms: 300000
+min_operation_batch_size: 2
+enable_smb_spotlight_rpc: true
+send_mtime_updates_to_drive: false
+send_atime_updates_to_drive: false
+smb_spotlight_rpc_finder_only: false
+file_provider_auto_split_delta_size: 10
+file_provider_list_batch_size_multiplier: 10
+file_provider_update_batch_size_multiplier: 10
+smb_unmount_with_diskutil: false
+smb_retry_unmount_after_server_stop: true
+dokan_pull_event_ahead: true
+dokan_fcb_avl_table: true
+file_provider_disabled_notification: true
+fcm_max_start_retries: -1
+fcm_max_purge_retries: 5
+fcm_poll_on_fatal_error: false
+fcm_connect_retry_interval_ms: -1
+show_lost_and_found_at_start: false
+fcm_credentials_generation: 0
+test_bool: false
+test_int: 3
+test_double: 3.4
+test_string: "default test string value"
+use_modern_feature_flags: LAUNCH_ON
+file_provider_disabled_learn_more_url: "https://support.google.com/drive/answer/12178485"
+file_provider_migration_learn_more_url: "https://support.google.com/drive/answer/12178485"
+file_provider_evict_on_content_change: false
+smb_ignore_patterns: "\\.sb-[0-9a-zA-Z]+-[0-9a-zA-Z]+"
+file_provider_cache_reset_non_owned_counter: 0
+file_provider_activation_max_retry_backoff_duration_ms: 180000
+file_provider_retry_on_wait_for_domain_init_failure: true
+detailed_metric_for_subscription_request: false
+smb_spotlight_page_size: 25
+smb_spotlight_max_results: 0
+smb_spotlight_name_criteria_enabled: true
+smb_spotlight_content_criteria_enabled: true
+smb_spotlight_content_type_criteria_enabled: true
+new_drive_fs_download_url: "https://www.google.com/drive/download"
+disable_file_provider_on_activation_timeout: false
+file_provider_content_cache_reset_gdoc_counter: 1
+allow_multiple_merges_per_fetch_task: true
+set_fcm_token_server_ttl: false
+ignore_download_modify_during_initial_content_upload_if_cloud_and_local_content_match: true
+ignore_item_in_delete_changelog: false
+file_provider_vfs_based_fetch: true
+send_modern_feature_diff: true
+file_provider_delete_directory_hierarchy_batch_size: 2000
+file_provider_missing_symlink_target_resolver_max_batch_size: 100
+file_provider_delete_hidden_items_in_temp_counter: 0
+file_provider_cleanup_empty_temp_descendants: false
+copying_to_lost_and_found_backoff_start_ms: 0
+copying_to_lost_and_found_backoff_limit_ms: 0
+copying_to_lost_and_found_backoff_multiplier: 0
+file_provider_admin_enabled_check: true
+file_provider_working_set_compact_check_debounce_sec: 60
+file_provider_working_set_wal_sql_reset_ratio_size: 4
+file_provider_create_ignore_pattern: ".*\\.crdownload"
+file_provider_use_content_policy: false
+file_provider_delegate_pinned_download: false
+file_provider_cache_reset_pinned_counter: 0
+file_provider_migration_batch_size: 100
+open_operation_sampling_rate: 100
+use_retry_manager_in_push_task: true
+file_provider_on_reconnect_kill_fp_daemon: false
+file_provider_on_remove_domain_remove_fav_lost_and_found: true
+max_unmount_time_sec: 120
+file_provider_remove_unknown_mount_conflict_domains: true
+copy_lost_and_found_files_with_clone: false
+photos_enable_hash_integrity_check: true
+file_provider_delete_unknown_trashed_items_counter: 1
+file_provider_lazily_keep_suggestions_content_updated: true
+use_lost_and_found_manager: false
+use_quota_status_field: true
+stream_stale_redownload_policy_override: 1
+stale_redownload_cautious_cache_usage_percentage: 0
+stale_redownload_aggressive_cache_usage_percentage: 0
+stale_redownload_cautious_last_viewed_by_me_hours: 0
+stale_redownload_aggressive_last_viewed_by_me_hours: 0
+stale_redownload_cautious_local_atime_hours: 0
+stale_redownload_aggressive_local_atime_hours: 0
+use_retry_manager_in_push_task_with_new_configuration: true
+file_provider_restart_on_domain_unexpectedly_removed: true
+use_permanent_lost_and_found_folder: false
+file_provider_get_metadata_remove_no_longer_existing_items: true
+file_provider_working_set_wal_sql_max_size: 209715200
+max_shared_drives_to_sync: 25
+enable_precache_account_preference: false
+enable_cache_size_limit_account_preference: false
+have_defaulted_flags: false
+file_provider_delete_placeholder_reimport_counter: 1
+omit_range_on_full_download: true
+stale_redownload_cautious_max_churn_count: 1000
+stale_redownload_aggressive_max_churn_count: 1000
+items_get_launch: LAUNCH_DARK
+file_provider_get_metadata_retrieve_cloud_items_from_ws: false
+enable_precache_manager: false
+file_provider_materialized_folders_counter: 0
+vfs_support_json_web_files_fetch: false
+file_provider_fail_reimport_redirect_my_drive: false
+file_provider_fail_non_reimport_redirect_my_drive: false
+file_provider_delete_multi_parenting_counter: 1
+file_provider_save_largest_change_ids: false
+enable_precache_manager_downloads: false
+precache_manager_max_items: 1000
+file_provider_vfs_based_change: false
+file_provider_check_change_replays_eligibility: true
+apply_moves_to_delete_tree: false
+generate_conflicting_deletes_before_parent_creates: false
+abort_and_restart_for_conflicting_deletes: false
+file_provider_cache_reset_shared_drives_counter: 0
+file_provider_fix_missing_change_replays: false
+in_wide_net: false
+signout_backup_behavior: SIGNOUT_DISABLE_PURGE
+query_launch: LAUNCH_NONE
+auto_recovery_failed_low_disk_space_notification: true
+retry_auto_recovery_version: 0
+drives_get_launch: LAUNCH_NONE
+refresh_cloud_shared_drives_on_startup: false
+
+2024-02-14T12:57:39.500ZI [1784:NonCelloThread] client.cc:5422:MaybeStartupOptionsForSavedAccount Experiment token for 110388022571870302680 loaded from disk.
+2024-02-14T12:57:39.500ZI [1784:NonCelloThread] client.cc:5430:MaybeStartupOptionsForSavedAccount Identifier for 110388022571870302680 loaded from disk.
+2024-02-14T12:57:39.505ZE [13456:stderr_thread] stderr: third_party/icu/source/common/udata.cpp:856 Failed to add all ICU data pointers!
+2024-02-14T12:57:39.511ZI [1784:NonCelloThread] notification_handler.cc:3693:RegisterRecallToken Attempted to register a token for a notification that was now shown.
+2024-02-14T12:57:39.511ZI [13420:ShellThread] app.cc:971:operator() Removing mount point  from quick access by path.
+2024-02-14T12:57:39.562ZI [13780:core_110388022571870302680] shared_config_win.cc:128:RefreshExplorerPids New explorer PIDs 1: 8260
+2024-02-14T12:57:39.564ZI [13780:core_110388022571870302680] portable_phenotype_client_impl.cc:167:UNKNOWN Starting periodic syncs
+2024-02-14T12:57:39.564ZI [13404:Phenotype Background] portable_phenotype_client_impl.cc:191:UNKNOWN Syncing now if stale
+2024-02-14T12:57:39.570ZI [13404:Phenotype Background] phenotype_impl.cc:478:UNKNOWN ShouldSync: Last sync was only 5680 seconds ago
+2024-02-14T12:57:39.571ZI [13404:Phenotype Background] phenotype_impl.cc:771:UNKNOWN PerformSync: No reason to sync. Returning kOk
+2024-02-14T12:57:39.572ZI [13780:core_110388022571870302680] stream.cc:740:InitCelloFS new_user=false
+2024-02-14T12:57:39.572ZI [13780:core_110388022571870302680] platform.cc:227:SetLocalTitleCaseSensitive Local filenames are set to be case insensitive.
+2024-02-14T12:57:39.575ZI [13780:core_110388022571870302680] cello_fs.cc:409:InitInternal Content cache at: C:\Users\kotha\AppData\Local\Google\DriveFS\110388022571870302680\content_cache
+2024-02-14T12:57:39.576ZI [13780:core_110388022571870302680] cello_fs.cc:414:InitInternal Thumbnail cache at: C:\Users\kotha\AppData\Local\Google\DriveFS\110388022571870302680\thumbnails_cache
+2024-02-14T12:57:39.576ZI [13780:core_110388022571870302680] cello_fs.cc:427:InitInternal Sqlite DB at: C:\Users\kotha\AppData\Local\Google\DriveFS\110388022571870302680\metadata_sqlite_db
+2024-02-14T12:57:39.581ZI [13784:MetricsTransportThread] metrics_transport.cc:440:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2024-02-14T12:57:39.581ZI [13780:core_110388022571870302680] file_system_change_replayer.cc:99:operator() Cloud change replayer client ID: 1780
+2024-02-14T12:57:39.582ZI [13780:core_110388022571870302680] network_status_listener_win.cc:227:ListenForNetworkStatusChange Callback registered.
+2024-02-14T12:57:39.587ZI [13780:core_110388022571870302680][STRM] content_cache.cc:284:Initialize Content cache capacity (bytes): 4611686018427386880
+2024-02-14T12:57:39.587ZI [13780:core_110388022571870302680][STRM] content_cache.cc:302:Initialize Sparse files supported: true
+2024-02-14T12:57:39.589ZI [13844:Blocking Disk IO] content_cache.cc:425:InitializeOnIOThread Cache index at: C:\Users\kotha\AppData\Local\Google\DriveFS\110388022571870302680\content_cache\chunks.db
+2024-02-14T12:57:39.593ZI [13780:core_110388022571870302680][STRM] content_cache.cc:284:Initialize Content cache capacity (bytes): 104857600
+2024-02-14T12:57:39.593ZI [13780:core_110388022571870302680][STRM] content_cache.cc:302:Initialize Sparse files supported: true
+2024-02-14T12:57:39.594ZI [13844:Blocking Disk IO] content_cache.cc:425:InitializeOnIOThread Cache index at: C:\Users\kotha\AppData\Local\Google\DriveFS\110388022571870302680\thumbnails_cache\chunks.db
+2024-02-14T12:57:39.618ZI [13780:core_110388022571870302680][STRM] token_bucket.cc:223:Create TokenBucket initialized with max_bucket_size of 300, with each request requiring 10 tokens
+2024-02-14T12:57:39.618ZI [13780:core_110388022571870302680][STRM] token_bucket.cc:223:Create TokenBucket initialized with max_bucket_size of 300, with each request requiring 10 tokens
+2024-02-14T12:57:39.618ZI [13780:core_110388022571870302680][STRM] token_bucket.cc:223:Create TokenBucket initialized with max_bucket_size of 1000, with each request requiring 10 tokens
+2024-02-14T12:57:39.633ZI [13780:core_110388022571870302680][STRM] metrics_delegate.h:314:RecordInitializeLatencies KBytes read from disk during startup: 3899
+2024-02-14T12:57:39.633ZI [13780:core_110388022571870302680] sync_engine.cc:2331:MaybeStartRepeatingPushTaskTimer Starting repeating push task timer with interval 30000ms
+2024-02-14T12:57:39.635ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+
+2024-02-14T12:57:39.638ZI [13780:core_110388022571870302680] metadata_update_manager.cc:372:UpdateInternal (stream) All MDCU batches are completed.
+2024-02-14T12:57:39.639ZI [13780:core_110388022571870302680] virtual_folders.cc:187:Init Local folders at: C:\Users\kotha\AppData\Local\Google\DriveFS\110388022571870302680\local_folders
+2024-02-14T12:57:39.648ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T12:57:39.649ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T12:57:39.649ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T12:57:39.649ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:234:UpdateState Notifying of change to state Online
+2024-02-14T12:57:39.650ZI [13780:core_110388022571870302680][STRM] post_init_task.cc:236:GetNondownloadableCorpusLevelProperty Corpus level property for non-downloadable migration: 2
+2024-02-14T12:57:39.651ZI [13780:core_110388022571870302680][STRM] fetch_task.cc:652:RunInternal Largest local change id for My Drive at startup: 5221
+2024-02-14T12:57:39.654ZI [13780:core_110388022571870302680] network_status_listener_win.cc:227:ListenForNetworkStatusChange Callback registered.
+2024-02-14T12:57:39.684ZI [13780:core_110388022571870302680][MIRR] metrics_delegate.h:314:RecordInitializeLatencies KBytes read from disk during startup: 3744
+2024-02-14T12:57:39.685ZI [13780:core_110388022571870302680] metadata_update_manager.cc:372:UpdateInternal (mirror) All MDCU batches are completed.
+2024-02-14T12:57:39.685ZI [13780:core_110388022571870302680] sync_engine.cc:2331:MaybeStartRepeatingPushTaskTimer Starting repeating push task timer with interval 30000ms
+2024-02-14T12:57:39.685ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+
+2024-02-14T12:57:39.686ZI [13780:core_110388022571870302680] core.cc:1291:GetFeatureConfig Polling latest feature flags
+2024-02-14T12:57:39.687ZI [13404:Phenotype Background] portable_phenotype_client_impl.cc:191:UNKNOWN Syncing now if stale
+2024-02-14T12:57:39.688ZI [13780:core_110388022571870302680] portable_phenotype_client_impl.cc:269:UNKNOWN Successfully fetched latest configuration for package: drive_fs_ph (0 ms)
+2024-02-14T12:57:39.693ZI [13808:proxy_resolver_thread] proxy.cc:172:GetProxyForUrlInternal Proxy type resolved to 0
+2024-02-14T12:57:39.741ZI [13404:Phenotype Background] phenotype_impl.cc:478:UNKNOWN ShouldSync: Last sync was only 5680 seconds ago
+2024-02-14T12:57:39.741ZI [13404:Phenotype Background] phenotype_impl.cc:771:UNKNOWN PerformSync: No reason to sync. Returning kOk
+2024-02-14T12:57:39.742ZI [13780:core_110388022571870302680][MIRR] post_init_task.cc:236:GetNondownloadableCorpusLevelProperty Corpus level property for non-downloadable migration: 2
+2024-02-14T12:57:39.743ZI [13780:core_110388022571870302680][MIRR] fetch_task.cc:652:RunInternal Largest local change id for My Drive at startup: 5221
+2024-02-14T12:57:40.582ZI [13780:core_110388022571870302680] proto_util.cc:29:DeserializeEnum Failed to convert LAUNCH_ON to int32 for enum, falling back on name
+2024-02-14T12:57:40.583ZI [13780:core_110388022571870302680] core.cc:1453:MergeFeatureConfigs Using legacy account feature flags for: lookup_spam_detection_duration_ms, open_spam_detection_duration_ms, enable_cse, enable_dynamic_list_changes_page_sizing, use_modern_feature_flags
+2024-02-14T12:57:40.583ZI [13780:core_110388022571870302680] core.cc:1477:MergeFeatureConfigs Using legacy global feature flags for: crash_oom_threshold_mb, use_mac_fileprovider, encrypt_and_upload
+2024-02-14T12:57:40.584ZI [13780:core_110388022571870302680] core.cc:1178:TestConfigDifferences Modern config snapshot (2, 1 accounts active): 0 added, 0 removed, 27 changed, 452 matched
+2024-02-14T12:57:40.585ZI [13780:core_110388022571870302680] core.cc:884:ApplyFeatureConfigChange No changes to account features or admin settings or security settings or enterprise settings.
+2024-02-14T12:57:40.585ZI [1784:NonCelloThread] global_features_manager.cc:362:SetGlobalFeatures Set global features for account 110388022571870302680
+2024-02-14T12:57:40.585ZI [1784:NonCelloThread] global_features_manager.cc:430:CompositeAll Compositing global features based on 1 accounts
+2024-02-14T12:57:40.586ZI [1784:NonCelloThread] global_features_manager.cc:446:CompositeAll Composited global features *WITHOUT* overrides: drive_dot: true
+share_dialog: true
+browser_auth_wait_for_client_timeout_ms: 300000
+pause_syncing_option: true
+bandwidth_throttling: true
+structured_logging: true
+disable_unified_buffer_cache: false
+context_menu_force_refresh_folder: true
+status_window_click_show_file_in_file_manager: true
+max_core_restarts_after_db_corruption: 10
+thread_stuck_threshold_sec: 0
+outlook_addin: false
+gui_autostart_option: true
+show_live_stream_frame_in_outlook_onboarding: false
+max_connection_idle_time_msec: 600000
+mojave_overlays_fix: false
+gui_reset_preferences_menu_option: true
+force_refresh_folder_normal_menu: false
+structured_log_max_file_size_kbytes: 2048
+structured_log_max_file_count: 5
+ask_to_copy_files_for_pending_uploads: true
+read_only_mode: false
+inform_users_of_pending_uploads: true
+same_content_dedupe_interval_ms: 600000
+dedupe_interval_ms: 2000
+support_status_notification: true
+deprecation_date: "2025-02-10"
+deprecation_warning_threshold: 30
+min_supported_os_version: "10.0.0"
+crash_oom_threshold_mb: 1048576
+allow_search: true
+finish_syncing_files_option: true
+osxfuse_process_blacklist: "esets_daemon;scep_daemon"
+osxfuse_lock_abort_test: false
+osxfuse_sched_flags_offset_override: 4294967295
+add_shortcut_menu: true
+meet_outlook_addin: false
+meet_uri: "https://meetings.clients6.google.com/v1/spaces"
+spotlight_timestamp_fsctl_support: true
+meet_live_stream_info_uri: ""
+current_drive_fs_version: "86.0.9.0"
+crash_throttle_percentage: 0
+file_revisions_virtual_folder: true
+unlocked_mac_getxattr_v2: false
+unlocked_mac_buf_unmap: true
+switchblade_dss: false
+reconnected_nas_polling_interval_seconds: 60
+use_mac_fileprovider: false
+trim_parents_during_cloud_merge: true
+trim_parents_during_commit: true
+create_gsuite_file: true
+file_provider_quick_access_polling_interval_sec: 43200
+show_quick_access_in_search_dialog: true
+multi_account_max_accounts: 4
+include_user_email_in_feedback: true
+slurp_poll_path_frequency_min: 240
+mac_smb_port: -1
+fileprovider_signal_debounce_ms: 250
+osxfuse_sched_flags_offset_override_arm: 4294967295
+current_os_version: "Windows/10.0.22631"
+cancel_com_calls: true
+enable_file_provider_migration: true
+file_provider_quit_grace_period_ms: 0
+file_provider_add_items_to_ws_on_listing: true
+smb_allowed: true
+logging_on_cello_thread_startup: false
+mac_smb_dialect_mode: 0
+local_file_reading_buffer_size: 8388608
+force_file_provider_materialization: true
+dokan_set_internal_file_index: true
+context_menu_create_editor_files: false
+file_provider_remove_domain_flush_timeout_ms: 300000
+file_revisions_file_provider: true
+aggregation_interval_ms: 0
+max_file_provider_ipc_connections: 100
+mac_smb_nobrowse: true
+special_folder_change_notification: true
+soon_to_be_min_supported_os_version: "10.0.0"
+soon_to_be_unsupported_os_learn_more: "https://support.google.com/drive/answer/2375082"
+instrument_http_client: true
+show_offline_files_menu_option: true
+enable_mirror_roots_context: true
+use_cros_http_client: false
+com_api_thread_stuck_threshold_sec: 0
+num_metrics_batches_per_request: 70
+seconds_per_metrics_batch: 20
+enable_metrics: true
+metrics_store_reset_counter: 0
+max_metrics_per_event_code_per_batch: 200
+encrypt_and_upload: false
+mac_smb_mount_by_ip: true
+enable_mount_in_sidebar_setting: true
+allow_multiple_smb_connections: false
+persistent_smb_port_auto_selection: true
+file_provider_disabled_notification_interval_mins: 0
+enable_search_hot_key: true
+file_provider_failover_for_home_dir_fs_type: true
+exception_enabled_apps: ".*"
+file_provider_mirror_switch_unpinned_item_batch_size: 2000
+file_provider_enable_ipc_root_symlink: true
+file_provider_pause_syncing_option: true
+file_provider_create_existing_dir_id_succeeds: false
+file_provider_create_existing_file_id_succeeds: false
+file_provider_notify_mount_point_changed: true
+file_provider_notify_mount_point_changed_with_mirror: false
+file_provider_disable_moveout_user_interaction: false
+file_provider_upload_completion_on_activity_notification: false
+file_provider_show_migration_notification_based_on_volume: true
+confirm_quit_during_system_logout: false
+file_provider_handle_exact_existing_create_as_reimport: true
+file_provider_min_partial_read_size: 4294967296
+file_provider_enable_read_ahead: false
+file_provider_disable_movein_user_interaction: false
+switchblade_on_websockets: true
+mac_smb_nodatacache: true
+allow_url_parameter_when_opening_gdoc: false
+context_menu_show_create_new_shared_drive_dialog: true
+file_provider_retry_network_interrupted_fetch: true
+file_provider_resume_network_interrupted_push: true
+disable_non_static_file_provider_event_metrics: false
+nondownloadable_files_as_gdrive_files: true
+file_provider_exclude_from_sync_direct_create_trash: false
+file_provider_enable_deny_copy_activation_rule: true
+file_provider_enable_deny_shared_drive_root_manipulation: true
+encrypt_and_upload_folder: true
+file_provider_failover_for_invalid_euid: true
+show_bulk_actions_in_file_stats_dialog: false
+enable_curl_request_body_seek: true
+max_status_source_locations_count_per_metric_event: 3
+anonymous_feedback_submit_url: "https://feedback-pa.googleapis.com/v1/feedback/products/1633926/web:anonymous_submit"
+anonymous_feedback_submit_api_key: "AIzaSyCejQEszExWuVHsgk8YElDTlbbrhzeRISc"
+use_new_onboarding: true
+directory_log_max_byte_size: 104857600
+nondownloadable_files_as_gdrive_files_migration: true
+survey_configurations: ""
+min_duration_hours_between_any_surveys: 24
+min_duration_hours_between_same_surveys: 720
+min_duration_seconds_wait_after_close_for_survey: 30
+survey_url: "https://www.gstatic.com/drive-fs/survey.html"
+survey_api_key: "AIzaSyAWGrfCCr7albM3lmCc937gx4uIphbpeKQ"
+survey_listnr_product_id: "1633926"
+use_moonshine: true
+windows_32_bit_unsupported_now: true
+windows_32_bit_unsupported_soon: true
+upload_folder: false
+file_provider_max_retry_backoff_per_api_call_ms: 30000
+photos_check_apl_icloud_import: true
+throttling_algorithm: TOKEN_BUCKET_THROTTLING
+browser_auth_with_signup_wait_for_client_timeout_ms: 1200000
+create_encrypted_editor_file: false
+file_provider_opt_out_allowed: false
+enable_internal_cello_metrics: false
+file_provider_opt_out_learn_more_url: "https://support.google.com/drive/answer/12178485?hl=en#zippy=%2Chow-does-this-functionality-differ-from-what-i-had-before"
+account_backup_recovery_at_startup: false
+account_backup_recovery_learn_more_url: "https://support.google.com/drive?p=DFDSyncIssue"
+account_backup_recovery_lookup_at_start: true
+auto_launch_account_backup_recovery_at_startup: false
+disable_auto_launch_account_backup_recovery_at_startup_if_already_done: false
+max_feedback_payload_size: 209715200
+recovery_report_no_data_as_failure: false
+disable_auto_launch_recovery_at_startup_if_mirrored: false
+max_concurrent_items_recovered_into_corpus: 0
+auto_recovery_max_item_size_percent_of_free_space: 0
+backup_recovery_create_file_in_content_writer: false
+
+2024-02-14T12:57:40.593ZI [13780:core_110388022571870302680] stream.cc:643:operator() VFS not initialized.
+2024-02-14T12:57:40.595ZI [13780:core_110388022571870302680] file_system.cc:212:Mount Mounting file system with requested mount point: G
+2024-02-14T12:57:40.595ZI [13780:core_110388022571870302680] device.cc:42:OpenGlobalDevice Opened global dokan device: \\.\GoogleDriveFS_31357
+2024-02-14T12:57:40.601ZI [13780:core_110388022571870302680] file_system.cc:266:Mount Successfully mounted device name: \Volume{234e3a45-fca2-31dd-9bac-204183070f1e} with mount point: G:
+2024-02-14T12:57:40.601ZI [13780:core_110388022571870302680] dispatch_monitor.cc:41:Mounted Starting dispatch monitor.
+2024-02-14T12:57:40.601ZI [13780:core_110388022571870302680] operation_monitor.cc:75:Start Starting operation monitor with poll interval 4000 and slow operation threshold 20000
+2024-02-14T12:57:40.602ZI [13780:core_110388022571870302680] file_system.cc:274:Mount Mounted callback returned.
+2024-02-14T12:57:40.602ZI [13780:core_110388022571870302680] file_system.cc:419:ReceiveIo The file system is now safe to access.
+2024-02-14T12:57:40.602ZI [13780:core_110388022571870302680] cello_fs.cc:4438:OnMountpointReady FileProvider mounted: false
+2024-02-14T12:57:40.603ZE [1784:NonCelloThread] preferences_manager.cc:602:UpdateAccountPreferences Called with empty account data which was also missing from store
+2024-02-14T12:57:40.604ZE [14008:NonCelloThread] trash_folder.cc:231:RegisterRecycleBinSize Failed to RegOpenKeyEx for Recycle Bin size: 0x2
+2024-02-14T12:57:40.606ZI [13780:core_110388022571870302680] curl_api.cc:1343:Create SSL verification with built in certificates
+2024-02-14T12:57:40.607ZI [13780:core_110388022571870302680] curl_api.cc:1343:Create SSL verification with built in certificates
+2024-02-14T12:57:40.607ZI [13780:core_110388022571870302680] push_notification_manager.cc:103:PushNotificationManager Jitter introduced to backoff start, using 1618ms.
+2024-02-14T12:57:40.608ZI [13780:core_110388022571870302680] token_bucket.cc:223:Create TokenBucket initialized with max_bucket_size of 1, with each request requiring 11.1111 tokens
+2024-02-14T12:57:40.608ZI [13660:VolumeListenerThread] volume_listener_win.cc:335:VolumeAdded Volume added: G:\
+2024-02-14T12:57:40.608ZI [13780:core_110388022571870302680] core.cc:404:operator() InitInternalSync completed with status OK
+2024-02-14T12:57:40.612ZI [13660:VolumeListenerThread] volume_listener_win.cc:448:GetVolumeFromGuidPath \\?\Volume{774c62be-cb38-11ee-af73-a47e009c8898}\ description. name: Google Drive, uuid: 774c62be-cb38-11ee-af73-a47e009c8898, device_number: 428019990, mount_point: G:\, fs_type: DriveFS, device_type: Internal
+2024-02-14T12:57:40.613ZI [13640:MediaManagerThread] device_status_service.cc:323:AddMediaInternal Media was added [Media: media_id="774c62be-cb38-11ee-af73-a47e009c8898" name="Google Drive" file_system="DriveFS" mount_point(raw)="G:\" device_type="Internal" device_number=428019990 writable="true"]
+2024-02-14T12:57:40.613ZI [13888:NonCelloThread] file_system.cc:394:PostStart PostStart completed.
+2024-02-14T12:57:40.614ZI [1784:NonCelloThread] controller_win.cc:252:Start Starting Dot controller.
+2024-02-14T12:57:40.615ZI [1784:NonCelloThread] presence_tracker.cc:576:NotifyPauseSyncing Syncing is on
+2024-02-14T12:57:40.615ZI [1784:NonCelloThread] uiext.cc:73:SaveFlagsToRegistry Set Explorer extension keys.
+2024-02-14T12:57:40.616ZI [1784:NonCelloThread] client.cc:4990:operator() Started core successfully for account persistable_token: "110388022571870302680"
+
+2024-02-14T12:57:40.616ZI [1784:NonCelloThread] client.cc:5257:operator() Started 1 of 1 core(s).
+2024-02-14T12:57:40.616ZI [1784:NonCelloThread] drive_fs.cc:426:operator() Startup tracing disabled
+2024-02-14T12:57:40.616ZE [14020:PhotosSlurpTransporter] photos_slurp_transporter.cc:223:operator() Attempt to pause/resume before successful init
+2024-02-14T12:57:40.617ZI [1784:NonCelloThread] app.cc:927:OnCoreStatusChanged Adding mount point to quick access: G:
+2024-02-14T12:57:40.617ZI [1784:NonCelloThread] client.cc:4434:NotifyIfDeprecated Verifying deprecation status to notify the user.
+2024-02-14T12:57:40.617ZI [1784:NonCelloThread] support_status.cc:121:IsCurrentOSGreaterOrEqual Current OS Version 10.0.22631.
+2024-02-14T12:57:40.617ZI [1784:NonCelloThread] support_status.cc:63:GetCurrentSupportStatus OS supported: Yes
+2024-02-14T12:57:40.617ZI [1784:NonCelloThread] support_status.cc:64:GetCurrentSupportStatus Days left to deprecate: 362
+2024-02-14T12:57:40.617ZI [1784:NonCelloThread] support_status.cc:121:IsCurrentOSGreaterOrEqual Current OS Version 10.0.22631.
+2024-02-14T12:57:40.618ZI [1784:NonCelloThread] client.cc:1232:NotifyIfMountPointChanged Account persistable_token: "110388022571870302680"
+ mounted at 'G:'
+2024-02-14T12:57:40.618ZI [3324:trace_writer_thread] instrumentation.cc:644:operator() Writing Chrome Trace to C:\Users\kotha\AppData\Local\Google\DriveFS\Logs\startup_trace_2024-02-14T12_57_40.json
+2024-02-14T12:57:40.620ZI [1784:NonCelloThread] notification_handler.cc:3693:RegisterRecallToken Attempted to register a token for a notification that was now shown.
+2024-02-14T12:57:40.621ZI [13780:core_110388022571870302680] slurp.cc:173:operator() Drive Slurp: Received new SyncRoots: [
+]
+2024-02-14T12:57:40.622ZI [13780:core_110388022571870302680] slurp.cc:105:GetSlurpRootsDiff Generated Diff with roots_to_slurp: 0 roots_to_purge: 0 roots_to_stop: 0 disconnected_roots: 0 roots_to_forget: 0
+2024-02-14T12:57:40.622ZI [13780:core_110388022571870302680] slurp.cc:173:operator() Photos Slurp: Received new SyncRoots: [
+]
+2024-02-14T12:57:40.622ZI [13780:core_110388022571870302680] slurp.cc:105:GetSlurpRootsDiff Generated Diff with roots_to_slurp: 0 roots_to_purge: 0 roots_to_stop: 0 disconnected_roots: 0 roots_to_forget: 0
+2024-02-14T12:57:40.623ZI [1784:NonCelloThread] uiext.cc:73:SaveFlagsToRegistry Set Explorer extension keys.
+2024-02-14T12:57:40.623ZI [13892:mirror_110388022571870302680_COM] mirror.cc:326:MirrorRoots Received new mirror roots: []
+2024-02-14T12:57:40.623ZI [13780:core_110388022571870302680] slurp.cc:173:operator() Drive Slurp: Received new SyncRoots: [
+]
+2024-02-14T12:57:40.624ZI [13780:core_110388022571870302680] slurp.cc:105:GetSlurpRootsDiff Generated Diff with roots_to_slurp: 0 roots_to_purge: 0 roots_to_stop: 0 disconnected_roots: 0 roots_to_forget: 0
+2024-02-14T12:57:40.624ZI [13780:core_110388022571870302680] slurp.cc:173:operator() Photos Slurp: Received new SyncRoots: [
+]
+2024-02-14T12:57:40.624ZI [13780:core_110388022571870302680] slurp.cc:105:GetSlurpRootsDiff Generated Diff with roots_to_slurp: 0 roots_to_purge: 0 roots_to_stop: 0 disconnected_roots: 0 roots_to_forget: 0
+2024-02-14T12:57:40.624ZI [1784:NonCelloThread] uiext.cc:73:SaveFlagsToRegistry Set Explorer extension keys.
+2024-02-14T12:57:40.625ZI [13892:mirror_110388022571870302680_COM] mirror.cc:326:MirrorRoots Received new mirror roots: []
+2024-02-14T12:57:40.634ZI [3324:trace_writer_thread] instrumentation.cc:646:operator() Trace successfully written
+2024-02-14T12:57:41.101ZE [13780:core_110388022571870302680][MIRR] metrics_delegate.h:566:RecordChangesFetchedCount No histogram for unknown poll reason
+2024-02-14T12:57:41.240ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Entered event start.
+2024-02-14T12:57:41.241ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Finding mount entry; lockGlobal = 0; mount point = \DosDevices\G:.
+2024-02-14T12:57:41.241ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log No mount entry found.
+2024-02-14T12:57:41.241ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Creating disk device; mount point = G; mount ID = 1l
+2024-02-14T12:57:41.241ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Set volume security descriptor successfully.
+2024-02-14T12:57:41.242ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log disk device name: "\Device\Volume{234e3a45-fca2-31dd-9bac-204183070f1e}"; symbolic link name: "
+2024-02-14T12:57:41.242ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log \DosDevices\Global\Volume{234e3a45-fca2-31dd-9bac-204183070f1e}"; mount point: "\DosDevices\G:"
+2024-02-14T12:57:41.242ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log ; type: 8
+2024-02-14T12:57:41.242ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log SymbolicLink: "\DosDevices\Global\Volume{234e3a45-fca2-31dd-9bac-204183070f1e}" -> "\Device\Vol
+2024-02-14T12:57:41.242ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log ume{234e3a45-fca2-31dd-9bac-204183070f1e}" created
+2024-02-14T12:57:41.242ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Inserted new mount entry.
+2024-02-14T12:57:41.243ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Event start using mount ID: 1; device name: \Volume{234e3a45-fca2-31dd-9bac-204183070f1e}.
+2024-02-14T12:57:41.243ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Mounting volume using MountPoint "\DosDevices\G:" device "\Device\Volume{234e3a45-fca2-31dd-9ba
+2024-02-14T12:57:41.243ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log c-204183070f1e}"
+2024-02-14T12:57:41.243ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Finding mount entry; lockGlobal = 1; mount point = .
+2024-02-14T12:57:41.243ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Found entry with matching device name: \Device\Volume{234e3a45-fca2-31dd-9bac-204183070f1e}
+2024-02-14T12:57:41.243ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Mount entry found: \DosDevices\G: -> \Device\Volume{234e3a45-fca2-31dd-9bac-204183070f1e}
+2024-02-14T12:57:41.244ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Starting FCB garbage collector with 2000 ms interval.
+2024-02-14T12:57:41.244ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Mount manager is querying for desired drive letter. ForceDriveLetterAutoAssignment = 0
+2024-02-14T12:57:41.244ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Returning suggested name: "\DosDevices\G:"
+2024-02-14T12:57:41.244ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Link created: "\??\Volume{774c62be-cb38-11ee-af73-a47e009c8898}"
+2024-02-14T12:57:41.244ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Link created: "\DosDevices\G:"
+2024-02-14T12:57:41.244ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Link name matches the current one.
+2024-02-14T12:57:41.244ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Mounting successfully done.
+2024-02-14T12:57:41.245ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Returning actual mount point G
+2024-02-14T12:57:41.245ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Finished event start with status 1 and flags: 0
+2024-02-14T12:57:41.245ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Handle created before IOCTL_EVENT_WAIT for file "(null)"
+2024-02-14T12:57:41.245ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Handle created before IOCTL_EVENT_WAIT for file "(null)"
+2024-02-14T12:57:41.245ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Handle created before IOCTL_EVENT_WAIT for file "\$Extend\$Reparse:$R:$INDEX_ALLOCATION"
+2024-02-14T12:57:41.245ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Opened file with user mode dispatch blocked: "\__drive_fs_keepalive"
+2024-02-14T12:57:41.245ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Opened keepalive file from process 1780.
+2024-02-14T12:57:41.246ZI [13744:NonCelloThread] driver_log_subscriber.cc:85:Log Activating keepalive handle from process 1780.
+2024-02-14T12:58:01.481ZI [13780:core_110388022571870302680] push_notification_manager.cc:162:Initialize Reusing GCM auth_data
+2024-02-14T12:58:01.662ZI [13780:core_110388022571870302680] gcm.cc:355:operator() GCM successfully connected.
+2024-02-14T12:58:01.662ZI [13780:core_110388022571870302680] push_notification_manager.cc:243:operator() Successfully connected PushNotificationManager.
+2024-02-14T12:58:39.695ZI [13752:NonCelloThread] portable_clearcut_uploader.cc:73:UNKNOWN Calling SendToClearcutAsync
+2024-02-14T12:58:39.696ZI [13752:NonCelloThread] portable_clearcut_uploader.cc:129:UNKNOWN Returning future status
+2024-02-14T12:58:39.705ZI [13748:proxy_resolver_thread] proxy.cc:172:GetProxyForUrlInternal Proxy type resolved to 0
+2024-02-14T12:58:40.004ZI [1784:NonCelloThread] portable_clearcut_uploader.cc:155:UNKNOWN Successfully sending LogRequest to clearcut backend
+2024-02-14T12:58:40.624ZI [13412:client_io_thread_COM] account_backups_recovery_manager.cc:216:ListBackups Trying to list available backups. Initiator: 2
+2024-02-14T12:58:40.625ZI [13412:client_io_thread_COM] account_backups_recovery_manager.cc:456:BuildBackups Listing backups for account: 110388022571870302680
+2024-02-14T12:58:40.625ZI [13412:client_io_thread_COM] account_backups_recovery_manager.cc:231:ListBackups Starting to list backups
+2024-02-14T12:58:40.625ZE [1784:NonCelloThread] client.cc:4378:operator() Skipping account backup recovery notification. Found 0 accounts and 0 to recover
+2024-02-14T12:59:39.624ZI [13780:core_110388022571870302680] cello_fs.cc:6440:UpdateContentCacheCapacity Changing content cache capacity to 75184 MBytes
+2024-02-14T12:59:39.624ZI [13780:core_110388022571870302680] content_cache_capacity_heuristic.cc:101:operator() Content cache used: 23 MiB
+2024-02-14T12:59:39.625ZI [13780:core_110388022571870302680] content_cache_capacity_heuristic.cc:109:operator() New content cache capacity used: 0%
+2024-02-14T12:59:39.625ZI [13780:core_110388022571870302680] content_cache_capacity_heuristic.cc:116:operator() Free disk space (excluding content cache): 375921 MiB
+2024-02-14T12:59:39.625ZI [13780:core_110388022571870302680] content_cache_capacity_heuristic.cc:125:operator() Evictable amount of content cache: 0%
+2024-02-14T13:17:39.641ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T13:17:39.689ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T13:29:10.292ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: timeout on name lookup is not supported
+2024-02-14T13:29:10.313ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: Host www.googleapis.com:443 was resolved.
+2024-02-14T13:29:10.313ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: IPv6: 2404:6800:4007:81c::200a, 2404:6800:4007:81d::200a, 2404:6800:4007:81a::200a, 2404:6800:4007:81b::200a
+2024-02-14T13:29:10.314ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: IPv4: 142.250.182.234, 142.250.183.10, 142.250.183.106, 142.250.192.10, 142.250.192.42, 142.250.192.74, 142.250.192.106, 142.251.42.74, 142.251.42.10, 142.251.42.42, 142.250.192.138, 172.217.27.202, 172.217.160.202, 172.217.166.170, 142.250.77.42, 142.250.182.202
+2024-02-14T13:29:10.315ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info:   Trying [2404:6800:4007:81c::200a]:443...
+2024-02-14T13:29:10.348ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: Connected to www.googleapis.com (2404:6800:4007:81c::200a) port 443
+2024-02-14T13:29:10.348ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: disabled automatic use of client certificate
+2024-02-14T13:29:10.440ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: added 36 certificate(s) from CA file '(memory blob)'
+2024-02-14T13:29:10.448ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (upload.video.google.com)
+2024-02-14T13:29:10.448ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.clients.google.com)
+2024-02-14T13:29:10.448ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.docs.google.com)
+2024-02-14T13:29:10.448ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.drive.google.com)
+2024-02-14T13:29:10.449ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.gdata.youtube.com)
+2024-02-14T13:29:10.449ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) validated against certificate name (*.googleapis.com)
+2024-02-14T13:29:10.449ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: using HTTP/1.x
+2024-02-14T13:29:10.449ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: We are completely uploaded and fine
+2024-02-14T13:29:10.560ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: remote party requests renegotiation
+2024-02-14T13:29:10.561ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: renegotiating SSL/TLS connection
+2024-02-14T13:29:10.563ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: reusing certificate store from cache
+2024-02-14T13:29:10.581ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (upload.video.google.com)
+2024-02-14T13:29:10.581ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.clients.google.com)
+2024-02-14T13:29:10.582ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.docs.google.com)
+2024-02-14T13:29:10.582ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.drive.google.com)
+2024-02-14T13:29:10.582ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.gdata.youtube.com)
+2024-02-14T13:29:10.582ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) validated against certificate name (*.googleapis.com)
+2024-02-14T13:29:10.582ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: schannel: SSL/TLS connection renegotiated
+2024-02-14T13:29:10.582ZI [5252:CurlWorker0] curl_api.cc:1051:LogCurlInfo == Info: Connection #0 to host www.googleapis.com left intact
+2024-02-14T13:29:10.589ZI [13780:core_110388022571870302680] oauth_credential.cc:416:Update Stored credential successfully
+2024-02-14T13:37:39.651ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T13:37:39.695ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T14:06:15.734ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T14:06:15.838ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T14:06:15.875ZE [216:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 28 to drive::ds::Status::TIMEOUT_EXCEEDED
+2024-02-14T14:06:15.926ZE [13780:core_110388022571870302680] gcm.cc:583:OnConnectError GCM connection error: drive::ds::Status::TIMEOUT_EXCEEDED
+2024-02-14T14:06:15.983ZE [13780:core_110388022571870302680] push_notification_manager.cc:486:OnGCMConnection GCM Connection failed: DEADLINE_EXCEEDED: From legacy status [type.googleapis.com/drive.ds.Status='TIMEOUT_EXCEEDED']
+=== Source Location Trace: ===
+apps/drive/fs/core/common/push_notification_manager.cc:160
+
+2024-02-14T14:06:16.010ZE [13780:core_110388022571870302680] push_notification_manager.cc:52:HandleStatus GCM connect failed with error drive::ds::Status::TIMEOUT_EXCEEDED, schedule retry
+2024-02-14T14:06:16.027ZI [4844:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T14:06:16.042ZI [9712:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T14:06:16.050ZI [9712:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T14:06:16.057ZI [9712:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T14:06:16.068ZI [9712:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T14:06:16.076ZI [9712:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T14:06:16.077ZI [9712:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T14:06:17.691ZI [13780:core_110388022571870302680] gcm.cc:355:operator() GCM successfully connected.
+2024-02-14T14:06:17.691ZI [13780:core_110388022571870302680] push_notification_manager.cc:243:operator() Successfully connected PushNotificationManager.
+2024-02-14T14:06:18.873ZI [9712:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T14:06:35.720ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.758ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.779ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.793ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.800ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.807ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.811ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.825ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.829ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.832ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.833ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.834ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.836ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.837ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.837ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.838ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.840ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.841ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.841ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.843ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.844ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.845ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.845ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.847ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.847ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.848ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.848ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.849ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.850ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.851ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.852ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.853ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.854ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.855ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.856ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.856ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.857ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.858ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.859ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.859ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.860ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.861ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.861ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.861ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.862ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.862ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.863ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.863ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.864ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.864ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.865ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.867ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.867ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.867ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.868ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.868ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.869ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.869ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.869ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.870ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T14:06:35.870ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.870ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.871ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.871ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.871ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.872ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.873ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.873ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.873ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:06:35.874ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T14:06:35.875ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T14:06:35.875ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T14:20:23.193ZI [13752:NonCelloThread] phenotype_impl.cc:478:UNKNOWN ShouldSync: Last sync was only 10644 seconds ago
+2024-02-14T14:20:23.194ZI [13752:NonCelloThread] phenotype_impl.cc:771:UNKNOWN PerformSync: No reason to sync. Returning kOk
+2024-02-14T14:20:23.195ZI [13752:NonCelloThread] phenotype_scheduler_impl.cc:34:UNKNOWN PhenotypeScheduler: successfully synced
+2024-02-14T14:26:15.748ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T14:26:15.749ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T14:36:16.973ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: timeout on name lookup is not supported
+2024-02-14T14:36:16.985ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: Host www.googleapis.com:443 was resolved.
+2024-02-14T14:36:16.985ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: IPv6: 2404:6800:4007:822::200a, 2404:6800:4007:813::200a, 2404:6800:4007:806::200a, 2404:6800:4007:812::200a
+2024-02-14T14:36:16.985ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: IPv4: 142.250.183.202, 142.250.183.170, 142.250.183.138, 172.217.160.170, 216.58.196.74, 216.58.203.10, 172.217.174.234, 172.217.167.170, 142.251.42.106, 142.250.71.106, 142.250.70.106, 142.250.70.74, 142.250.70.42, 142.250.199.170, 142.250.199.138, 142.250.66.10
+2024-02-14T14:36:16.986ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info:   Trying [2404:6800:4007:822::200a]:443...
+2024-02-14T14:36:17.002ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: Connected to www.googleapis.com (2404:6800:4007:822::200a) port 443
+2024-02-14T14:36:17.002ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: disabled automatic use of client certificate
+2024-02-14T14:36:17.068ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: added 36 certificate(s) from CA file '(memory blob)'
+2024-02-14T14:36:17.080ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (upload.video.google.com)
+2024-02-14T14:36:17.081ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.clients.google.com)
+2024-02-14T14:36:17.082ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.docs.google.com)
+2024-02-14T14:36:17.082ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.drive.google.com)
+2024-02-14T14:36:17.082ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.gdata.youtube.com)
+2024-02-14T14:36:17.082ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) validated against certificate name (*.googleapis.com)
+2024-02-14T14:36:17.083ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: using HTTP/1.x
+2024-02-14T14:36:17.083ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: We are completely uploaded and fine
+2024-02-14T14:36:17.166ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: remote party requests renegotiation
+2024-02-14T14:36:17.166ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: renegotiating SSL/TLS connection
+2024-02-14T14:36:17.168ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: reusing certificate store from cache
+2024-02-14T14:36:17.187ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (upload.video.google.com)
+2024-02-14T14:36:17.188ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.clients.google.com)
+2024-02-14T14:36:17.188ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.docs.google.com)
+2024-02-14T14:36:17.188ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.drive.google.com)
+2024-02-14T14:36:17.189ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) did not match against certificate name (*.gdata.youtube.com)
+2024-02-14T14:36:17.189ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: connection hostname (www.googleapis.com) validated against certificate name (*.googleapis.com)
+2024-02-14T14:36:17.189ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: schannel: SSL/TLS connection renegotiated
+2024-02-14T14:36:17.189ZI [17972:CurlWorker1] curl_api.cc:1051:LogCurlInfo == Info: Connection #0 to host www.googleapis.com left intact
+2024-02-14T14:36:17.194ZI [13780:core_110388022571870302680] oauth_credential.cc:416:Update Stored credential successfully
+2024-02-14T14:46:15.750ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T14:46:15.752ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T15:20:05.176ZI [6228:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T15:20:05.283ZE [216:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 28 to drive::ds::Status::TIMEOUT_EXCEEDED
+2024-02-14T15:20:05.543ZI [6716:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T15:20:05.592ZI [6716:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T15:20:05.640ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T15:20:05.659ZI [13780:core_110388022571870302680] sync_engine.cc:2294:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: true
+largest_local_change_id: 5221
+fetching_changes: false
+
+2024-02-14T15:20:05.702ZE [13780:core_110388022571870302680] gcm.cc:583:OnConnectError GCM connection error: drive::ds::Status::TIMEOUT_EXCEEDED
+2024-02-14T15:20:05.729ZE [13780:core_110388022571870302680] push_notification_manager.cc:486:OnGCMConnection GCM Connection failed: DEADLINE_EXCEEDED: From legacy status [type.googleapis.com/drive.ds.Status='TIMEOUT_EXCEEDED']
+=== Source Location Trace: ===
+apps/drive/fs/core/common/push_notification_manager.cc:160
+
+2024-02-14T15:20:05.744ZE [13780:core_110388022571870302680] push_notification_manager.cc:52:HandleStatus GCM connect failed with error drive::ds::Status::TIMEOUT_EXCEEDED, schedule retry
+2024-02-14T15:20:05.752ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.762ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.788ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.801ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.809ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.822ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.826ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.830ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.837ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.840ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:05.844ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.848ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.852ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.855ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:05.860ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.865ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.870ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:05.875ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.877ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.885ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.892ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.900ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.904ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:05.908ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.912ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.916ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:05.919ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.922ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.928ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:05.931ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.938ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.954ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.957ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.962ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:05.964ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.966ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.967ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.968ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.970ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:05.971ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:05.973ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.974ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.974ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.975ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.978ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:05.982ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:05.987ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:05.996ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:06.001ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:06.006ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:06.016ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:06.029ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:06.037ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:06.044ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:06.055ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:06.063ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:06.072ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:06.083ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:06.101ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:06.109ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:06.113ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:06.125ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:06.129ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:306:CheckConnection Checking connection state.
+2024-02-14T15:20:06.134ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:06.137ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:06.143ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:06.148ZI [13800:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:06.151ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:350:CheckConnection This adapter is: Online
+2024-02-14T15:20:06.160ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:06.169ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:358:CheckConnection Result: Online
+2024-02-14T15:20:06.176ZI [13900:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:06.187ZI [13740:NetworkStatusListener_COM] network_status_listener_win.cc:238:UpdateState State changed to existing value Online, so not notifying.
+2024-02-14T15:20:07.131ZI [6228:NonCelloThread] driver_log_subscriber.cc:85:Log Wake from sleep detected.
+2024-02-14T15:20:07.255ZI [13780:core_110388022571870302680] gcm.cc:355:operator() GCM successfully connected.
+2024-02-14T15:20:07.255ZI [13780:core_110388022571870302680] push_notification_manager.cc:243:operator() Successfully connected PushNotificationManager.

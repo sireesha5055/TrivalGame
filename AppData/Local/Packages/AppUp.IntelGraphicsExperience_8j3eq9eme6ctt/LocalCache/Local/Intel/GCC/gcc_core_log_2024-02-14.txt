@@ -1,0 +1,16 @@
+2024-02-14 18:27:51.9649 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:Access to the registry key 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys' is denied. 
+2024-02-14 18:27:52.0278 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 
+2024-02-14 18:27:52.0435 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:Access to the registry key 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys' is denied. 
+2024-02-14 18:27:52.0435 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 
+2024-02-14 18:27:52.0435 INFO 	RegistryCalls. GetOEMCustomizationValue. EnableACE Value :0 
+2024-02-14 18:27:52.0435 INFO 	RegistryCalls. GetOEMCustomizationValue. EnableSTE Value :1 
+2024-02-14 18:27:52.3728 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 
+2024-02-14 18:27:52.4514 DEBUG 	RegistryCalls. EnableAutoEnhancePlayback. Done 
+2024-02-14 18:27:52.4514 DEBUG 	VideoCalls. SetAllVideoSettings. Writing Win OS video settings done: 
+2024-02-14 18:27:52.4514 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 
+2024-02-14 18:27:52.5457 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 
+2024-02-14 18:27:52.5614 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 
+2024-02-14 18:27:52.5614 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 
+2024-02-14 18:27:52.5770 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 
+2024-02-14 18:27:52.5770 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 
+2024-02-14 18:27:52.5770 ERROR 	DriverEscapeBuilder. InvokeDriverEscape->D3DKMTEscape failed. Escape Code::207 Error Code: NotImplemented:0xC0000002 

@@ -1,0 +1,201 @@
+[?? X P:10472 T:008744 D:-1 15-02-24 10:10:15.552 INFO] Logging started
+[?? X P:10472 T:008744 D:-1 15-02-24 10:10:15.552 INFO] Logging started
+[?? X P:10472 T:008744 D:04 15-02-24 10:10:16.744 WARN] App.xaml/InitializeModel > 
+
+
+
+[?? X P:10472 T:008744 D:04 15-02-24 10:10:16.744 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+[?? X P:10472 T:008744 D:04 15-02-24 10:10:16.744 WARN] App.xaml/InitializeModel >   |                Application Started                |
+[?? X P:10472 T:008744 D:04 15-02-24 10:10:16.744 WARN] App.xaml/InitializeModel >   |---------------------------------------------------|
+[?? X P:10472 T:008744 D:04 15-02-24 10:10:16.744 WARN] App.xaml/InitializeModel >   |              Build: Version 2.2401.5              |
+[?? X P:10472 T:008744 D:04 15-02-24 10:10:16.760 WARN] App.xaml/InitializeModel >   |         Start Time: 2024-02-15, 10:10:16          |
+[?? X P:10472 T:008744 D:04 15-02-24 10:10:16.760 WARN] App.xaml/InitializeModel >   |         Build Time: 2024-01-26, 16:56:04          |
+[?? X P:10472 T:008744 D:04 15-02-24 10:10:16.760 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+
+
+[?? X P:10472 T:011752 D:-1 15-02-24 10:10:21.562 WARN] voip > wa_media_api.c  Warning: codec priority set failed for AMR, status: 70006
+[?? X P:10472 T:011752 D:-1 15-02-24 10:10:21.562 WARN] voip > wa_media_api.c  Warning: codec priority set failed for PCMU, status: 70006
+[?? X P:10472 T:011752 D:-1 15-02-24 10:10:21.562 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[FG W P:10472 T:011844 D:11 15-02-24 10:10:24.119 WARN] AddonOrphanRepository/SaveAddonOrphan > Saving addon orphan [Id=C69D7DCF0314D61DBB6B53727CD44249] of type 'Revoked' (parent Id=[90459AF151894029F156C9A8F09E50E9]).
+[FG W P:10472 T:011844 D:11 15-02-24 10:10:24.119 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:10472 T:011844 D:11 15-02-24 10:10:24.182 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:10472 T:011844 D:11 15-02-24 10:10:24.182 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:10472 T:011844 D:11 15-02-24 10:10:25.129 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:10472 T:011844 D:11 15-02-24 10:10:25.129 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:10472 T:011784 D:-1 15-02-24 10:10:26.396 WARN] Mp4Utils > Undocumented appended bytes detected after file offset 1247634
+[FG W P:10472 T:011784 D:-1 15-02-24 10:10:26.396 WARN] Mp4Utils > File needs repairs and repairs are possible
+[FG W P:10472 T:011136 D:-1 15-02-24 10:10:28.832 WARN] soundport > Stop ignored - no audio driver
+[FG W P:10472 T:011608 D:-1 15-02-24 10:10:32.552 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[FG W P:10472 T:011976 D:-1 15-02-24 10:10:32.567 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[FG W P:10472 T:011608 D:-1 15-02-24 10:10:32.609 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[FG W P:10472 T:011136 D:-1 15-02-24 10:34:16.820 WARN] soundport > Stop ignored - no audio driver
+[FG W P:10472 T:011816 D:-1 15-02-24 10:34:19.797 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011816 D:-1 15-02-24 10:34:19.801 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[FG W P:10472 T:012508 D:-1 15-02-24 10:34:19.833 WARN] voip > rec_clock !snd_port or snd_port->port is NULL
+[FG W P:10472 T:012508 D:-1 15-02-24 10:34:19.864 WARN] voip > rec_clock !snd_port or snd_port->port is NULL
+[FG W P:10472 T:012508 D:-1 15-02-24 10:34:19.880 WARN] voip > rec_clock  snd_port or snd_port->port is NULL
+[FG W P:10472 T:012508 D:-1 15-02-24 10:34:19.895 WARN] voip > rec_clock  snd_port or snd_port->port is NULL
+[FG W P:10472 T:012508 D:-1 15-02-24 10:34:19.910 WARN] voip > rec_clock !snd_port or snd_port->port is NULL
+[FG W P:10472 T:011796 D:-1 15-02-24 10:34:20.066 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011796 D:-1 15-02-24 10:34:20.066 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011796 D:-1 15-02-24 10:34:20.066 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011796 D:-1 15-02-24 10:34:20.066 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011796 D:-1 15-02-24 10:34:20.066 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011816 D:-1 15-02-24 10:34:20.678 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011816 D:-1 15-02-24 10:34:20.679 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011816 D:-1 15-02-24 10:34:20.684 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011816 D:-1 15-02-24 10:34:20.685 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011816 D:-1 15-02-24 10:34:20.686 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[FG W P:10472 T:011816 D:-1 15-02-24 10:34:41.640 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[FG W P:10472 T:011816 D:-1 15-02-24 10:34:41.640 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[?? X P:12388 T:014452 D:-1 15-02-24 10:35:44.436 INFO] Logging started
+[?? X P:12388 T:014452 D:04 15-02-24 10:35:44.531 WARN] App.xaml/InitializeModel > 
+
+
+
+[?? X P:12388 T:014452 D:04 15-02-24 10:35:44.531 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+[?? X P:12388 T:014452 D:04 15-02-24 10:35:44.531 WARN] App.xaml/InitializeModel >   |                Application Started                |
+[?? X P:12388 T:014452 D:04 15-02-24 10:35:44.531 WARN] App.xaml/InitializeModel >   |---------------------------------------------------|
+[?? X P:12388 T:014452 D:04 15-02-24 10:35:44.531 WARN] App.xaml/InitializeModel >   |              Build: Version 2.2401.5              |
+[?? X P:12388 T:014452 D:04 15-02-24 10:35:44.532 WARN] App.xaml/InitializeModel >   |         Start Time: 2024-02-15, 10:35:44          |
+[?? X P:12388 T:014452 D:04 15-02-24 10:35:44.532 WARN] App.xaml/InitializeModel >   |         Build Time: 2024-01-26, 16:56:04          |
+[?? X P:12388 T:014452 D:04 15-02-24 10:35:44.532 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+
+
+[?? X P:12388 T:004820 D:-1 15-02-24 10:35:45.256 WARN] voip > wa_media_api.c  Warning: codec priority set failed for AMR, status: 70006
+[?? X P:12388 T:004820 D:-1 15-02-24 10:35:45.256 WARN] voip > wa_media_api.c  Warning: codec priority set failed for PCMU, status: 70006
+[?? X P:12388 T:004820 D:-1 15-02-24 10:35:45.262 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[FG W P:12388 T:003280 D:-1 15-02-24 10:36:09.020 WARN] soundport > Stop ignored - no audio driver
+[FG W P:12388 T:001204 D:-1 15-02-24 10:36:13.773 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[FG W P:12388 T:013584 D:-1 15-02-24 10:36:13.816 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[FG W P:12388 T:013584 D:-1 15-02-24 10:36:13.819 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[FG W P:12388 T:003280 D:-1 15-02-24 10:37:01.402 WARN] soundport > Stop ignored - no audio driver
+[FG W P:12388 T:003280 D:-1 15-02-24 10:48:13.688 WARN] soundport > Stop ignored - no audio driver
+[FG W P:12388 T:007844 D:-1 15-02-24 10:48:58.817 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID [\\?\SWD#MMDEVAPI#{0.0.1.00000000}.{97e8b588-b7d2-44e8-9e88-2877a2290daf}#{2eef81be-33fa-4800-9670-1cd474972c3f}]
+[FG W P:12388 T:015060 D:-1 15-02-24 10:48:58.819 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID [\\?\SWD#MMDEVAPI#{0.0.1.00000000}.{97e8b588-b7d2-44e8-9e88-2877a2290daf}#{2eef81be-33fa-4800-9670-1cd474972c3f}]
+[FG W P:12388 T:003280 D:-1 15-02-24 10:55:54.353 WARN] soundport > Stop ignored - no audio driver
+[BG W P:12388 T:007844 D:02 15-02-24 10:56:58.704 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: InvokeQueueItems, write:True, requested lockType: Write
+[BG W P:12388 T:000324 D:11 15-02-24 11:20:06.363 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[BG W P:12388 T:001708 D:11 15-02-24 11:20:10.812 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[?? X P:11052 T:011292 D:-1 15-02-24 14:20:45.539 INFO] Logging started
+[?? X P:11052 T:011292 D:04 15-02-24 14:20:46.732 WARN] App.xaml/InitializeModel > 
+
+
+
+[?? X P:11052 T:011292 D:04 15-02-24 14:20:46.732 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+[?? X P:11052 T:011292 D:04 15-02-24 14:20:46.732 WARN] App.xaml/InitializeModel >   |                Application Started                |
+[?? X P:11052 T:011292 D:04 15-02-24 14:20:46.732 WARN] App.xaml/InitializeModel >   |---------------------------------------------------|
+[?? X P:11052 T:011292 D:04 15-02-24 14:20:46.732 WARN] App.xaml/InitializeModel >   |              Build: Version 2.2401.5              |
+[?? X P:11052 T:011292 D:04 15-02-24 14:20:46.732 WARN] App.xaml/InitializeModel >   |         Start Time: 2024-02-15, 14:20:46          |
+[?? X P:11052 T:011292 D:04 15-02-24 14:20:46.732 WARN] App.xaml/InitializeModel >   |         Build Time: 2024-01-26, 16:56:04          |
+[?? X P:11052 T:011292 D:04 15-02-24 14:20:46.732 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+
+
+[?? X P:11052 T:009168 D:-1 15-02-24 14:20:53.305 WARN] voip > wa_media_api.c  Warning: codec priority set failed for AMR, status: 70006
+[?? X P:11052 T:009168 D:-1 15-02-24 14:20:53.305 WARN] voip > wa_media_api.c  Warning: codec priority set failed for PCMU, status: 70006
+[?? X P:11052 T:009168 D:-1 15-02-24 14:20:53.321 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:11052 T:011864 D:11 15-02-24 14:20:57.025 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[BT W P:11052 T:011864 D:11 15-02-24 14:20:57.025 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[BT W P:11052 T:011864 D:11 15-02-24 14:20:57.166 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[BT W P:11052 T:011864 D:11 15-02-24 14:20:57.276 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[BT W P:11052 T:011864 D:11 15-02-24 14:20:57.291 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:11052 T:011908 D:-1 15-02-24 14:21:04.339 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:11052 T:011908 D:-1 15-02-24 14:21:04.339 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:11052 T:008092 D:-1 15-02-24 14:21:04.339 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[?? X P:14672 T:006244 D:-1 15-02-24 15:02:35.336 INFO] Logging started
+[?? X P:14672 T:006244 D:04 15-02-24 15:02:35.691 WARN] App.xaml/InitializeModel > 
+
+
+
+[?? X P:14672 T:006244 D:04 15-02-24 15:02:35.691 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+[?? X P:14672 T:006244 D:04 15-02-24 15:02:35.691 WARN] App.xaml/InitializeModel >   |                Application Started                |
+[?? X P:14672 T:006244 D:04 15-02-24 15:02:35.691 WARN] App.xaml/InitializeModel >   |---------------------------------------------------|
+[?? X P:14672 T:006244 D:04 15-02-24 15:02:35.691 WARN] App.xaml/InitializeModel >   |              Build: Version 2.2401.5              |
+[?? X P:14672 T:006244 D:04 15-02-24 15:02:35.691 WARN] App.xaml/InitializeModel >   |         Start Time: 2024-02-15, 15:02:35          |
+[?? X P:14672 T:006244 D:04 15-02-24 15:02:35.691 WARN] App.xaml/InitializeModel >   |         Build Time: 2024-01-26, 16:56:04          |
+[?? X P:14672 T:006244 D:04 15-02-24 15:02:35.691 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+
+
+[?? X P:14672 T:004352 D:-1 15-02-24 15:02:36.462 WARN] voip > wa_media_api.c  Warning: codec priority set failed for AMR, status: 70006
+[?? X P:14672 T:004352 D:-1 15-02-24 15:02:36.462 WARN] voip > wa_media_api.c  Warning: codec priority set failed for PCMU, status: 70006
+[?? X P:14672 T:004352 D:-1 15-02-24 15:02:36.474 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[FG W P:14672 T:005516 D:-1 15-02-24 15:03:01.791 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[FG W P:14672 T:015988 D:-1 15-02-24 15:03:01.791 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[FG W P:14672 T:016152 D:-1 15-02-24 15:03:01.797 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[FG W P:14672 T:006248 D:-1 15-02-24 15:03:03.153 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:006248 D:-1 15-02-24 15:03:10.169 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:006248 D:-1 15-02-24 15:03:36.382 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:006248 D:-1 15-02-24 15:04:10.221 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:006248 D:-1 15-02-24 15:04:20.343 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:007844 D:02 15-02-24 15:12:23.092 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: InvokeQueueItems, write:True, requested lockType: Write
+[FG W P:14672 T:006248 D:-1 15-02-24 15:55:18.243 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:006248 D:-1 15-02-24 16:04:47.923 WARN] soundport > Stop ignored - no audio driver
+[BT W P:14672 T:006684 D:11 15-02-24 17:57:00.371 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:14672 T:017360 D:11 15-02-24 17:57:02.133 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[FG W P:14672 T:010844 D:-1 15-02-24 18:24:12.922 WARN] voip > wa_call_signaling.cc  record_incoming_msg: no active call
+[FG W P:14672 T:010844 D:-1 15-02-24 18:24:12.960 WARN] voip > wa_call_signaling.cc  record_incoming_msg: no active call
+[FG W P:14672 T:006248 D:-1 15-02-24 18:24:13.764 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:006248 D:-1 15-02-24 18:24:19.381 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:006248 D:-1 15-02-24 18:33:48.718 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:006248 D:-1 15-02-24 18:38:49.521 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:010740 D:11 15-02-24 19:19:52.744 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:14672 T:010740 D:11 15-02-24 19:19:52.768 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:14672 T:010740 D:11 15-02-24 19:19:53.630 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:14672 T:006248 D:-1 15-02-24 19:19:55.797 WARN] soundport > Stop ignored - no audio driver
+[FG W P:14672 T:012968 D:00 15-02-24 19:20:00.520 WARN] IOException: MediaStorage/MoveFileAsync > failed to (file rename): <app path>:shared\transfers\2024_6\xIVxUh8FM3pH2kJvlfxzohQp2IbTHE4c0wxOTj-CIJo=_plaintext_638436017933666695.jpg -> <app path>:shared\transfers\2024_6\IMG-20240215-WA0031.jpg
+  -- IOException, "Cannot create a file when that file already exists"
+   at System.IO.FileInfo.MoveTo(String) + 0x1cb
+   at WhatsApp.NativeMediaStorage.<MoveFileAsync>d__17.MoveNext() + 0x1d4
+
+
+[FG W P:14672 T:005900 D:00 15-02-24 19:20:01.717 WARN] IOException: MediaStorage/MoveFileAsync > failed to (file rename): <app path>:shared\transfers\2024_6\Pu9JpnTMNO8SnMnV9mJHw57dI58_jwMwvVkL9dKG_w4=_plaintext_638436017934386564.jpg -> <app path>:shared\transfers\2024_6\IMG-20240215-WA0036.jpg
+  -- IOException, "Cannot create a file when that file already exists"
+   at System.IO.FileInfo.MoveTo(String) + 0x1cb
+   at WhatsApp.NativeMediaStorage.<MoveFileAsync>d__17.MoveNext() + 0x1d4
+
+
+[FG W P:14672 T:016632 D:00 15-02-24 19:20:02.016 WARN] IOException: MediaStorage/MoveFileAsync > failed to (file rename): <app path>:shared\transfers\2024_6\5epyXXTarWUUF6YEf_26h4uusbI-agiv8CzzfdxR96I=_plaintext_638436017934298558.jpg -> <app path>:shared\transfers\2024_6\IMG-20240215-WA0037.jpg
+  -- IOException, "Cannot create a file when that file already exists"
+   at System.IO.FileInfo.MoveTo(String) + 0x1cb
+   at WhatsApp.NativeMediaStorage.<MoveFileAsync>d__17.MoveNext() + 0x1d4
+
+
+[FG W P:14672 T:016632 D:00 15-02-24 19:20:03.946 WARN] IOException: MediaStorage/MoveFileAsync > failed to (file rename): <app path>:shared\transfers\2024_6\5HAIPwRsY5GHDl4W0C_ak1lUbcy1HT4PaQiV5uK9H5s=_plaintext_638436017934568866.jpg -> <app path>:shared\transfers\2024_6\IMG-20240215-WA0041.jpg
+  -- IOException, "Cannot create a file when that file already exists"
+   at System.IO.FileInfo.MoveTo(String) + 0x1cb
+   at WhatsApp.NativeMediaStorage.<MoveFileAsync>d__17.MoveNext() + 0x1d4
+
+
+[FG W P:14672 T:014360 D:11 15-02-24 20:17:34.929 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:14672 T:010256 D:02 15-02-24 20:24:24.914 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: InvokeQueueItems, write:True, requested lockType: Write
+[FG W P:14672 T:004568 D:11 15-02-24 20:28:02.225 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:14672 T:020944 D:11 15-02-24 21:56:45.969 WARN] AddonOrphanRepository/SaveAddonOrphan > Saving addon orphan [Id=340DD0F198483D944C20720BB899D4FF] of type 'Revoked' (parent Id=[2C0D0235EDDFF1210076AC6F632854F1]).
+[FG W P:14672 T:020944 D:11 15-02-24 21:56:46.016 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:14672 T:020944 D:11 15-02-24 21:56:46.220 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[FG W P:14672 T:020944 D:11 15-02-24 21:56:46.238 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[?? X P:3948 T:013920 D:-1 15-02-24 22:02:08.160 INFO] Logging started
+[?? X P:3948 T:013920 D:04 15-02-24 22:02:08.617 WARN] App.xaml/InitializeModel > 
+
+
+
+[?? X P:3948 T:013920 D:04 15-02-24 22:02:08.617 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+[?? X P:3948 T:013920 D:04 15-02-24 22:02:08.617 WARN] App.xaml/InitializeModel >   |                Application Started                |
+[?? X P:3948 T:013920 D:04 15-02-24 22:02:08.617 WARN] App.xaml/InitializeModel >   |---------------------------------------------------|
+[?? X P:3948 T:013920 D:04 15-02-24 22:02:08.617 WARN] App.xaml/InitializeModel >   |              Build: Version 2.2401.5              |
+[?? X P:3948 T:013920 D:04 15-02-24 22:02:08.617 WARN] App.xaml/InitializeModel >   |         Start Time: 2024-02-15, 22:02:08          |
+[?? X P:3948 T:013920 D:04 15-02-24 22:02:08.617 WARN] App.xaml/InitializeModel >   |         Build Time: 2024-01-26, 16:56:04          |
+[?? X P:3948 T:013920 D:04 15-02-24 22:02:08.617 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+
+
+[?? X P:3948 T:007356 D:-1 15-02-24 22:02:09.640 WARN] voip > wa_media_api.c  Warning: codec priority set failed for AMR, status: 70006
+[?? X P:3948 T:007356 D:-1 15-02-24 22:02:09.640 WARN] voip > wa_media_api.c  Warning: codec priority set failed for PCMU, status: 70006
+[?? X P:3948 T:007356 D:-1 15-02-24 22:02:09.653 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:3948 T:016060 D:11 15-02-24 22:29:49.006 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:3948 T:016060 D:-1 15-02-24 22:29:57.102 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:3948 T:007848 D:-1 15-02-24 22:29:57.124 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:3948 T:010408 D:11 15-02-24 22:44:48.638 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:3948 T:020280 D:11 15-02-24 22:59:48.566 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:3948 T:010636 D:11 15-02-24 23:04:17.957 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:3948 T:007784 D:11 15-02-24 23:14:48.396 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:3948 T:009776 D:11 15-02-24 23:22:22.649 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:3948 T:007276 D:11 15-02-24 23:29:49.756 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped

@@ -1,0 +1,66 @@
+2024-02-16 10:03:38.975 [CORE] Valid settings file not found. Using default values.
+2024-02-16 10:03:38.976 [CORE] WinGet, version [1.6.3482], activity [{6567338D-67C0-412E-8730-47380964C4BF}]
+2024-02-16 10:03:38.977 [CORE] OS: Windows.Desktop v10.0.22631.3155
+2024-02-16 10:03:38.977 [CORE] Command line Args: "C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.21.3482.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe" -Embedding
+2024-02-16 10:03:38.977 [CORE] Package: Microsoft.DesktopAppInstaller v1.21.3482.0
+2024-02-16 10:03:38.977 [CORE] IsCOMCall:1; Caller: C:\Windows\explorer.exe
+2024-02-16 10:03:39.048 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2024-02-16 10:03:39.206 [REPO] Response status: 200
+2024-02-16 10:03:39.214 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2024-02-16 10:03:39.238 [REPO] Response status: 200
+2024-02-16 10:03:39.249 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2024-02-16 10:03:39.249 [SQL ] Opening SQLite connection #1: ':memory:' [6, 0]
+2024-02-16 10:03:39.300 [REPO] Reading MSI UpgradeCodes
+2024-02-16 10:03:39.330 [REPO] Reading MSI UpgradeCodes
+2024-02-16 10:03:39.353 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(1) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.364 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(2) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.368 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(3) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.376 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(4) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.399 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(5) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.410 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(6) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.414 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(7) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.421 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(8) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.426 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(9) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.435 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(10) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.447 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(11) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.515 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(12) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.534 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(13) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.615 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(14) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.620 [FAIL] C:\__w\1\s\external\pkg\src\AppInstallerRepositoryCore\Microsoft\Schema\1_0\Interface_1_0.cpp(197)\WindowsPackageManager.dll!00007FFC0F27597D: (caller: 00007FFC0F27BE09) Exception(15) tid(2224) 800700B7 Cannot create a file when that file already exists.
+
+2024-02-16 10:03:39.664 [SQL ] Opening SQLite connection #2: ':memory:' [6, 0]
+2024-02-16 10:03:39.688 [REPO] Finding available package from installed package using system reference search: Query:[none] Include:ProductCode='google chrome'[Exact] Include:NormalizedNameAndPublisher='googlechrome'+'google'[Exact]
+2024-02-16 10:03:39.697 [REPO] Opening SQLite Index for ReadWrite at 'C:\Users\kotha\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2024-02-16 10:03:39.697 [SQL ] Opening SQLite connection #3: 'C:\Users\kotha\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db' [2, 0]
+2024-02-16 10:03:39.698 [REPO] Opened SQLite Index with version [1.6], last write [2023-05-01 10:36:25.000]
+2024-02-16 10:03:39.700 [REPO] Sending http POST request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/manifestSearch
+2024-02-16 10:03:39.724 [REPO] Response status: 200
+2024-02-16 10:03:39.730 [REPO] Opening pinning index
+2024-02-16 10:03:39.730 [REPO] Opening existing pinning index
+2024-02-16 10:03:39.730 [REPO] Opening SQLite Index for ReadWrite at 'C:\Users\kotha\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\pinning.db'
+2024-02-16 10:03:39.730 [SQL ] Opening SQLite connection #4: 'C:\Users\kotha\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\pinning.db' [2, 0]
+2024-02-16 10:03:39.731 [REPO] Opened Pinning Index with version [1.0], last write [2023-07-12 18:57:52.000]
+2024-02-16 10:03:39.756 [SQL ] Opening SQLite connection #5: ':memory:' [6, 0]
+2024-02-16 10:03:39.765 [REPO] Finding available package from installed package using system reference search: Query:[none] Include:ProductCode='google chrome'[Exact] Include:NormalizedNameAndPublisher='googlechrome'+'google'[Exact]
+2024-02-16 10:03:39.770 [REPO] Opening SQLite Index for ReadWrite at 'C:\Users\kotha\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\Microsoft.Winget.Source_8wekyb3d8bbwe\installed.db'
+2024-02-16 10:03:39.770 [SQL ] Opening SQLite connection #6: 'C:\Users\kotha\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\Microsoft.Winget.Source_8wekyb3d8bbwe\installed.db' [2, 0]
+2024-02-16 10:03:39.775 [REPO] Opened SQLite Index with version [1.6], last write [2023-09-29 21:28:02.000]
+2024-02-16 10:03:39.781 [REPO] Opening pinning index
+2024-02-16 10:03:39.781 [REPO] Opening existing pinning index
+2024-02-16 10:03:39.781 [REPO] Opening SQLite Index for ReadWrite at 'C:\Users\kotha\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\pinning.db'
+2024-02-16 10:03:39.781 [SQL ] Opening SQLite connection #7: 'C:\Users\kotha\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\pinning.db' [2, 0]
+2024-02-16 10:03:39.781 [REPO] Opened Pinning Index with version [1.0], last write [2023-07-12 18:57:52.000]

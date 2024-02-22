@@ -1,0 +1,19 @@
+2024-02-15T11:27:32.476081+05:30 0x00003f74 <INFO> RoomsPlatformUtils: Process invoked without rooms flag, no platform ID override provided
+2024-02-15T11:27:32.493321+05:30 0x000035cc <INFO> SingleThreadedWorker: Waiting for Work on worker thread : TelemetryServiceWorker
+2024-02-15T11:27:32.523990+05:30 0x00003f74 <INFO> TelemetryService: Sampling rules from previous session recovered
+2024-02-15T11:27:32.539627+05:30 0x00003f74 <INFO> BackgroundTaskBase: Registering msteamsupdate.exe as bgtask com server for task: TeamsAsyncUpdaterTask
+2024-02-15T11:27:32.558404+05:30 0x0000176c <INFO> AsyncUpdaterTask: Starting updater background task
+2024-02-15T11:27:32.582746+05:30 0x0000176c <INFO> TelemetryService: Restored sampling rules from previous session
+2024-02-15T11:27:32.587542+05:30 0x0000176c <INFO> TelemetryService: No primary user detected during a SetUserTenantId Call, setting 9188040d-6c67-4c5b-b112-36a304b66dad as default tenant
+2024-02-15T11:27:32.587542+05:30 0x0000176c <INFO> TelemetryService: No primary user detected during a SetUserId Call, setting 00000000-0000-0000-6f86-22252fc7cde2 as UserInfo_Id
+2024-02-15T11:27:32.587542+05:30 0x0000176c <INFO> AsyncUpdaterTask: Starting ecs fetch
+2024-02-15T11:27:32.697619+05:30 0x0000176c <INFO> EcsFetchCompletion: Ecs settings are already up to date
+2024-02-15T11:27:32.697619+05:30 0x0000176c <INFO> AsyncUpdaterTask: Using cancellation flow version 0
+2024-02-15T11:27:32.697619+05:30 0x0000176c <INFO> AsyncUpdaterTask: Completed ecs fetch. Result is 0
+2024-02-15T11:27:32.713646+05:30 0x0000176c <INFO> GetBuildDaysTillEnd: Current build age is: 42
+2024-02-15T11:27:32.717361+05:30 0x0000176c <ERR>  DeploymentProviderMSIX: Already up to date
+2024-02-15T11:27:32.717361+05:30 0x0000176c <ERR>  WIL: msteamsupdate.exe!00007FF7DD97FE57: LogHr(1) tid(176c) 800704C7 The operation was canceled by the user.
+2024-02-15T11:27:32.717361+05:30 0x0000176c <ERR>  WIL: msteamsupdate.exe!00007FF7DDAC6B56: ReturnHr(1) tid(176c) 800704C7 The operation was canceled by the user.
+    Msg:[winrt::hresult_error: The operation was canceled by the user.] 
+2024-02-15T11:27:32.728888+05:30 0x0000176c <INFO> AsyncUpdaterTask: Updater task completed
+2024-02-15T11:27:33.868806+05:30 0x00003f74 <INFO> TelemetryService: Telemetry service stopped

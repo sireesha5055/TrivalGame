@@ -1,0 +1,81 @@
+{
+  "binaries": [
+    {
+      "id": "9f11fcb384e4433683cc2c34b3b65609-1",
+      "startAddress": "0x00007ffbe0bb0000",
+      "endAddress": "0x00007ffbe6266000",
+      "name": "WhatsApp",
+      "path": "WhatsApp.pdb"
+    }
+  ],
+  "exception": {
+    "type": "System.Exception",
+    "message": "The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E)",
+    "stackTrace": "   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21\r\n   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32, Void*, Void*) + 0xcf\r\n   at __Interop.ForwardComStubs.Stub_40[TThis, TArg0](__ComObject, TArg0, Int32) + 0x5c\r\n   at Windows.UI.Xaml.IDependencyObject__Impl.Stubs.GetValue(__ComObject, DependencyProperty) + 0x1e\r\n   at WhatsApp.ImageExtensions.BaseAdapter`1.get_CurrentImageData() + 0x16\r\n   at WhatsApp.ImageExtensions.<ApplyCurrentImageData>d__22`1.MoveNext() + 0x35c\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21\r\n   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e\r\n   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x71\r\n   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21\r\n   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xc5\r\n   at __Interop.ForwardComStubs.Stub_12[TThis](__ComObject, Int32) + 0x1b\r\n   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d\r\n",
+    "frames": [
+      {
+        "address": "0x00007ffbe4542961"
+      },
+      {
+        "address": "0x00007ffbe4577cff"
+      },
+      {
+        "address": "0x00007ffbe458ce2c"
+      },
+      {
+        "address": "0x00007ffbe458cdbe"
+      },
+      {
+        "address": "0x00007ffbe44f70b6"
+      },
+      {
+        "address": "0x00007ffbe430114c"
+      },
+      {
+        "address": "0x00007ffbe4541a31"
+      },
+      {
+        "address": "0x00007ffbe4620afe"
+      },
+      {
+        "address": "0x00007ffbe49feac1"
+      },
+      {
+        "address": "0x00007ffbe4542961"
+      },
+      {
+        "address": "0x00007ffbe45f8f85"
+      },
+      {
+        "address": "0x00007ffbe45f8eab"
+      },
+      {
+        "address": "0x00007ffbe4ac8cfd"
+      }
+    ]
+  },
+  "id": "3e76279e-e51b-4be2-a8b1-c5c6072009c3",
+  "processId": 2308,
+  "processName": "WhatsApp.exe",
+  "fatal": true,
+  "appLaunchTimestamp": "2024-02-20T03:09:31.3792606Z",
+  "architecture": "X64",
+  "timestamp": "2024-02-20T05:43:50.6365349Z",
+  "userId": "InvalidUserId",
+  "device": {
+    "sdkName": "appcenter.uwp",
+    "sdkVersion": "5.0.1",
+    "model": "82H8",
+    "oemName": "LENOVO",
+    "osName": "WINDOWS",
+    "osVersion": "10.0.22631",
+    "osBuild": "10.0.22631.3155",
+    "locale": "en-AE",
+    "timeZoneOffset": 330,
+    "screenSize": "1920x1080",
+    "appVersion": "2.2401.5.0",
+    "appBuild": "2.2401.5.0",
+    "appNamespace": "5319275A.WhatsAppDesktop"
+  },
+  "type": "managedError"
+}

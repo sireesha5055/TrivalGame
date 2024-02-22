@@ -1,0 +1,13 @@
+[Running] python -u "c:\Users\kotha\PycharmProjects\arraypr1.py"
+
+[Done] exited with code=1 in 59.468 seconds
+
+[Running] python -u "c:\Users\kotha\PycharmProjects\arraypr1.py"
+Traceback (most recent call last):
+  File "c:\Users\kotha\PycharmProjects\arraypr1.py", line 2, in <module>
+    from networkx import closeness_centrality
+ModuleNotFoundError: No module named 'networkx'
+
+[Done] exited with code=1 in 0.139 seconds
+
+[Running] python -u "c:\Users\kotha\PycharmProjects\arraypr1.py"

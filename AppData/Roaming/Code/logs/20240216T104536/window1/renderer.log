@@ -1,0 +1,126 @@
+2024-02-16 10:45:38.384 [info] Started local extension host with pid 1780.
+2024-02-16 10:45:38.569 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.569 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.569 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.569 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.570 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.570 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.570 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.570 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.570 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.571 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.571 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.571 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:45:38.847 [error] Extension 'ms-python.python' wants API proposal 'envShellEvent' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-16 10:45:38.847 [error] Extension 'ms-python.python' wants API proposal 'envCollectionWorkspace' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-16 10:45:38.847 [error] Extension 'ms-python.python' wants API proposal 'saveEditor' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-16 10:45:38.848 [error] Extension 'ms-python.python' wants API proposal 'envCollectionOptions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-16 10:45:38.865 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-02-16 10:45:41.149 [info] [perf] Render performance baseline is 73ms
+2024-02-16 10:46:05.386 [info] Started local extension host with pid 5608.
+2024-02-16 10:46:05.628 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.629 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.629 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.629 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.629 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.629 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.629 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.630 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.630 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.630 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.630 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.630 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-02-16 10:46:05.750 [error] Extension 'ms-python.python' wants API proposal 'envShellEvent' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-16 10:46:05.750 [error] Extension 'ms-python.python' wants API proposal 'envCollectionWorkspace' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-16 10:46:05.750 [error] Extension 'ms-python.python' wants API proposal 'saveEditor' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-16 10:46:05.750 [error] Extension 'ms-python.python' wants API proposal 'envCollectionOptions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-16 10:46:05.764 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-02-16 10:46:08.345 [info] [perf] Render performance baseline is 148ms
+2024-02-16 10:56:31.468 [error] Cannot read properties of undefined (reading 'start'): TypeError: Cannot read properties of undefined (reading 'start')
+	at t.$S.b (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\emmet\dist\node\emmetNodeMain.js:1:129945)
+	at t.$S.provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\emmet\dist\node\emmetNodeMain.js:1:128540)
+	at $e.provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:99164)
+	at c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:120900
+	at pe.s (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:112365)
+	at pe.$provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:120886)
+	at d.S (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:5520)
+	at d.Q (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:5286)
+	at d.M (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:4338)
+	at d.L (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:3455)
+	at g.value (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:2242)
+	at r.y (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:1902)
+	at r.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:2119)
+	at n.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:105:14073)
+	at g.value (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:173:8051)
+	at r.y (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:1902)
+	at r.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:2119)
+	at n.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:105:14073)
+	at MessagePortMain.<anonymous> (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:173:6331)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-16 10:56:32.536 [error] Cannot read properties of undefined (reading 'start'): TypeError: Cannot read properties of undefined (reading 'start')
+	at t.$S.b (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\emmet\dist\node\emmetNodeMain.js:1:129945)
+	at t.$S.provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\emmet\dist\node\emmetNodeMain.js:1:128540)
+	at $e.provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:99164)
+	at c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:120900
+	at pe.s (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:112365)
+	at pe.$provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:120886)
+	at d.S (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:5520)
+	at d.Q (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:5286)
+	at d.M (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:4338)
+	at d.L (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:3455)
+	at g.value (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:2242)
+	at r.y (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:1902)
+	at r.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:2119)
+	at n.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:105:14073)
+	at g.value (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:173:8051)
+	at r.y (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:1902)
+	at r.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:2119)
+	at n.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:105:14073)
+	at MessagePortMain.<anonymous> (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:173:6331)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-16 10:56:33.706 [error] Cannot read properties of undefined (reading 'start'): TypeError: Cannot read properties of undefined (reading 'start')
+	at t.$S.b (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\emmet\dist\node\emmetNodeMain.js:1:129945)
+	at t.$S.provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\emmet\dist\node\emmetNodeMain.js:1:128540)
+	at $e.provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:99164)
+	at c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:120900
+	at pe.s (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:112365)
+	at pe.$provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:120886)
+	at d.S (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:5520)
+	at d.Q (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:5286)
+	at d.M (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:4338)
+	at d.L (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:3455)
+	at g.value (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:2242)
+	at r.y (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:1902)
+	at r.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:2119)
+	at n.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:105:14073)
+	at g.value (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:173:8051)
+	at r.y (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:1902)
+	at r.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:2119)
+	at n.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:105:14073)
+	at MessagePortMain.<anonymous> (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:173:6331)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-16 10:56:35.231 [error] Cannot read properties of undefined (reading 'start'): TypeError: Cannot read properties of undefined (reading 'start')
+	at t.$S.b (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\emmet\dist\node\emmetNodeMain.js:1:129945)
+	at t.$S.provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\emmet\dist\node\emmetNodeMain.js:1:128540)
+	at $e.provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:99164)
+	at c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:120900
+	at pe.s (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:112365)
+	at pe.$provideCompletionItems (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:120886)
+	at d.S (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:5520)
+	at d.Q (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:5286)
+	at d.M (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:4338)
+	at d.L (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:3455)
+	at g.value (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:147:2242)
+	at r.y (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:1902)
+	at r.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:2119)
+	at n.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:105:14073)
+	at g.value (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:173:8051)
+	at r.y (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:1902)
+	at r.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:80:2119)
+	at n.fire (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:105:14073)
+	at MessagePortMain.<anonymous> (c:\Users\kotha\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:173:6331)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)

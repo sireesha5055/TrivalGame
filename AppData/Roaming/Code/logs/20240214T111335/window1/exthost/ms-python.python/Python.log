@@ -1,0 +1,32 @@
+2024-02-14 11:13:41.524 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-14 11:13:41.524 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-14 11:13:41.524 [info] Experiment 'pythonSurveyNotification' is active
+2024-02-14 11:13:41.524 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-14 11:13:41.524 [info] Experiment 'pythonTestAdapter' is active
+2024-02-14 11:13:41.524 [info] Test server listening.
+2024-02-14 11:13:41.524 [info] Python interpreter path: .\Djangoworld\Scripts\python.exe
+2024-02-14 11:13:41.732 [info] > & ./Djangoworld/Scripts/Activate.ps1 && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2023.10.0/pythonFiles/printEnvVariables.py
+2024-02-14 11:13:41.732 [info] shell: powershell
+2024-02-14 11:13:45.420 [error] getActivatedEnvironmentVariables [Error: Command failed: & c:/Djangoprojects/Djangoworld/Scripts/Activate.ps1 && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python c:/Users/kotha/.vscode/extensions/ms-python.python-2023.10.0/pythonFiles/printEnvVariables.py
+At line:1 char:54
++ & c:/Djangoprojects/Djangoworld/Scripts/Activate.ps1 && echo 'e8b3936 ...
++                                                      ~~
+The token '&&' is not a valid statement separator in this version.
+At line:1 char:101
++ ... ctivate.ps1 && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python  ...
++                                                                ~~
+The token '&&' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+ 
+
+	at ChildProcess.exithandler (node:child_process:431:12)
+	at ChildProcess.emit (node:events:514:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Process.onexit (node:internal/child_process:302:5)] {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: "& c:/Djangoprojects/Djangoworld/Scripts/Activate.ps1 && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python c:/Users/kotha/.vscode/extensions/ms-python.python-2023.10.0/pythonFiles/printEnvVariables.py"
+}
+2024-02-14 11:13:45.500 [info] Starting Pylance language server.

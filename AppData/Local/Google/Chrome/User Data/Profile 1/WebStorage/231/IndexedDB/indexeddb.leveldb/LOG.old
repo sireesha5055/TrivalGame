@@ -1,0 +1,5 @@
+2024/02/13-14:25:42.214 39b4 Creating DB C:\Users\kotha\AppData\Local\Google\Chrome\User Data\Profile 1\WebStorage\231\IndexedDB\indexeddb.leveldb since it was missing.
+2024/02/13-14:25:42.218 39b4 Reusing MANIFEST C:\Users\kotha\AppData\Local\Google\Chrome\User Data\Profile 1\WebStorage\231\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2024/02/13-15:12:55.299 39b4 Level-0 table #5: started
+2024/02/13-15:12:55.327 39b4 Level-0 table #5: 1639444 bytes OK
+2024/02/13-15:12:55.328 39b4 Delete type=0 #3

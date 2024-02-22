@@ -1,0 +1,43 @@
+2024-02-16 14:15:20.649 [info] (Client) Pylance async client (2024.2.2) started with python extension (2023.10.0)
+2024-02-16 14:15:21.683 [info] [Info  - 2:15:21 PM] (5924) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-16 14:15:21.684 [info] [Info  - 2:15:21 PM] (5924) Server root directory: file:///c%3A/Users/kotha/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-16 14:15:21.684 [info] [Info  - 2:15:21 PM] (5924) Starting service instance "Djangoprojects"
+2024-02-16 14:15:21.753 [info] [Info  - 2:15:21 PM] (5924) Setting pythonPath for service "Djangoprojects": "c:\Djangoprojects\Djangoworld\Scripts\python.exe"
+2024-02-16 14:15:21.773 [info] [Info  - 2:15:21 PM] (5924) Setting environmentName for service "Djangoprojects": "3.12.1 (Djangoworld venv)"
+2024-02-16 14:15:22.068 [info] [Info  - 2:15:22 PM] (5924) Assuming Python version 3.12
+2024-02-16 14:15:22.249 [info] [Info  - 2:15:22 PM] (5924) Auto-excluding c:\Djangoprojects\Djangoworld
+2024-02-16 14:15:22.258 [info] [Info  - 2:15:22 PM] (5924) Found 15 source files
+2024-02-16 14:15:22.549 [info] [Info  - 2:15:22 PM] (5924) Background analysis(1) root directory: file:///c%3A/Users/kotha/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-16 14:15:22.549 [info] [Info  - 2:15:22 PM] (5924) Background analysis(1) started
+2024-02-16 14:15:23.200 [info] [Info  - 2:15:23 PM] (5924) Indexer background runner(2) root directory: file:///c%3A/Users/kotha/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-16 14:15:23.200 [info] [Info  - 2:15:23 PM] (5924) Indexing(2) started
+2024-02-16 14:15:26.627 [info] [Info  - 2:15:26 PM] (5924) [IDX(2)] Long operation: scan packages file:///c%3A/Djangoprojects (3290ms)
+2024-02-16 14:15:26.630 [info] [Info  - 2:15:26 PM] (5924) scanned(2) 34 files over 1 exec env
+2024-02-16 14:15:27.397 [info] [Info  - 2:15:27 PM] (5924) indexed(2) 22 files over 1 exec env
+2024-02-16 14:15:27.458 [info] [Info  - 2:15:27 PM] (5924) Indexing finished(2).
+2024-02-16 14:15:44.141 [info] (Client) Pylance async client (2024.2.2) started with python extension (2023.10.0)
+2024-02-16 14:15:44.967 [info] [Info  - 2:15:44 PM] (8388) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-16 14:15:44.967 [info] [Info  - 2:15:44 PM] (8388) Server root directory: file:///c%3A/Users/kotha/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-16 14:15:44.970 [info] [Info  - 2:15:44 PM] (8388) Starting service instance "PycharmProjects"
+2024-02-16 14:15:45.025 [info] [Info  - 2:15:45 PM] (8388) Setting pythonPath for service "PycharmProjects": "C:\Users\kotha\AppData\Local\Programs\Python\Python312\python.exe"
+2024-02-16 14:15:45.037 [info] [Info  - 2:15:45 PM] (8388) Setting environmentName for service "PycharmProjects": "3.12.1 (global)"
+2024-02-16 14:15:45.178 [info] [Info  - 2:15:45 PM] (8388) Assuming Python version 3.12
+2024-02-16 14:15:45.337 [info] [Info  - 2:15:45 PM] (8388) Found 1 source file
+2024-02-16 14:15:45.814 [info] [Info  - 2:15:45 PM] (8388) Background analysis(1) root directory: file:///c%3A/Users/kotha/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-16 14:15:45.817 [info] [Info  - 2:15:45 PM] (8388) Background analysis(1) started
+2024-02-16 14:15:46.287 [info] [Info  - 2:15:46 PM] (8388) Indexer background runner(2) root directory: file:///c%3A/Users/kotha/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-16 14:15:46.287 [info] [Info  - 2:15:46 PM] (8388) Indexing(2) started
+2024-02-16 14:15:48.470 [info] [Info  - 2:15:48 PM] (8388) [IDX(2)] Long operation: scan packages file:///c%3A/Users/kotha/PycharmProjects (2167ms)
+2024-02-16 14:15:48.470 [info] [Info  - 2:15:48 PM] (8388) scanned(2) 43 files over 1 exec env
+2024-02-16 14:15:49.942 [info] [Info  - 2:15:49 PM] (8388) indexed(2) 32 files over 1 exec env
+2024-02-16 14:15:50.003 [info] [Info  - 2:15:50 PM] (8388) Indexing finished(2).
+2024-02-16 14:16:08.674 [info] [Info  - 2:16:08 PM] (8388) Found 2 source files
+2024-02-16 14:19:48.730 [info] [Info  - 2:19:48 PM] (8388) Setting pythonPath for service "PycharmProjects": "C:\Users\kotha\AppData\Local\Programs\Python\Python312\python.exe"
+2024-02-16 14:19:48.730 [info] [Info  - 2:19:48 PM] (8388) Setting environmentName for service "PycharmProjects": "3.12.1 (global)"
+2024-02-16 14:19:48.806 [info] [Info  - 2:19:48 PM] (8388) Assuming Python version 3.12
+2024-02-16 14:19:48.907 [info] [Info  - 2:19:48 PM] (8388) Found 2 source files
+2024-02-16 14:19:49.590 [info] [Info  - 2:19:49 PM] (8388) Indexer background runner(3) root directory: file:///c%3A/Users/kotha/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-16 14:19:49.590 [info] [Info  - 2:19:49 PM] (8388) Indexing(3) started
+2024-02-16 14:19:50.020 [info] [Info  - 2:19:50 PM] (8388) scanned(3) 43 files over 1 exec env
+2024-02-16 14:19:50.556 [info] [Info  - 2:19:50 PM] (8388) indexed(3) 32 files over 1 exec env
+2024-02-16 14:19:50.595 [info] [Info  - 2:19:50 PM] (8388) Indexing finished(3).

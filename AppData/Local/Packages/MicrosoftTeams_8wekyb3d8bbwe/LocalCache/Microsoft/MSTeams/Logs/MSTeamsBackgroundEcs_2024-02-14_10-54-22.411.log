@@ -1,0 +1,11 @@
+2024-02-14T05:24:21.242352+05:30 0x0000213c <INFO> RoomsPlatformUtils: Process invoked without rooms flag, no platform ID override provided
+2024-02-14T05:24:21.250447+05:30 0x00001fdc <INFO> SingleThreadedWorker: Waiting for Work on worker thread : TelemetryServiceWorker
+2024-02-14T05:24:21.305749+05:30 0x0000213c <INFO> TelemetryService: Sampling rules from previous session recovered
+2024-02-14T05:24:21.305749+05:30 0x0000213c <INFO> BackgroundTaskBase: Registering msteamsupdate.exe as bgtask com server for task: TeamsEcsTask
+2024-02-14T05:24:21.327099+05:30 0x0000523c <INFO> EcsBackgroundTask: Starting ecs background task
+2024-02-14T05:24:21.367896+05:30 0x0000523c <INFO> TelemetryService: Restored sampling rules from previous session
+2024-02-14T05:24:21.377150+05:30 0x0000523c <INFO> TelemetryService: No primary user detected during a SetUserTenantId Call, setting 9188040d-6c67-4c5b-b112-36a304b66dad as default tenant
+2024-02-14T05:24:21.378529+05:30 0x0000523c <INFO> TelemetryService: No primary user detected during a SetUserId Call, setting 00000000-0000-0000-6f86-22252fc7cde2 as UserInfo_Id
+2024-02-14T05:24:21.456118+05:30 0x0000523c <INFO> EcsFetchCompletion: Ecs settings are already up to date
+2024-02-14T05:24:21.478540+05:30 0x0000523c <INFO> EcsBackgroundTask: Completed ecs background task
+2024-02-14T05:24:22.552575+05:30 0x0000213c <INFO> TelemetryService: Telemetry service stopped
