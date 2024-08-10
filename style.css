@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#playerSetup, #categorySelection, #questionContainer, #postQuestionOptions, #gameOver {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Player Trivia Battle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="playerSetup">
+        <h1>Two-Player Trivia Battle</h1>
+        <label for="player1Name">Player One:</label>
+        <input type="text" id="player1Name" placeholder="Enter your name Player 1">
+        <br>
+        <label for="player2Name">Player Two:</label>
+        <input type="text" id="player2Name" placeholder="Enter your name Player 2">
+        <br>
+        <button onclick="startSetup()">Start Game</button>
+    </div>
+    
+    <div id="categorySelection" style="display:none;">
+        <h2>Select a Category</h2>
+        <select id="categoryDropdown">
+            <option value="">Select category </option>
+            <option value="general_knowledge">General Knowledge</option>
+            <option value="geography">Geography</option>
+            <option value="music">Music</option>
+            <option value="history">History</option>
+            <option value="arts_and_literature">Arts and Literature</option>
+            <option value="sport_and_leisure">Sport and Leisure</option>
+            <option value="food_and_drink">Food and Drink</option>
+            <option value="society_and_culture">Society and Culture</option>
+        </select>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <div id="questionContainer" style="display:none;">
+        <h2 id="currentPlayer">Player 1's turn</h2>
+        <p id="questionText"></p>
+        <ul id="answerOptions"></ul>
+    </div>
+
+    <div id="postQuestionOptions" style="display:none;">
+        <button onclick="selectAnotherCategory()">Select Another Category</button>
+        <button onclick="endGame()">End Game</button>
+    </div>
+
+    <div id="gameOver" style="display:none;">
+        <h2>Game Over</h2>
+        <p id="finalScores"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
